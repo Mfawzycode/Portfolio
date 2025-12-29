@@ -1,0 +1,9 @@
+topic,category,content,value,metric
+Revenue Growth,Finance,Q3 Revenue grew by 15% due to increased digital sales.,15.0,growth_rate
+Operating Costs,Finance,Operating costs were reduced by 5% through cloud migration.,5.0,cost_reduction
+Stockout Trends,Inventory,Critical stockouts occurred in the electronics category during November.,12.0,stockout_count
+Turnover Efficiency,Inventory,Average inventory turnover improved to 8.2x in 2024.,8.2,turnover_ratio
+Churn Risk,Customer,Churn risk is highest among users with less than 2 logins per month.,0.72,risk_score
+Loyalty Growth,Customer,The 'Champions' segment increased by 400 members this quarter.,400.0,member_count
+Readmission Benchmark,Clinical,"Cardiology readmission rate stands at 24.5%, requiring intervention.",24.5,readmission_rate
+Patient Satisfaction,Clinical,Patient satisfaction improved to 4.5/5 after implementing digital intake.,4.5,satisfaction_score

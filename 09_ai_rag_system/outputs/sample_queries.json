@@ -1,0 +1,69 @@
+[
+    {
+        "query": "Tell me about revenue growth",
+        "answer": "Based on the analysis of Revenue Growth, Q3 Revenue grew by 15% due to increased digital sales.  This reflects a healthy ROI and supports further investment in current digital channels.",
+        "retrieved_data": [
+            {
+                "topic": "Revenue Growth",
+                "category": "Finance",
+                "content": "Q3 Revenue grew by 15% due to increased digital sales.",
+                "value": 15.0,
+                "metric": "growth_rate"
+            },
+            {
+                "topic": "Loyalty Growth",
+                "category": "Customer",
+                "content": "The 'Champions' segment increased by 400 members this quarter.",
+                "value": 400.0,
+                "metric": "member_count"
+            }
+        ],
+        "sources": [
+            "Revenue Growth",
+            "Loyalty Growth"
+        ],
+        "category": "Finance"
+    },
+    {
+        "query": "What is the status of readmission rates?",
+        "answer": "Based on the analysis of Readmission Benchmark, Cardiology readmission rate stands at 24.5%, requiring intervention.  This exceeds the safety benchmark and suggests immediate review of post-discharge protocols is required.",
+        "retrieved_data": [
+            {
+                "topic": "Readmission Benchmark",
+                "category": "Clinical",
+                "content": "Cardiology readmission rate stands at 24.5%, requiring intervention.",
+                "value": 24.5,
+                "metric": "readmission_rate"
+            }
+        ],
+        "sources": [
+            "Readmission Benchmark"
+        ],
+        "category": "Clinical"
+    },
+    {
+        "query": "What drives customer churn?",
+        "answer": "Based on the analysis of Churn Risk, Churn risk is highest among users with less than 2 logins per month.  Low engagement is a leading indicator; the customer success team should trigger an automated outreach campaign for this segment.",
+        "retrieved_data": [
+            {
+                "topic": "Churn Risk",
+                "category": "Customer",
+                "content": "Churn risk is highest among users with less than 2 logins per month.",
+                "value": 0.72,
+                "metric": "risk_score"
+            },
+            {
+                "topic": "Loyalty Growth",
+                "category": "Customer",
+                "content": "The 'Champions' segment increased by 400 members this quarter.",
+                "value": 400.0,
+                "metric": "member_count"
+            }
+        ],
+        "sources": [
+            "Churn Risk",
+            "Loyalty Growth"
+        ],
+        "category": "Customer"
+    }
+]

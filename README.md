@@ -14,6 +14,7 @@ Hi! I'm a **Data Analyst & Data Engineer** passionate about building robust data
 | [Inventory Analysis](./06_inventory_analysis/) | Stock optimization, turnover KPIs, ABC classification | Python, Pandas, Power BI |
 | [Customer Analysis](./07_customer_analysis/) | RFM Segmentation, Cohort Analysis, Sentiment Analysis | Python, Pandas, Plotly |
 | [Predictive Analytics](./08_predictive_analytics/) | Demand Forecasting (TS) & Customer Churn Modeling (ML) | Python, MLPC, Plotly |
+| [AI RAG System](./09_ai_rag_system/) | Chat with Data using NLP & Semantic Search | Python, SQLite, HTML/CSS |
 
 ## 🛠️ Skills Demonstrated
 
@@ -35,6 +36,7 @@ Hi! I'm a **Data Analyst & Data Engineer** passionate about building robust data
 ├── 06_inventory_analysis/  # Inventory KPIs and stock optimization
 ├── 07_customer_analysis/   # Advanced behavioral & retention analytics
 ├── 08_predictive_analytics/# Time-series forecasting & churn modeling
+├── 09_ai_rag_system/       # AI-driven "Chat with your Data"
 ├── powerbi_exports/        # Ready-to-use Power BI data files
 └── shared/                 # Common utilities and data generators
 ```
@@ -56,6 +58,7 @@ python 05_healthcare_analysis/scripts/generate_healthcare_data.py
 python 06_inventory_analysis/scripts/generate_inventory_data.py
 python 07_customer_analysis/scripts/generate_customer_analysis_data.py
 python 08_predictive_analytics/scripts/generate_predictive_data.py
+python 09_ai_rag_system/scripts/data_seeding.py
 
 # Run ETL Pipeline
 python 02_etl_pipeline/src/bronze_layer.py

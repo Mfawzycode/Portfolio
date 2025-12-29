@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI RAG System | Chat with your Data</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #8E44AD;
+            --secondary: #2ECC71;
+            --dark: #0F0F12;
+            --chat-bg: #1A1A1D;
+            --user-bubble: #2E86C1;
+            --ai-bubble: #2C3E50;
+            --text: #E0E0E0;
+            --accent: #BB86FC;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', sans-serif;
+        }
+
+        body {
+            background-color: var(--dark);
+            color: var(--text);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        .chat-container {
+            width: 90%;
+            max-width: 1000px;
+            height: 85vh;
+            background: var(--chat-bg);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Header */
+        .chat-header {
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.05);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .chat-header h2 {
+            font-size: 1.2rem;
+            font-weight: 800;
+            color: var(--accent);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .status-dot {
+            width: 10px;
+            height: 10px;
+            background: var(--secondary);
+            border-radius: 50%;
+            box-shadow: 0 0 10px var(--secondary);
+        }
+
+        /* Chat Area */
+        .chat-messages {
+            flex-grow: 1;
+            padding: 20px;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .message {
+            max-width: 80%;
+            padding: 15px 20px;
+            border-radius: 15px;
+            font-size: 0.95rem;
+            line-height: 1.5;
+            animation: fadeIn 0.3s ease;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .message.ai {
+            align-self: flex-start;
+            background: var(--ai-bubble);
+            border-bottom-left-radius: 2px;
+        }
+
+        .message.user {
+            align-self: flex-end;
+            background: var(--user-bubble);
+            border-bottom-right-radius: 2px;
+            color: white;
+        }
+
+        .source-box {
+            margin-top: 10px;
+            padding: 10px;
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 8px;
+            font-size: 0.8rem;
+            border-left: 3px solid var(--accent);
+        }
+
+        /* Input Area */
+        .chat-input-area {
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.02);
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            display: flex;
+            gap: 15px;
+        }
+
+        input {
+            flex-grow: 1;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 12px 20px;
+            border-radius: 30px;
+            color: white;
+            outline: none;
+        }
+
+        button {
+            background: var(--primary);
+            color: white;
+            border: none;
+            padding: 0 25px;
+            border-radius: 30px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.2s, background 0.2s;
+        }
+
+        button:hover {
+            background: #9b59b6;
+            transform: scale(1.05);
+        }
+
+        /* Typing Effect */
+        .typing {
+            font-style: italic;
+            color: #777;
+            font-size: 0.8rem;
+            margin-bottom: 10px;
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="chat-container">
+        <div class="chat-header">
+            <h2>
+                <div class="status-dot"></div> AI RAG Engine
+            </h2>
+            <div style="font-size: 0.8rem; color: #777;">Connected: knowledge_base.csv</div>
+        </div>
+
+        <div class="chat-messages" id="chatMessages">
+            <div class="message ai">
+                Hello! I am your AI Data Assistant. Ask me anything about your <b>Finance</b>, <b>Inventory</b>, or
+                <b>Clinical</b> data.
+            </div>
+        </div>
+
+        <div class="typing" id="typingIndicator" style="padding: 0 20px;">AI is analyzing data...</div>
+
+        <div class="chat-input-area">
+            <input type="text" id="userInput" placeholder="Ask about growth, churn, or readmission..."
+                onkeypress="if(event.key === 'Enter') sendMessage()">
+            <button onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+
+    <script>
+        const chatMessages = document.getElementById('chatMessages');
+        const userInput = document.getElementById('userInput');
+        const typingIndicator = document.getElementById('typingIndicator');
+
+        // Pre-baked RAG responses for the showcase
+        const ragData = [
+            {
+                keywords: ['growth', 'revenue', 'finance'],
+                answer: "Based on the analysis of <b>Revenue Growth</b>, Q3 Revenue grew by 15% due to increased digital sales. This reflects a healthy ROI and supports further investment.",
+                source: "Source: knowledge_base.csv | Field: growth_rate"
+            },
+            {
+                keywords: ['churn', 'customer', 'risk'],
+                answer: "<b>Churn risk</b> is highest among users with less than 2 logins per month (Score: 0.72). I recommend triggering an automated outreach campaign for this segment.",
+                source: "Source: knowledge_base.csv | Field: risk_score"
+            },
+            {
+                keywords: ['readmission', 'clinical', 'hospital'],
+                answer: "<b>Cardiology readmission rate</b> stands at 24.5%. This exceeds the safety benchmark of 15% and requires an immediate review of post-discharge protocols.",
+                source: "Source: warehouse.db | Table: knowledge_base"
+            }
+        ];
+
+        function sendMessage() {
+            const text = userInput.value.trim();
+            if (!text) return;
+
+            // User Message
+            addMessage(text, 'user');
+            userInput.value = '';
+
+            // AI Response logic
+            typingIndicator.style.display = 'block';
+
+            setTimeout(() => {
+                typingIndicator.style.display = 'none';
+                const response = getAIResponse(text);
+                addMessage(response.answer, 'ai', response.source);
+            }, 1500);
+        }
+
+        function addMessage(text, sender, source = null) {
+            const div = document.createElement('div');
+            div.className = `message ${sender}`;
+
+            let content = `<div>${text}</div>`;
+            if (source) {
+                content += `<div class="source-box">${source}</div>`;
+            }
+
+            div.innerHTML = content;
+            chatMessages.appendChild(div);
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+        }
+
+        function getAIResponse(query) {
+            const queryLower = query.toLowerCase();
+            const match = ragData.find(item =>
+                item.keywords.some(k => queryLower.includes(k))
+            );
+
+            if (match) {
+                return match;
+            } else {
+                return {
+                    answer: "I couldn't find specific data for that request. Try asking about 'revenue growth', 'churn risk', or 'readmission rates'.",
+                    source: "System: Zero relevant segments found."
+                };
+            }
+        }
+    </script>
+</body>
+
+</html>
