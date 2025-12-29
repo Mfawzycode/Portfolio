@@ -1,0 +1,51 @@
+provider_id,provider_name,specialty,years_experience,daily_capacity,rating
+DOC-0001,Dr. Ali,Cardiology,4,17,3.5
+DOC-0002,Dr. Smith,Ophthalmology,26,19,3.5
+DOC-0003,Dr. Williams,Dermatology,4,27,3.5
+DOC-0004,Dr. Williams,Cardiology,16,26,3.8
+DOC-0005,Dr. Williams,Cardiology,11,21,4.3
+DOC-0006,Dr. Johnson,Ophthalmology,26,27,4.7
+DOC-0007,Dr. Williams,General Medicine,10,17,4.9
+DOC-0008,Dr. Williams,General Medicine,22,18,3.7
+DOC-0009,Dr. Ahmed,General Medicine,5,19,3.9
+DOC-0010,Dr. Johnson,General Medicine,4,30,4.8
+DOC-0011,Dr. Garcia,Cardiology,14,18,4.2
+DOC-0012,Dr. Smith,Pediatrics,4,30,4.9
+DOC-0013,Dr. Smith,Cardiology,23,28,4.1
+DOC-0014,Dr. Ali,Ophthalmology,16,20,3.8
+DOC-0015,Dr. Smith,Cardiology,23,16,3.7
+DOC-0016,Dr. Ali,Orthopedics,17,15,3.7
+DOC-0017,Dr. Williams,Orthopedics,5,21,4.4
+DOC-0018,Dr. Ahmed,General Medicine,18,19,3.8
+DOC-0019,Dr. Ali,General Medicine,30,21,3.5
+DOC-0020,Dr. Johnson,Cardiology,4,19,3.9
+DOC-0021,Dr. Khan,Cardiology,4,26,4.6
+DOC-0022,Dr. Williams,Orthopedics,16,30,4.2
+DOC-0023,Dr. Khan,Cardiology,10,20,3.8
+DOC-0024,Dr. Garcia,Ophthalmology,10,27,3.7
+DOC-0025,Dr. Garcia,Neurology,20,24,3.7
+DOC-0026,Dr. Johnson,Ophthalmology,17,28,4.8
+DOC-0027,Dr. Khan,Dermatology,25,23,4.7
+DOC-0028,Dr. Ahmed,General Medicine,21,27,4.1
+DOC-0029,Dr. Ahmed,Orthopedics,13,17,4.2
+DOC-0030,Dr. Smith,Dermatology,10,28,3.9
+DOC-0031,Dr. Garcia,Ophthalmology,18,26,4.1
+DOC-0032,Dr. Smith,Cardiology,27,25,4.1
+DOC-0033,Dr. Johnson,Orthopedics,9,17,3.8
+DOC-0034,Dr. Ali,Orthopedics,6,25,3.7
+DOC-0035,Dr. Ali,Ophthalmology,2,25,3.8
+DOC-0036,Dr. Ahmed,Neurology,12,22,4.3
+DOC-0037,Dr. Khan,Orthopedics,21,21,4.3
+DOC-0038,Dr. Smith,Dermatology,10,17,4.4
+DOC-0039,Dr. Williams,Pediatrics,23,28,4.0
+DOC-0040,Dr. Ali,Cardiology,8,16,4.7
+DOC-0041,Dr. Khan,General Medicine,10,28,3.7
+DOC-0042,Dr. Khan,Cardiology,21,25,4.4
+DOC-0043,Dr. Johnson,Dermatology,2,24,3.5
+DOC-0044,Dr. Garcia,Neurology,20,15,4.9
+DOC-0045,Dr. Ali,Cardiology,28,27,3.6
+DOC-0046,Dr. Ahmed,Dermatology,3,25,4.5
+DOC-0047,Dr. Smith,Pediatrics,5,28,4.6
+DOC-0048,Dr. Ali,Orthopedics,26,26,4.1
+DOC-0049,Dr. Ahmed,Neurology,12,30,4.4
+DOC-0050,Dr. Khan,Orthopedics,24,29,4.2

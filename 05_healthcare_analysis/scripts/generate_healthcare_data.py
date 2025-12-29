@@ -96,6 +96,19 @@ def generate_visits(patients_df: pd.DataFrame, providers_df: pd.DataFrame,
             visit_duration = None
             satisfaction = None
         
+        # Advanced Clinical Features
+        severity = random.randint(1, 5) # 1: Routine, 5: Critical
+        
+        # Readmission Logic (higher for elderly and high chronic conditions)
+        readmission_prob = 0.05
+        if patient['age'] > 70: readmission_prob += 0.1
+        if patient['chronic_conditions'] > 1: readmission_prob += 0.15
+        
+        is_readmission = 1 if (random.random() < readmission_prob and patient['registration_date'] < visit_date) else 0
+        
+        # Treatment Outcome (1: Significantly Improved, 5: No Change/Worsened)
+        outcome_score = random.choices([1, 2, 3, 4, 5], weights=[0.3, 0.4, 0.2, 0.07, 0.03])[0] if status == 'Completed' else None
+
         data.append({
             'visit_id': f'VIS-{i+1:07d}',
             'patient_id': patient['patient_id'],
@@ -105,6 +118,9 @@ def generate_visits(patients_df: pd.DataFrame, providers_df: pd.DataFrame,
             'scheduled_time': f'{hour:02d}:{minute:02d}',
             'visit_type': random.choice(VISIT_TYPES),
             'status': status,
+            'severity_level': severity,
+            'is_readmission': is_readmission,
+            'outcome_score': outcome_score,
             'wait_time_minutes': wait_time,
             'visit_duration_minutes': visit_duration,
             'satisfaction_score': satisfaction,
@@ -135,18 +151,29 @@ def calculate_healthcare_kpis(visits_df: pd.DataFrame) -> pd.DataFrame:
     # Calculate no-show rate
     status_counts = visits_df.groupby(['month', 'status']).size().unstack(fill_value=0)
     if 'No-Show' in status_counts.columns:
-        monthly['no_show_rate'] = round((status_counts['No-Show'] / status_counts.sum(axis=1) * 100).values, 2)
+        monthly['no_show_rate'] = (status_counts['No-Show'] / status_counts.sum(axis=1) * 100).round(2).values
     else:
         monthly['no_show_rate'] = 0
     
     # Completed visits
-    completed = visits_df[visits_df['status'] == 'Completed'].groupby('month').size()
-    monthly['completed_visits'] = completed.values
+    completed = visits_df[visits_df['status'] == 'Completed']
+    monthly['completed_visits'] = completed.groupby('month').size().values
+    
+    # Advanced Clinical KPIs
+    clinical = visits_df.groupby('month').agg({
+        'is_readmission': 'sum',
+        'severity_level': 'mean',
+        'outcome_score': 'mean'
+    }).reset_index()
+    
+    monthly = monthly.merge(clinical, on='month')
     
     monthly.columns = ['month', 'total_appointments', 'avg_wait_time', 'avg_satisfaction', 
-                       'new_patients', 'follow_ups_scheduled', 'no_show_rate', 'completed_visits']
+                       'new_patients', 'follow_ups_scheduled', 'no_show_rate', 'completed_visits',
+                       'readmissions', 'avg_severity', 'avg_outcome']
     
-    monthly['completion_rate'] = round((monthly['completed_visits'] / monthly['total_appointments']) * 100, 2)
+    monthly['readmission_rate'] = (monthly['readmissions'] / monthly['total_appointments'] * 100).round(2)
+    monthly['completion_rate'] = (monthly['completed_visits'] / monthly['total_appointments'] * 100).round(2)
     
     return monthly
 

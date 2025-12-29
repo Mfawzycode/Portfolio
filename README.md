@@ -10,7 +10,7 @@ Hi! I'm a **Data Analyst & Data Engineer** passionate about building robust data
 | [ETL Pipeline](./02_etl_pipeline/) | Bronze → Silver → Gold architecture with Web App | PySpark, Flask, Parquet |
 | [Data Quality Framework](./03_data_quality/) | Automated validation with quality scoring | Python, Great Expectations |
 | [Financial Analysis](./04_financial_analysis/) | Budget vs actual, cash flow, financial KPIs | Python, Pandas, Power BI |
-| [Healthcare Analytics](./05_healthcare_analysis/) | Patient visits, wait times, clinical KPIs | Python, Pandas, Power BI |
+| [Healthcare Analytics](./05_healthcare_analysis/) | Advanced clinical intelligence (readmissions, treatment outcomes) | Python, Plotly, Power BI |
 | [Inventory Analysis](./06_inventory_analysis/) | Stock optimization, turnover KPIs, ABC classification | Python, Pandas, Power BI |
 | [Customer Analysis](./07_customer_analysis/) | RFM Segmentation, Cohort Analysis, Sentiment Analysis | Python, Pandas, Plotly |
 | [Predictive Analytics](./08_predictive_analytics/) | Demand Forecasting (TS) & Customer Churn Modeling (ML) | Python, MLPC, Plotly |
