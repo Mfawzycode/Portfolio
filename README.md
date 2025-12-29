@@ -11,6 +11,7 @@ Hi! I'm a **Data Analyst & Data Engineer** passionate about building robust data
 | [Data Quality Framework](./03_data_quality/) | Automated validation with quality scoring | Python, Great Expectations |
 | [Financial Analysis](./04_financial_analysis/) | Budget vs actual, cash flow, financial KPIs | Python, Pandas, Power BI |
 | [Healthcare Analytics](./05_healthcare_analysis/) | Patient visits, wait times, clinical KPIs | Python, Pandas, Power BI |
+| [Inventory Analysis](./06_inventory_analysis/) | Stock optimization, turnover KPIs, ABC classification | Python, Pandas, Power BI |
 
 ## 🛠️ Skills Demonstrated
 
@@ -29,6 +30,7 @@ Hi! I'm a **Data Analyst & Data Engineer** passionate about building robust data
 ├── 03_data_quality/        # Data validation framework
 ├── 04_financial_analysis/  # Budget and financial KPI analysis
 ├── 05_healthcare_analysis/ # Patient visit analytics
+├── 06_inventory_analysis/  # Inventory KPIs and stock optimization
 ├── powerbi_exports/        # Ready-to-use Power BI data files
 └── shared/                 # Common utilities and data generators
 ```
@@ -47,6 +49,7 @@ pip install -r requirements.txt
 python shared/generate_all_data.py
 python 04_financial_analysis/scripts/generate_financial_data.py
 python 05_healthcare_analysis/scripts/generate_healthcare_data.py
+python 06_inventory_analysis/scripts/generate_inventory_data.py
 
 # Run ETL Pipeline
 python 02_etl_pipeline/src/bronze_layer.py
@@ -66,6 +69,7 @@ Pre-generated data exports are available in `/powerbi_exports/` folder:
 - `financial_transactions.csv` - Financial data
 - `healthcare_visits.csv` - Patient visit data
 - `telecom_kpi_data.csv` - Network performance KPIs
+- `inventory_data.csv` - Inventory stock and KPIs
 
 Import these directly into Power BI Desktop to create dashboards.
 

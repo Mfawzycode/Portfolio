@@ -1,0 +1,64 @@
+product_id,issue,severity,current_qty,safety_stock,recommendation,stockout_events
+SKU-0105,LOW_STOCK,High,18.0,58.0,Immediate reorder required,
+SKU-0175,LOW_STOCK,High,40.0,64.0,Immediate reorder required,
+SKU-0094,LOW_STOCK,High,25.0,39.0,Immediate reorder required,
+SKU-0101,LOW_STOCK,High,7.0,60.0,Immediate reorder required,
+SKU-0141,LOW_STOCK,High,34.0,38.0,Immediate reorder required,
+SKU-0020,LOW_STOCK,High,16.0,20.0,Immediate reorder required,
+SKU-0170,LOW_STOCK,High,9.0,60.0,Immediate reorder required,
+SKU-0173,LOW_STOCK,High,13.0,41.0,Immediate reorder required,
+SKU-0119,LOW_STOCK,High,58.0,63.0,Immediate reorder required,
+SKU-0001,LOW_STOCK,High,10.0,39.0,Immediate reorder required,
+SKU-0157,LOW_STOCK,High,35.0,59.0,Immediate reorder required,
+SKU-0064,LOW_STOCK,High,22.0,59.0,Immediate reorder required,
+SKU-0197,LOW_STOCK,High,33.0,60.0,Immediate reorder required,
+SKU-0192,LOW_STOCK,High,13.0,58.0,Immediate reorder required,
+SKU-0068,LOW_STOCK,High,52.0,61.0,Immediate reorder required,
+SKU-0084,LOW_STOCK,High,8.0,60.0,Immediate reorder required,
+SKU-0025,LOW_STOCK,High,61.0,61.0,Immediate reorder required,
+SKU-0137,LOW_STOCK,High,19.0,39.0,Immediate reorder required,
+SKU-0151,LOW_STOCK,High,34.0,60.0,Immediate reorder required,
+SKU-0007,LOW_STOCK,High,21.0,39.0,Immediate reorder required,
+SKU-0146,LOW_STOCK,High,43.0,59.0,Immediate reorder required,
+SKU-0125,LOW_STOCK,High,42.0,59.0,Immediate reorder required,
+SKU-0080,LOW_STOCK,High,19.0,40.0,Immediate reorder required,
+SKU-0166,LOW_STOCK,High,39.0,60.0,Immediate reorder required,
+SKU-0142,LOW_STOCK,High,14.0,20.0,Immediate reorder required,
+SKU-0159,LOW_STOCK,High,13.0,60.0,Immediate reorder required,
+SKU-0032,LOW_STOCK,High,20.0,39.0,Immediate reorder required,
+SKU-0081,LOW_STOCK,High,12.0,28.0,Immediate reorder required,
+SKU-0180,LOW_STOCK,High,19.0,28.0,Immediate reorder required,
+SKU-0150,LOW_STOCK,High,14.0,59.0,Immediate reorder required,
+SKU-0136,LOW_STOCK,High,10.0,14.0,Immediate reorder required,
+SKU-0163,LOW_STOCK,High,19.0,42.0,Immediate reorder required,
+SKU-0143,LOW_STOCK,High,39.0,39.0,Immediate reorder required,
+SKU-0191,LOW_STOCK,High,17.0,19.0,Immediate reorder required,
+SKU-0003,LOW_STOCK,High,13.0,29.0,Immediate reorder required,
+SKU-0049,LOW_STOCK,High,37.0,59.0,Immediate reorder required,
+SKU-0190,LOW_STOCK,High,18.0,21.0,Immediate reorder required,
+SKU-0185,LOW_STOCK,High,10.0,19.0,Immediate reorder required,
+SKU-0184,LOW_STOCK,High,17.0,19.0,Immediate reorder required,
+SKU-0196,LOW_STOCK,High,2.0,14.0,Immediate reorder required,
+SKU-0158,LOW_STOCK,High,44.0,62.0,Immediate reorder required,
+SKU-0129,LOW_STOCK,High,37.0,39.0,Immediate reorder required,
+SKU-0071,LOW_STOCK,High,20.0,28.0,Immediate reorder required,
+SKU-0152,LOW_STOCK,High,12.0,38.0,Immediate reorder required,
+SKU-0105,STOCKOUT_HISTORY,High,,,Increase safety stock level,1.0
+SKU-0101,STOCKOUT_HISTORY,High,,,Increase safety stock level,1.0
+SKU-0170,STOCKOUT_HISTORY,High,,,Increase safety stock level,2.0
+SKU-0001,STOCKOUT_HISTORY,High,,,Increase safety stock level,5.0
+SKU-0084,STOCKOUT_HISTORY,Medium,,,Increase safety stock level,4.0
+SKU-0137,STOCKOUT_HISTORY,Medium,,,Increase safety stock level,1.0
+SKU-0080,STOCKOUT_HISTORY,Medium,,,Increase safety stock level,4.0
+SKU-0142,STOCKOUT_HISTORY,Medium,,,Increase safety stock level,1.0
+SKU-0081,STOCKOUT_HISTORY,Medium,,,Increase safety stock level,1.0
+SKU-0180,STOCKOUT_HISTORY,Medium,,,Increase safety stock level,5.0
+SKU-0150,STOCKOUT_HISTORY,Medium,,,Increase safety stock level,3.0
+SKU-0136,STOCKOUT_HISTORY,Medium,,,Increase safety stock level,1.0
+SKU-0163,STOCKOUT_HISTORY,Medium,,,Increase safety stock level,2.0
+SKU-0191,STOCKOUT_HISTORY,Medium,,,Increase safety stock level,1.0
+SKU-0003,STOCKOUT_HISTORY,Medium,,,Increase safety stock level,3.0
+SKU-0190,STOCKOUT_HISTORY,Medium,,,Increase safety stock level,2.0
+SKU-0184,STOCKOUT_HISTORY,Medium,,,Increase safety stock level,2.0
+SKU-0196,STOCKOUT_HISTORY,Medium,,,Increase safety stock level,5.0
+SKU-0152,STOCKOUT_HISTORY,Medium,,,Increase safety stock level,4.0

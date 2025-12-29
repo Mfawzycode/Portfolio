@@ -1,0 +1,21 @@
+supplier_id,supplier_name,region,reliability_score,avg_lead_time_days,payment_terms_days
+SUP-001,Supplier 1 Inc.,North America,0.97,13,30
+SUP-002,Supplier 2 Inc.,Latin America,0.88,15,30
+SUP-003,Supplier 3 Inc.,Asia Pacific,0.95,13,30
+SUP-004,Supplier 4 Inc.,Europe,0.95,12,60
+SUP-005,Supplier 5 Inc.,North America,0.97,4,15
+SUP-006,Supplier 6 Inc.,North America,0.85,8,30
+SUP-007,Supplier 7 Inc.,Latin America,0.99,12,30
+SUP-008,Supplier 8 Inc.,North America,0.9,8,45
+SUP-009,Supplier 9 Inc.,Latin America,0.88,14,15
+SUP-010,Supplier 10 Inc.,North America,0.95,9,30
+SUP-011,Supplier 11 Inc.,North America,0.85,16,60
+SUP-012,Supplier 12 Inc.,Europe,0.92,13,15
+SUP-013,Supplier 13 Inc.,Asia Pacific,0.95,6,45
+SUP-014,Supplier 14 Inc.,Europe,0.95,13,60
+SUP-015,Supplier 15 Inc.,Asia Pacific,0.92,19,45
+SUP-016,Supplier 16 Inc.,Asia Pacific,0.9,4,45
+SUP-017,Supplier 17 Inc.,Asia Pacific,0.97,7,60
+SUP-018,Supplier 18 Inc.,North America,0.88,6,45
+SUP-019,Supplier 19 Inc.,Latin America,0.9,5,60
+SUP-020,Supplier 20 Inc.,Asia Pacific,0.85,15,45

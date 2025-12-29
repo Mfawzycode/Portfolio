@@ -1,0 +1,201 @@
+product_id,product_name,category,unit_cost,unit_price,lead_time_days,min_order_qty,supplier_id
+SKU-0001,Sports Item 1,Sports,381.27,624.98,14,10,SUP-007
+SKU-0002,Clothing Item 2,Clothing,43.86,54.16,14,100,SUP-008
+SKU-0003,Home & Garden Item 3,Home & Garden,20.09,35.8,10,25,SUP-006
+SKU-0004,Clothing Item 4,Clothing,48.64,63.72,10,25,SUP-012
+SKU-0005,Electronics Item 5,Electronics,617.9,968.32,5,100,SUP-016
+SKU-0006,Office Supplies Item 6,Office Supplies,9.97,15.66,10,50,SUP-020
+SKU-0007,Electronics Item 7,Electronics,140.58,219.94,14,10,SUP-007
+SKU-0008,Clothing Item 8,Clothing,190.54,339.04,5,25,SUP-009
+SKU-0009,Clothing Item 9,Clothing,33.07,53.26,10,50,SUP-012
+SKU-0010,Food & Beverage Item 10,Food & Beverage,41.99,54.76,3,100,SUP-018
+SKU-0011,Sports Item 11,Sports,138.45,209.34,5,100,SUP-018
+SKU-0012,Clothing Item 12,Clothing,98.2,141.12,10,25,SUP-016
+SKU-0013,Office Supplies Item 13,Office Supplies,20.4,25.03,14,100,SUP-013
+SKU-0014,Clothing Item 14,Clothing,114.84,178.24,3,100,SUP-013
+SKU-0015,Electronics Item 15,Electronics,627.73,815.52,3,50,SUP-009
+SKU-0016,Electronics Item 16,Electronics,437.5,526.45,7,50,SUP-017
+SKU-0017,Home & Garden Item 17,Home & Garden,397.19,621.04,5,50,SUP-009
+SKU-0018,Sports Item 18,Sports,347.98,547.71,5,10,SUP-016
+SKU-0019,Office Supplies Item 19,Office Supplies,33.19,54.36,21,50,SUP-003
+SKU-0020,Electronics Item 20,Electronics,796.71,1420.56,7,10,SUP-005
+SKU-0021,Clothing Item 21,Clothing,58.66,79.4,7,10,SUP-015
+SKU-0022,Clothing Item 22,Clothing,19.7,24.92,3,100,SUP-004
+SKU-0023,Office Supplies Item 23,Office Supplies,14.79,23.11,7,10,SUP-004
+SKU-0024,Food & Beverage Item 24,Food & Beverage,5.7,7.83,21,100,SUP-002
+SKU-0025,Clothing Item 25,Clothing,164.5,259.92,21,100,SUP-012
+SKU-0026,Sports Item 26,Sports,178.27,308.4,5,50,SUP-007
+SKU-0027,Office Supplies Item 27,Office Supplies,11.9,15.91,21,10,SUP-020
+SKU-0028,Food & Beverage Item 28,Food & Beverage,43.32,52.16,7,10,SUP-005
+SKU-0029,Electronics Item 29,Electronics,283.74,397.96,7,25,SUP-009
+SKU-0030,Sports Item 30,Sports,158.18,282.05,10,100,SUP-007
+SKU-0031,Clothing Item 31,Clothing,146.77,189.16,3,50,SUP-017
+SKU-0032,Clothing Item 32,Clothing,108.0,132.94,14,100,SUP-001
+SKU-0033,Electronics Item 33,Electronics,517.15,665.54,10,25,SUP-006
+SKU-0034,Sports Item 34,Sports,50.72,72.11,3,50,SUP-006
+SKU-0035,Food & Beverage Item 35,Food & Beverage,32.35,51.12,7,50,SUP-016
+SKU-0036,Electronics Item 36,Electronics,343.9,517.54,14,50,SUP-020
+SKU-0037,Sports Item 37,Sports,277.47,335.73,7,50,SUP-019
+SKU-0038,Sports Item 38,Sports,265.17,345.95,3,100,SUP-007
+SKU-0039,Clothing Item 39,Clothing,169.98,272.89,3,10,SUP-018
+SKU-0040,Office Supplies Item 40,Office Supplies,69.88,93.44,5,100,SUP-020
+SKU-0041,Sports Item 41,Sports,119.12,214.15,21,100,SUP-005
+SKU-0042,Food & Beverage Item 42,Food & Beverage,44.37,58.27,3,50,SUP-019
+SKU-0043,Home & Garden Item 43,Home & Garden,429.6,619.79,3,100,SUP-020
+SKU-0044,Home & Garden Item 44,Home & Garden,468.46,782.89,10,25,SUP-003
+SKU-0045,Office Supplies Item 45,Office Supplies,94.07,167.84,5,100,SUP-014
+SKU-0046,Clothing Item 46,Clothing,104.84,154.02,14,10,SUP-004
+SKU-0047,Electronics Item 47,Electronics,85.25,127.56,10,100,SUP-008
+SKU-0048,Home & Garden Item 48,Home & Garden,332.23,511.96,10,50,SUP-019
+SKU-0049,Office Supplies Item 49,Office Supplies,27.26,36.7,21,25,SUP-013
+SKU-0050,Home & Garden Item 50,Home & Garden,447.1,705.83,5,10,SUP-001
+SKU-0051,Sports Item 51,Sports,274.19,471.2,10,10,SUP-016
+SKU-0052,Home & Garden Item 52,Home & Garden,290.28,482.19,3,100,SUP-014
+SKU-0053,Food & Beverage Item 53,Food & Beverage,44.41,73.22,14,100,SUP-017
+SKU-0054,Office Supplies Item 54,Office Supplies,96.7,171.95,3,100,SUP-001
+SKU-0055,Home & Garden Item 55,Home & Garden,93.05,142.75,21,25,SUP-003
+SKU-0056,Office Supplies Item 56,Office Supplies,10.62,16.66,21,50,SUP-002
+SKU-0057,Home & Garden Item 57,Home & Garden,154.69,215.57,3,10,SUP-011
+SKU-0058,Office Supplies Item 58,Office Supplies,36.59,50.35,5,50,SUP-018
+SKU-0059,Electronics Item 59,Electronics,1242.45,1551.77,3,100,SUP-013
+SKU-0060,Sports Item 60,Sports,266.99,432.84,21,100,SUP-019
+SKU-0061,Sports Item 61,Sports,239.97,351.1,21,50,SUP-017
+SKU-0062,Sports Item 62,Sports,34.76,48.04,7,100,SUP-005
+SKU-0063,Electronics Item 63,Electronics,1664.34,2268.37,10,10,SUP-007
+SKU-0064,Sports Item 64,Sports,339.97,447.61,21,50,SUP-003
+SKU-0065,Sports Item 65,Sports,70.44,125.5,5,25,SUP-019
+SKU-0066,Electronics Item 66,Electronics,827.7,1208.54,5,50,SUP-005
+SKU-0067,Clothing Item 67,Clothing,193.09,328.56,3,100,SUP-001
+SKU-0068,Clothing Item 68,Clothing,184.31,270.09,21,25,SUP-016
+SKU-0069,Electronics Item 69,Electronics,1337.38,1829.48,14,50,SUP-005
+SKU-0070,Office Supplies Item 70,Office Supplies,73.27,90.02,5,100,SUP-019
+SKU-0071,Food & Beverage Item 71,Food & Beverage,7.77,10.92,10,10,SUP-015
+SKU-0072,Electronics Item 72,Electronics,657.26,1174.99,14,100,SUP-016
+SKU-0073,Clothing Item 73,Clothing,156.22,263.1,10,10,SUP-005
+SKU-0074,Clothing Item 74,Clothing,128.93,203.85,5,100,SUP-010
+SKU-0075,Clothing Item 75,Clothing,187.69,281.65,14,10,SUP-004
+SKU-0076,Clothing Item 76,Clothing,19.9,30.87,7,100,SUP-012
+SKU-0077,Clothing Item 77,Clothing,121.07,154.62,14,50,SUP-011
+SKU-0078,Food & Beverage Item 78,Food & Beverage,32.05,54.24,5,50,SUP-012
+SKU-0079,Food & Beverage Item 79,Food & Beverage,5.33,6.72,5,10,SUP-019
+SKU-0080,Clothing Item 80,Clothing,141.36,175.67,14,25,SUP-010
+SKU-0081,Clothing Item 81,Clothing,78.02,105.83,10,25,SUP-018
+SKU-0082,Food & Beverage Item 82,Food & Beverage,46.96,57.46,3,10,SUP-004
+SKU-0083,Clothing Item 83,Clothing,93.34,143.85,7,10,SUP-003
+SKU-0084,Sports Item 84,Sports,161.37,268.82,21,100,SUP-005
+SKU-0085,Sports Item 85,Sports,183.02,302.08,3,50,SUP-009
+SKU-0086,Office Supplies Item 86,Office Supplies,90.35,135.81,3,25,SUP-013
+SKU-0087,Home & Garden Item 87,Home & Garden,58.99,72.68,14,10,SUP-019
+SKU-0088,Sports Item 88,Sports,154.86,274.73,10,50,SUP-015
+SKU-0089,Food & Beverage Item 89,Food & Beverage,6.4,9.99,10,50,SUP-004
+SKU-0090,Food & Beverage Item 90,Food & Beverage,40.0,66.95,14,10,SUP-010
+SKU-0091,Clothing Item 91,Clothing,25.65,39.24,14,50,SUP-011
+SKU-0092,Home & Garden Item 92,Home & Garden,67.36,86.61,5,25,SUP-012
+SKU-0093,Electronics Item 93,Electronics,247.19,309.1,14,100,SUP-010
+SKU-0094,Electronics Item 94,Electronics,1652.63,2683.45,14,10,SUP-005
+SKU-0095,Office Supplies Item 95,Office Supplies,98.68,140.58,3,25,SUP-020
+SKU-0096,Electronics Item 96,Electronics,1897.13,3398.9,10,100,SUP-006
+SKU-0097,Sports Item 97,Sports,51.73,86.2,21,50,SUP-010
+SKU-0098,Clothing Item 98,Clothing,76.1,111.16,14,10,SUP-018
+SKU-0099,Sports Item 99,Sports,237.16,390.03,14,50,SUP-009
+SKU-0100,Electronics Item 100,Electronics,1378.03,1850.01,3,50,SUP-017
+SKU-0101,Electronics Item 101,Electronics,1743.77,2326.46,21,25,SUP-012
+SKU-0102,Food & Beverage Item 102,Food & Beverage,48.55,59.52,14,100,SUP-011
+SKU-0103,Sports Item 103,Sports,48.04,73.61,10,10,SUP-018
+SKU-0104,Electronics Item 104,Electronics,472.78,650.87,3,10,SUP-003
+SKU-0105,Electronics Item 105,Electronics,1834.75,3257.09,21,100,SUP-008
+SKU-0106,Clothing Item 106,Clothing,49.8,73.62,5,100,SUP-018
+SKU-0107,Sports Item 107,Sports,49.54,88.41,7,25,SUP-017
+SKU-0108,Electronics Item 108,Electronics,653.58,1103.42,10,100,SUP-013
+SKU-0109,Office Supplies Item 109,Office Supplies,8.54,15.07,7,100,SUP-005
+SKU-0110,Electronics Item 110,Electronics,865.57,1523.09,5,50,SUP-013
+SKU-0111,Food & Beverage Item 111,Food & Beverage,3.27,4.66,3,25,SUP-015
+SKU-0112,Electronics Item 112,Electronics,784.64,1294.46,3,25,SUP-017
+SKU-0113,Food & Beverage Item 113,Food & Beverage,5.05,6.17,3,10,SUP-016
+SKU-0114,Office Supplies Item 114,Office Supplies,69.48,105.65,14,25,SUP-003
+SKU-0115,Food & Beverage Item 115,Food & Beverage,30.09,49.22,5,25,SUP-019
+SKU-0116,Electronics Item 116,Electronics,520.12,688.13,3,50,SUP-013
+SKU-0117,Food & Beverage Item 117,Food & Beverage,11.95,20.64,5,100,SUP-008
+SKU-0118,Clothing Item 118,Clothing,107.16,159.21,7,50,SUP-018
+SKU-0119,Sports Item 119,Sports,330.23,588.07,21,25,SUP-017
+SKU-0120,Food & Beverage Item 120,Food & Beverage,31.77,51.55,7,50,SUP-006
+SKU-0121,Sports Item 121,Sports,392.58,614.33,5,25,SUP-015
+SKU-0122,Home & Garden Item 122,Home & Garden,54.59,89.3,3,25,SUP-001
+SKU-0123,Sports Item 123,Sports,133.22,201.72,3,10,SUP-004
+SKU-0124,Clothing Item 124,Clothing,186.42,278.75,10,100,SUP-005
+SKU-0125,Clothing Item 125,Clothing,129.85,182.89,21,50,SUP-011
+SKU-0126,Home & Garden Item 126,Home & Garden,47.17,60.25,7,25,SUP-016
+SKU-0127,Sports Item 127,Sports,89.11,125.41,7,100,SUP-003
+SKU-0128,Home & Garden Item 128,Home & Garden,337.1,439.37,5,50,SUP-019
+SKU-0129,Food & Beverage Item 129,Food & Beverage,10.11,13.82,14,25,SUP-006
+SKU-0130,Electronics Item 130,Electronics,1092.13,1543.83,21,25,SUP-017
+SKU-0131,Office Supplies Item 131,Office Supplies,33.68,46.91,5,10,SUP-015
+SKU-0132,Electronics Item 132,Electronics,1391.18,2096.5,7,50,SUP-016
+SKU-0133,Food & Beverage Item 133,Food & Beverage,2.12,3.65,3,50,SUP-020
+SKU-0134,Office Supplies Item 134,Office Supplies,24.38,40.37,21,100,SUP-002
+SKU-0135,Food & Beverage Item 135,Food & Beverage,4.99,6.43,7,50,SUP-003
+SKU-0136,Office Supplies Item 136,Office Supplies,75.21,91.63,5,25,SUP-006
+SKU-0137,Home & Garden Item 137,Home & Garden,204.61,258.41,14,100,SUP-010
+SKU-0138,Electronics Item 138,Electronics,1689.38,2117.68,21,100,SUP-017
+SKU-0139,Food & Beverage Item 139,Food & Beverage,30.49,49.01,7,10,SUP-013
+SKU-0140,Clothing Item 140,Clothing,31.08,47.31,5,50,SUP-008
+SKU-0141,Electronics Item 141,Electronics,1150.69,1642.34,14,25,SUP-020
+SKU-0142,Clothing Item 142,Clothing,127.4,171.56,7,10,SUP-006
+SKU-0143,Food & Beverage Item 143,Food & Beverage,46.82,56.4,14,25,SUP-006
+SKU-0144,Sports Item 144,Sports,343.31,430.08,21,50,SUP-009
+SKU-0145,Home & Garden Item 145,Home & Garden,267.01,386.16,10,100,SUP-006
+SKU-0146,Clothing Item 146,Clothing,121.56,212.78,21,25,SUP-017
+SKU-0147,Office Supplies Item 147,Office Supplies,17.92,28.69,3,25,SUP-015
+SKU-0148,Home & Garden Item 148,Home & Garden,290.09,396.84,10,10,SUP-006
+SKU-0149,Clothing Item 149,Clothing,74.88,108.97,3,100,SUP-017
+SKU-0150,Sports Item 150,Sports,63.64,99.68,21,10,SUP-011
+SKU-0151,Sports Item 151,Sports,141.84,220.75,21,25,SUP-010
+SKU-0152,Food & Beverage Item 152,Food & Beverage,5.04,9.04,14,100,SUP-002
+SKU-0153,Sports Item 153,Sports,116.76,187.86,3,10,SUP-011
+SKU-0154,Office Supplies Item 154,Office Supplies,41.77,58.87,3,10,SUP-012
+SKU-0155,Clothing Item 155,Clothing,37.99,62.25,3,25,SUP-012
+SKU-0156,Home & Garden Item 156,Home & Garden,42.58,70.03,21,100,SUP-008
+SKU-0157,Home & Garden Item 157,Home & Garden,399.68,527.97,21,50,SUP-005
+SKU-0158,Food & Beverage Item 158,Food & Beverage,13.31,21.03,21,100,SUP-013
+SKU-0159,Clothing Item 159,Clothing,87.6,148.04,21,100,SUP-019
+SKU-0160,Food & Beverage Item 160,Food & Beverage,16.47,27.15,3,10,SUP-017
+SKU-0161,Electronics Item 161,Electronics,813.39,1235.63,14,100,SUP-008
+SKU-0162,Home & Garden Item 162,Home & Garden,276.0,402.66,7,50,SUP-019
+SKU-0163,Clothing Item 163,Clothing,40.77,68.35,14,10,SUP-020
+SKU-0164,Office Supplies Item 164,Office Supplies,89.5,149.75,21,10,SUP-001
+SKU-0165,Food & Beverage Item 165,Food & Beverage,13.93,22.93,21,100,SUP-002
+SKU-0166,Clothing Item 166,Clothing,106.39,175.84,21,25,SUP-013
+SKU-0167,Sports Item 167,Sports,193.66,302.57,14,100,SUP-005
+SKU-0168,Food & Beverage Item 168,Food & Beverage,13.0,21.23,5,50,SUP-019
+SKU-0169,Home & Garden Item 169,Home & Garden,287.1,467.89,7,10,SUP-020
+SKU-0170,Home & Garden Item 170,Home & Garden,479.95,674.58,21,100,SUP-015
+SKU-0171,Clothing Item 171,Clothing,190.25,245.81,14,100,SUP-018
+SKU-0172,Electronics Item 172,Electronics,549.23,898.35,7,100,SUP-012
+SKU-0173,Sports Item 173,Sports,369.13,617.94,14,100,SUP-010
+SKU-0174,Electronics Item 174,Electronics,1173.76,1835.79,21,50,SUP-014
+SKU-0175,Electronics Item 175,Electronics,1854.86,2727.58,21,10,SUP-014
+SKU-0176,Sports Item 176,Sports,67.37,118.07,21,50,SUP-019
+SKU-0177,Food & Beverage Item 177,Food & Beverage,20.21,33.28,5,100,SUP-009
+SKU-0178,Home & Garden Item 178,Home & Garden,205.1,312.25,7,25,SUP-002
+SKU-0179,Clothing Item 179,Clothing,103.95,182.02,7,50,SUP-012
+SKU-0180,Home & Garden Item 180,Home & Garden,79.02,103.19,10,25,SUP-001
+SKU-0181,Electronics Item 181,Electronics,1571.97,2148.18,5,100,SUP-018
+SKU-0182,Food & Beverage Item 182,Food & Beverage,26.73,47.72,3,10,SUP-020
+SKU-0183,Office Supplies Item 183,Office Supplies,86.2,131.11,3,50,SUP-001
+SKU-0184,Food & Beverage Item 184,Food & Beverage,21.07,30.68,7,25,SUP-017
+SKU-0185,Food & Beverage Item 185,Food & Beverage,20.13,34.26,7,25,SUP-001
+SKU-0186,Office Supplies Item 186,Office Supplies,71.69,108.72,21,100,SUP-017
+SKU-0187,Clothing Item 187,Clothing,106.95,177.45,10,10,SUP-008
+SKU-0188,Food & Beverage Item 188,Food & Beverage,5.62,9.28,5,25,SUP-019
+SKU-0189,Office Supplies Item 189,Office Supplies,53.13,89.28,10,100,SUP-018
+SKU-0190,Food & Beverage Item 190,Food & Beverage,21.58,33.04,7,100,SUP-008
+SKU-0191,Office Supplies Item 191,Office Supplies,34.59,53.33,7,10,SUP-015
+SKU-0192,Clothing Item 192,Clothing,163.98,294.06,21,50,SUP-016
+SKU-0193,Sports Item 193,Sports,378.88,486.73,21,50,SUP-016
+SKU-0194,Clothing Item 194,Clothing,17.41,21.79,14,50,SUP-016
+SKU-0195,Food & Beverage Item 195,Food & Beverage,44.07,69.88,5,25,SUP-001
+SKU-0196,Food & Beverage Item 196,Food & Beverage,18.41,24.96,5,50,SUP-012
+SKU-0197,Sports Item 197,Sports,257.18,371.79,21,10,SUP-002
+SKU-0198,Food & Beverage Item 198,Food & Beverage,16.13,28.54,21,100,SUP-017
+SKU-0199,Clothing Item 199,Clothing,119.67,214.36,3,25,SUP-019
+SKU-0200,Electronics Item 200,Electronics,573.92,875.22,14,10,SUP-007

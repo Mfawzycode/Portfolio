@@ -1,0 +1,9 @@
+metric,value,unit,benchmark,status
+Inventory Turnover Ratio,27.35,times/year,6-12 (varies by industry),Review
+Days Sales of Inventory (DSI),14.4,days,30-60 days,Review
+Stockout Rate,9.5,%,<3%,Critical
+Annual Carrying Cost,1006095.49,USD,20-30% of inventory value,Info
+Order Fill Rate,99.67,%,>95%,Good
+Inventory Accuracy,98.5,%,>97%,Good
+GMROI,13.66,ratio,>3.0,Good
+Average Weeks of Supply,2.1,weeks,4-8 weeks,Review
