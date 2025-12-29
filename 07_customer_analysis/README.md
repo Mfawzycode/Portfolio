@@ -1,10 +1,10 @@
-# 👥 Customer Analysis - Senior Data Science Project
+# 👥 Strategic Customer Analytics & Retention
 
 An advanced customer behavioral analysis project demonstrating behavioral segmentation, retention modeling, and value optimization.
 
 ## 📈 Overview
 
-In a data-driven organization, understanding "who" your customers are is only the first step. This project dives into "how" they behave and "when" they are likely to leave, using Senior-level Data Science techniques to drive growth and minimize churn.
+In a data-driven organization, understanding "who" your customers are is only the first step. This project dives into "how" they behave and "when" they are likely to leave, using Advanced analytical techniques to drive growth and minimize churn.
 
 ## 🎯 Business Value
 
@@ -71,7 +71,7 @@ Customer-centricity is the core of sustainable business. This analysis enables:
 ├── README.md
 ├── data/                      # Customer transaction & behavior data
 ├── notebooks/
-│   ├── customer_insights_dashboard.ipynb # 📊 Senior DS Dashboard
+│   ├── customer_insights_dashboard.ipynb # 📊 Operational Dashboard
 │   └── behavior_clustering.ipynb
 ├── scripts/
 │   ├── generate_customer_analysis_data.py # 🛠️ Data synthesis
@@ -100,4 +100,4 @@ python 07_customer_analysis/scripts/customer_analytics.py
 
 ---
 
-*All data is synthetic/dummy data generated for Senior Data Scientist portfolio purposes.*
+*All data is synthetic/dummy data generated for business intelligence demonstration.*

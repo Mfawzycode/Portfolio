@@ -259,4 +259,4 @@ Implementing these KPI-driven insights can help businesses achieve:
 
 ---
 
-*All data is synthetic/dummy data for demonstration purposes.*
+*All data is simulated data for analytical demonstration.*

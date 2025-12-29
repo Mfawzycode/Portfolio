@@ -1,6 +1,6 @@
 """
 Advanced Customer Data Generator
-Creates high-fidelity behavioral and transactional data for Senior Data Science analysis.
+Creates high-fidelity behavioral and transactional data for Advanced Data Analytics analysis.
 """
 
 import pandas as pd

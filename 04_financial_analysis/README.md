@@ -85,4 +85,4 @@ The `retail_financial_engine.py` script generates a professional Excel report wi
 
 ---
 
-*All data is synthetic/dummy data for demonstration purposes.*
+*All data is simulated data for analytical demonstration.*

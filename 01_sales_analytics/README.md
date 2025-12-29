@@ -216,4 +216,4 @@ By implementing these KPIs, businesses can expect:
 
 ---
 
-*All data is synthetic/dummy data for demonstration purposes.*
+*All data is simulated data for analytical demonstration.*

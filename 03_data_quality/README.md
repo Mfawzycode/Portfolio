@@ -57,4 +57,4 @@ range_checks:
   percentage: {min: 0, max: 100}
 ```
 
-*All data is synthetic/dummy data for demonstration purposes.*
+*All data is simulated data for analytical demonstration.*

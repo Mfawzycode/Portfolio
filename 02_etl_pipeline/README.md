@@ -62,4 +62,4 @@ The integrated web app provides:
 - Issue detection and reporting
 - Data profiling statistics
 
-*All data is synthetic/dummy data for demonstration purposes.*
+*All data is simulated data for analytical demonstration.*
