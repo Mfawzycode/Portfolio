@@ -75,6 +75,7 @@ Pre-generated data exports are available in `/powerbi_exports/` folder:
 - `inventory_data.csv` - Inventory stock and KPIs
 - `customer_segments.csv` - RFM Customer segmentation
 - `cohort_matrix.csv` - Monthly retention rates
+- `retail_financial_report.xlsx` - Formatted financial statements and ratios
 
 Import these directly into Power BI Desktop to create dashboards.
 
