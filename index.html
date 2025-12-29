@@ -4,164 +4,177 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Strategic Data Portfolio | Analytics & Engineering</title>
+    <title>Strategic Data Intelligence | Principal Portfolio</title>
     <link rel="stylesheet" href="assets/css/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-    <header>
-        <h1>Strategic Data Analytics</h1>
-        <p>Advanced ETL engineering, predictive demand intelligence, and behavioral mapping.</p>
-    </header>
+    <!-- Sticky Navigation -->
+    <nav>
+        <div class="nav-container">
+            <div class="nav-logo">M. FAWZY // STRATEGIC DATA</div>
+            <div style="display: flex; gap: 20px;">
+                <a href="#strategic" class="btn btn-outline" style="border: none; padding: 5px;">STRATEGIC</a>
+                <a href="#engineering" class="btn btn-outline" style="border: none; padding: 5px;">ENGINEERING</a>
+            </div>
+        </div>
+    </nav>
 
-    <div class="container">
-        <h2 class="section-title">Strategic Projects</h2>
+    <!-- Cinematic Hero -->
+    <section class="hero">
+        <div style="z-index: 1;">
+            <div class="tag" style="margin-bottom: 20px; border-color: var(--accent);">Architecting Intelligence</div>
+            <h1>The Future of <br>Data Engineering.</h1>
+            <p>High-fidelity ETL pipelines, predictive demand modeling, and AI-driven RAG systems for enterprise-grade
+                decision intelligence.</p>
+            <div style="margin-top: 40px; display: flex; gap: 20px; justify-content: center;">
+                <a href="#strategic" class="btn btn-primary">EXPLORE INTELLIGENCE</a>
+                <a href="https://github.com/Mfawzycode" class="btn btn-outline">GITHUB OS</a>
+            </div>
+        </div>
+    </section>
+
+    <div class="container" id="strategic">
+        <h2 class="section-title">Strategic Intelligence</h2>
 
         <div class="project-grid">
             <!-- Project 9: AI RAG System -->
-            <div class="card highlight"
-                style="border-color: var(--accent); background: linear-gradient(135deg, rgba(142, 68, 173, 0.1), rgba(255, 255, 255, 0.05));">
+            <div class="card highlight reveal">
                 <div class="tags">
-                    <span class="tag" style="background: rgba(142, 68, 173, 0.2); color: var(--accent);">AI</span>
+                    <span class="tag">Next-Gen AI</span>
                     <span class="tag">RAG</span>
                     <span class="tag">NLP</span>
                 </div>
                 <h3>AI "Chat with Data"</h3>
-                <p>Retrieval-Augmented Generation system enabling natural language queries against corporate CSV and SQL
-                    data warehouses.</p>
-                <a href="09_ai_rag_system/app/index.html" class="btn btn-primary"
-                    style="background: var(--primary);">Interact with AI</a>
+                <p>Advanced Retrieval-Augmented Generation (RAG) system for natural language queries against data
+                    warehouses.</p>
+                <div style="display: flex; gap: 10px;">
+                    <a href="09_ai_rag_system/app/index.html" class="btn btn-primary">LAUNCH AI</a>
+                    <a href="09_ai_rag_system/README.md" class="btn btn-outline">DOCS</a>
+                </div>
             </div>
 
             <!-- Project 8: Predictive Analytics -->
-            <div class="card highlight">
+            <div class="card highlight reveal">
                 <div class="tags">
-                    <span class="tag">Machine Learning</span>
-                    <span class="tag">Forecasting</span>
+                    <span class="tag">Predictive</span>
+                    <span class="tag">ML</span>
                     <span class="tag">Risk</span>
                 </div>
                 <h3>Demand Intelligence & Risk</h3>
-                <p>Advanced time-series forecasting and customer churn prediction using behavioral signals and automated
-                    risk scoring.</p>
+                <p>Enterprise-grade time-series forecasting and behavioral churn modeling with automated risk scoring.
+                </p>
                 <a href="08_predictive_analytics/outputs/demand_intelligence_dashboard.html"
-                    class="btn btn-primary">View Dashboard</a>
+                    class="btn btn-primary">VIEW DASHBOARD</a>
             </div>
 
             <!-- Project 5: Healthcare Analytics -->
-            <div class="card">
+            <div class="card reveal">
                 <div class="tags">
                     <span class="tag">Clinical</span>
                     <span class="tag">KPIs</span>
-                    <span class="tag">Efficiency</span>
                 </div>
                 <h3>Clinical Intelligence Dash</h3>
-                <p>Advanced clinical analytics focusing on 30-day readmissions, treatment outcomes, and operational
-                    efficiency mapping.</p>
+                <p>30-day readmission modeling and treatment outcome analytics for healthcare operational efficiency.
+                </p>
                 <a href="05_healthcare_analysis/outputs/clinical_intelligence_dashboard.html" class="btn btn-primary"
-                    target="_blank">View Dashboard</a>
+                    target="_blank">VIEW DASHBOARD</a>
             </div>
 
             <!-- Project 7: Customer Analysis -->
-            <div class="card">
+            <div class="card reveal">
                 <div class="tags">
-                    <span class="tag">Analytics</span>
-                    <span class="tag">Python</span>
+                    <span class="tag">Behavioral</span>
                     <span class="tag">RFM</span>
                 </div>
-                <h3>Strategic Customer Analysis</h3>
-                <p>Behavioral segmentation using RFM and Cohort Analysis to identify high-value "Champions" and
-                    retention opportunities.</p>
-                <a href="07_customer_analysis/outputs/customer_insights_dashboard.html" class="btn btn-primary">View
-                    Dashboard</a>
+                <h3>Strategic Customer Insights</h3>
+                <p>RFM segmentation and cohort modeling to map long-term customer value and retention lifecycles.</p>
+                <a href="07_customer_analysis/outputs/customer_insights_dashboard.html" class="btn btn-primary">VIEW
+                    DASHBOARD</a>
             </div>
 
             <!-- Project 4: Financial Analysis -->
-            <div class="card">
+            <div class="card reveal">
                 <div class="tags">
                     <span class="tag">Finance</span>
                     <span class="tag">Retail</span>
-                    <span class="tag">Excel</span>
                 </div>
-                <h3>Retail Financial Intelligence</h3>
-                <p>Consolidated P&L statements and retail health ratios (GMROI, Turnover) integrated with inventory and
-                    sales data.</p>
-                <a href="04_financial_analysis/outputs/retail_finance_dashboard.html" class="btn btn-primary">View
-                    Dashboard</a>
-                <a href="powerbi_exports/retail_financial_report.xlsx" class="btn btn-outline">Download Excel Report</a>
+                <h3>Retail Financial Intel</h3>
+                <p>Integrated P&L and retail health ratios (GMROI, Turnover) synced with multi-stream sales data.</p>
+                <a href="04_financial_analysis/outputs/retail_finance_dashboard.html" class="btn btn-primary">VIEW
+                    DASHBOARD</a>
             </div>
 
             <!-- Project 6: Inventory Analysis -->
-            <div class="card">
+            <div class="card reveal">
                 <div class="tags">
                     <span class="tag">Supply Chain</span>
-                    <span class="tag">Optimization</span>
                     <span class="tag">ABC</span>
                 </div>
                 <h3>Inventory Optimization</h3>
-                <p>Predictive stockout analysis and ABC classification to optimize holding costs and ensure high fill
+                <p>Predictive stockout analysis and ABC classification to minimize capital lock-in and maximize fill
                     rates.</p>
-                <a href="06_inventory_analysis/outputs/inventory_analysis_dashboard.html" class="btn btn-primary">View
-                    Dashboard</a>
-            </div>
-
-            <!-- Project 1: Sales Analytics -->
-            <div class="card">
-                <div class="tags">
-                    <span class="tag">BI</span>
-                    <span class="tag">Plotly</span>
-                    <span class="tag">Storytelling</span>
-                </div>
-                <h3>Sales Strategic Dashboard</h3>
-                <p>Interactive sales metrics visualization focusing on Revenue, CLV, and growth momentum with strategic
-                    recommendations.</p>
-                <a href="01_sales_analytics/outputs/sales_storytelling_dashboard.html" class="btn btn-primary">View
-                    Dashboard</a>
+                <a href="06_inventory_analysis/outputs/inventory_analysis_dashboard.html" class="btn btn-primary">VIEW
+                    DASHBOARD</a>
             </div>
         </div>
 
-        <h2 class="section-title">Engineering & Core Analytics</h2>
-        <p style="text-align: center; color: #AAA; margin-bottom: 40px; margin-top: -30px;">Scalable data architecture
-            and
-            quality frameworks.</p>
-
-        <div class="project-grid">
-            <!-- Project 2: ETL Pipeline -->
-            <div class="card">
-                <div class="tags">
-                    <span class="tag">Engineering</span>
-                    <span class="tag">PySpark</span>
-                    <span class="tag">Architecture</span>
+        <div id="engineering" style="padding-top: 100px;">
+            <h2 class="section-title">Data Architecture</h2>
+            <div class="project-grid">
+                <!-- Project 2: ETL Pipeline -->
+                <div class="card reveal">
+                    <div class="tags">
+                        <span class="tag">Engineering</span>
+                        <span class="tag">PySpark</span>
+                    </div>
+                    <h3>Enterprise ETL Pipeline</h3>
+                    <p>Production-grade Bronze-Silver-Gold architecture with automated schema evolution and state
+                        management.</p>
+                    <a href="https://github.com/Mfawzycode/Portfolio/tree/main/02_etl_pipeline" class="btn btn-outline"
+                        target="_blank">EXPLORE ARCH</a>
                 </div>
-                <h3>Production ETL Pipeline</h3>
-                <p>Robust Bronze-Silver-Gold architecture with automated schema evolution and incremental loading
-                    patterns.</p>
-                <a href="https://github.com/Mfawzycode/Portfolio/tree/main/02_etl_pipeline" class="btn btn-outline"
-                    target="_blank">View Repository</a>
-            </div>
 
-            <!-- Project 3: Data Quality -->
-            <div class="card">
-                <div class="tags">
-                    <span class="tag">Validation</span>
-                    <span class="tag">Framework</span>
+                <!-- Project 3: Data Quality -->
+                <div class="card reveal">
+                    <div class="tags">
+                        <span class="tag">DQM</span>
+                        <span class="tag">Framework</span>
+                    </div>
+                    <h3>Data Quality Ecosystem</h3>
+                    <p>Automated validation scores and quality gates ensuring integrity across the massive data
+                        warehouse.</p>
+                    <a href="https://github.com/Mfawzycode/Portfolio/tree/main/03_data_quality" class="btn btn-outline"
+                        target="_blank">VIEW FRAMEWORK</a>
                 </div>
-                <h3>Data Quality Framework</h3>
-                <p>Automated quality scoring system ensure data integrity across the entire warehouse lifecycle.</p>
-                <a href="https://github.com/Mfawzycode/Portfolio/tree/main/03_data_quality" class="btn btn-outline"
-                    target="_blank">View Repository</a>
             </div>
-
         </div>
     </div>
 
     <footer>
         <p>&copy; 2025 M. Fawzy | <a href="https://github.com/Mfawzycode"
-                style="color: var(--primary); text-decoration: none;">GitHub @Mfawzycode</a></p>
+                style="color: var(--accent); text-decoration: none;">GitHub @Mfawzycode</a></p>
+        <p style="font-size: 0.7rem; color: #444; margin-top: 10px;">Designed for High-Impact Decision Making</p>
     </footer>
+
+    <script>
+        // Reveal Animations Logic
+        const revealElements = document.querySelectorAll(".reveal");
+        const revealOnScroll = () => {
+            for (let i = 0; i < revealElements.length; i++) {
+                let windowHeight = window.innerHeight;
+                let elementTop = revealElements[i].getBoundingClientRect().top;
+                let elementVisible = 150;
+                if (elementTop < windowHeight - elementVisible) {
+                    revealElements[i].classList.add("active");
+                }
+            }
+        };
+        window.addEventListener("scroll", revealOnScroll);
+        // Trigger once for items already visible
+        revealOnScroll();
+    </script>
 
 </body>
 
