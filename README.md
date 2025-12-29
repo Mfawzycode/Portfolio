@@ -13,6 +13,7 @@ Hi! I'm a **Data Analyst & Data Engineer** passionate about building robust data
 | [Healthcare Analytics](./05_healthcare_analysis/) | Patient visits, wait times, clinical KPIs | Python, Pandas, Power BI |
 | [Inventory Analysis](./06_inventory_analysis/) | Stock optimization, turnover KPIs, ABC classification | Python, Pandas, Power BI |
 | [Customer Analysis](./07_customer_analysis/) | RFM Segmentation, Cohort Analysis, Sentiment Analysis | Python, Pandas, Plotly |
+| [Predictive Analytics](./08_predictive_analytics/) | Demand Forecasting (TS) & Customer Churn Modeling (ML) | Python, MLPC, Plotly |
 
 ## 🛠️ Skills Demonstrated
 
@@ -33,6 +34,7 @@ Hi! I'm a **Data Analyst & Data Engineer** passionate about building robust data
 ├── 05_healthcare_analysis/ # Patient visit analytics
 ├── 06_inventory_analysis/  # Inventory KPIs and stock optimization
 ├── 07_customer_analysis/   # Advanced behavioral & retention analytics
+├── 08_predictive_analytics/# Time-series forecasting & churn modeling
 ├── powerbi_exports/        # Ready-to-use Power BI data files
 └── shared/                 # Common utilities and data generators
 ```
@@ -53,6 +55,7 @@ python 04_financial_analysis/scripts/generate_financial_data.py
 python 05_healthcare_analysis/scripts/generate_healthcare_data.py
 python 06_inventory_analysis/scripts/generate_inventory_data.py
 python 07_customer_analysis/scripts/generate_customer_analysis_data.py
+python 08_predictive_analytics/scripts/generate_predictive_data.py
 
 # Run ETL Pipeline
 python 02_etl_pipeline/src/bronze_layer.py
