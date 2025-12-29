@@ -24,6 +24,8 @@ conda/
 # Data files (keep sample data, ignore large files)
 *.csv.gz
 *.parquet.gz
+cv.txt
+
 
 # OS
 .DS_Store

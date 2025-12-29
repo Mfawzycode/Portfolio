@@ -262,6 +262,111 @@ footer p {
     font-size: 0.9rem;
 }
 
+/* --- CV Specific Components --- */
+.cv-header {
+    padding-top: 150px;
+    padding-bottom: 50px;
+    text-align: left;
+}
+
+.cv-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 60px;
+}
+
+.cv-sidebar h4 {
+    color: var(--accent);
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.cv-sidebar h4:first-child {
+    margin-top: 0;
+}
+
+/* Timeline */
+.timeline {
+    border-left: 1px solid var(--glass-border);
+    padding-left: 30px;
+    margin-left: 10px;
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -35.5px;
+    top: 5px;
+    width: 10px;
+    height: 10px;
+    background: var(--primary);
+    border-radius: 50%;
+    box-shadow: 0 0 10px var(--primary-glow);
+}
+
+.timeline-date {
+    font-size: 0.85rem;
+    color: var(--accent);
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.timeline-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #FFF;
+}
+
+.timeline-company {
+    font-size: 0.95rem;
+    color: var(--text-dim);
+    margin-bottom: 10px;
+}
+
+/* Skill Bars */
+.skill-item {
+    margin-bottom: 15px;
+}
+
+.skill-info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+}
+
+.skill-bar {
+    height: 6px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.skill-progress {
+    height: 100%;
+    background: var(--primary);
+    border-radius: 10px;
+    box-shadow: 0 0 10px var(--primary-glow);
+}
+
+@media (max-width: 900px) {
+    .cv-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .cv-header {
+        padding-top: 120px;
+    }
+}
+
 @media (max-width: 768px) {
     .reveal {
         opacity: 1;
