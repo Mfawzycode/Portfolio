@@ -1,0 +1,3001 @@
+customer_id,join_date,acquisition_channel,age,loyalty_score,spend_potential,tier,is_active
+C-ADV-00001,2023-11-24,Search,19,0.35,43.2,Gold,True
+C-ADV-00002,2023-04-25,Social Media,65,0.21,149.98,Bronze,True
+C-ADV-00003,2023-10-30,Direct,20,0.16,69.54,Bronze,True
+C-ADV-00004,2023-04-22,Social Media,50,0.03,11.9,Bronze,True
+C-ADV-00005,2023-11-29,Email,44,0.25,58.41,Silver,False
+C-ADV-00006,2023-10-29,Referral,69,0.08,32.61,Bronze,True
+C-ADV-00007,2023-12-24,Direct,39,0.2,53.87,Gold,True
+C-ADV-00008,2023-04-21,Referral,24,0.13,80.59,Bronze,False
+C-ADV-00009,2023-02-19,Referral,40,0.55,114.26,Gold,True
+C-ADV-00010,2023-08-24,Email,25,0.4,11.21,Platinum,True
+C-ADV-00011,2023-10-10,Referral,58,0.13,75.5,Gold,True
+C-ADV-00012,2023-12-27,Search,20,0.17,132.65,Silver,True
+C-ADV-00013,2023-02-10,Social Media,24,0.17,33.81,Platinum,True
+C-ADV-00014,2023-08-21,Referral,28,0.16,22.24,Gold,True
+C-ADV-00015,2023-04-18,Referral,62,0.18,78.37,Bronze,True
+C-ADV-00016,2023-10-01,Social Media,28,0.22,21.75,Platinum,False
+C-ADV-00017,2023-05-19,Email,32,0.31,43.83,Gold,True
+C-ADV-00018,2023-04-28,Search,69,0.41,114.86,Gold,False
+C-ADV-00019,2023-05-18,Search,31,0.18,136.37,Gold,True
+C-ADV-00020,2023-12-02,Direct,43,0.2,65.08,Platinum,True
+C-ADV-00021,2023-05-16,Social Media,33,0.19,73.41,Gold,False
+C-ADV-00022,2023-10-26,Direct,41,0.68,77.13,Silver,True
+C-ADV-00023,2023-09-18,Direct,23,0.29,360.03,Bronze,True
+C-ADV-00024,2023-03-20,Social Media,68,0.29,10.24,Platinum,True
+C-ADV-00025,2023-07-17,Direct,56,0.12,45.04,Platinum,True
+C-ADV-00026,2023-10-11,Search,61,0.28,54.2,Bronze,True
+C-ADV-00027,2023-11-25,Referral,25,0.36,222.03,Gold,False
+C-ADV-00028,2023-03-22,Direct,18,0.13,58.96,Gold,True
+C-ADV-00029,2023-09-17,Search,58,0.16,11.58,Gold,True
+C-ADV-00030,2023-03-20,Referral,66,0.23,21.87,Silver,True
+C-ADV-00031,2023-11-03,Referral,49,0.17,123.16,Bronze,True
+C-ADV-00032,2023-07-05,Referral,33,0.06,691.71,Bronze,True
+C-ADV-00033,2023-10-18,Search,23,0.24,92.01,Platinum,True
+C-ADV-00034,2023-09-30,Social Media,26,0.25,184.39,Platinum,True
+C-ADV-00035,2023-05-16,Email,56,0.39,352.76,Platinum,True
+C-ADV-00036,2023-10-04,Social Media,63,0.27,21.02,Gold,False
+C-ADV-00037,2023-12-10,Referral,46,0.54,124.22,Platinum,True
+C-ADV-00038,2023-05-07,Social Media,22,0.71,25.23,Gold,True
+C-ADV-00039,2023-10-29,Email,32,0.22,55.31,Silver,True
+C-ADV-00040,2023-02-06,Search,32,0.66,52.75,Bronze,True
+C-ADV-00041,2023-06-19,Search,50,0.1,43.66,Silver,True
+C-ADV-00042,2023-12-09,Direct,31,0.39,114.47,Silver,False
+C-ADV-00043,2023-05-05,Direct,69,0.27,67.63,Platinum,True
+C-ADV-00044,2023-02-18,Search,60,0.08,318.28,Platinum,True
+C-ADV-00045,2023-08-05,Direct,47,0.4,161.27,Bronze,True
+C-ADV-00046,2023-02-01,Direct,64,0.33,29.85,Gold,True
+C-ADV-00047,2023-05-08,Social Media,30,0.11,141.74,Platinum,True
+C-ADV-00048,2023-08-05,Social Media,35,0.51,12.17,Platinum,True
+C-ADV-00049,2023-02-08,Direct,69,0.19,108.45,Bronze,True
+C-ADV-00050,2023-11-30,Email,18,0.1,39.06,Bronze,True
+C-ADV-00051,2023-03-27,Direct,49,0.13,57.14,Platinum,True
+C-ADV-00052,2023-07-25,Search,28,0.1,125.06,Platinum,True
+C-ADV-00053,2023-07-19,Referral,68,0.03,24.72,Platinum,True
+C-ADV-00054,2023-08-05,Email,60,0.32,287.52,Platinum,True
+C-ADV-00055,2023-04-08,Referral,31,0.25,15.47,Bronze,True
+C-ADV-00056,2023-06-10,Search,21,0.36,284.68,Platinum,True
+C-ADV-00057,2023-01-30,Email,23,0.09,85.1,Silver,True
+C-ADV-00058,2023-11-01,Search,61,0.38,21.49,Silver,False
+C-ADV-00059,2023-03-03,Email,33,0.36,35.16,Bronze,True
+C-ADV-00060,2023-08-03,Email,54,0.28,571.35,Gold,True
+C-ADV-00061,2023-04-15,Referral,33,0.11,58.55,Gold,False
+C-ADV-00062,2023-03-09,Referral,47,0.42,196.48,Gold,True
+C-ADV-00063,2023-01-05,Direct,57,0.04,29.29,Bronze,True
+C-ADV-00064,2023-10-03,Social Media,50,0.45,29.31,Gold,True
+C-ADV-00065,2023-06-28,Search,33,0.15,74.24,Gold,True
+C-ADV-00066,2023-03-22,Direct,52,0.13,9.14,Gold,True
+C-ADV-00067,2023-12-08,Email,37,0.08,44.6,Bronze,True
+C-ADV-00068,2023-05-16,Search,24,0.55,55.27,Silver,True
+C-ADV-00069,2023-05-25,Email,31,0.34,40.03,Gold,True
+C-ADV-00070,2023-12-18,Referral,50,0.28,369.56,Platinum,True
+C-ADV-00071,2023-01-27,Search,58,0.55,16.21,Platinum,True
+C-ADV-00072,2023-01-23,Search,39,0.31,27.14,Silver,True
+C-ADV-00073,2023-03-24,Direct,53,0.19,47.13,Platinum,True
+C-ADV-00074,2023-02-27,Search,62,0.24,35.4,Silver,True
+C-ADV-00075,2023-07-09,Email,53,0.34,68.86,Silver,False
+C-ADV-00076,2023-03-07,Search,37,0.5,28.1,Gold,True
+C-ADV-00077,2023-07-03,Social Media,61,0.43,238.74,Silver,True
+C-ADV-00078,2023-07-01,Email,44,0.22,194.64,Silver,True
+C-ADV-00079,2023-03-25,Social Media,44,0.39,81.59,Bronze,True
+C-ADV-00080,2023-06-20,Direct,69,0.18,58.54,Silver,True
+C-ADV-00081,2023-03-23,Search,42,0.4,25.2,Bronze,False
+C-ADV-00082,2023-04-24,Social Media,70,0.54,181.35,Platinum,True
+C-ADV-00083,2023-06-06,Social Media,32,0.32,24.33,Bronze,True
+C-ADV-00084,2023-07-24,Referral,35,0.39,8.06,Bronze,True
+C-ADV-00085,2023-06-29,Email,43,0.42,89.29,Gold,True
+C-ADV-00086,2023-03-01,Referral,29,0.25,50.72,Gold,True
+C-ADV-00087,2023-02-25,Email,45,0.42,211.43,Gold,True
+C-ADV-00088,2023-08-12,Email,50,0.28,48.98,Bronze,False
+C-ADV-00089,2023-10-23,Social Media,34,0.25,57.22,Bronze,False
+C-ADV-00090,2023-01-01,Email,69,0.39,13.89,Silver,True
+C-ADV-00091,2023-08-09,Search,60,0.54,195.91,Gold,True
+C-ADV-00092,2023-12-06,Search,64,0.16,64.71,Gold,True
+C-ADV-00093,2023-12-08,Direct,38,0.47,144.25,Platinum,True
+C-ADV-00094,2023-10-11,Social Media,30,0.39,9.67,Platinum,False
+C-ADV-00095,2023-12-13,Social Media,57,0.51,111.89,Gold,False
+C-ADV-00096,2023-10-08,Search,37,0.12,53.8,Gold,True
+C-ADV-00097,2023-08-09,Email,56,0.34,52.84,Gold,False
+C-ADV-00098,2023-08-15,Direct,61,0.62,18.15,Silver,False
+C-ADV-00099,2023-03-28,Search,36,0.34,141.9,Gold,True
+C-ADV-00100,2023-05-01,Referral,32,0.24,24.16,Silver,True
+C-ADV-00101,2023-01-13,Search,33,0.19,19.39,Platinum,True
+C-ADV-00102,2023-08-22,Direct,58,0.58,91.34,Silver,False
+C-ADV-00103,2023-09-11,Direct,33,0.46,43.77,Silver,True
+C-ADV-00104,2023-02-24,Direct,32,0.13,586.48,Silver,False
+C-ADV-00105,2023-01-26,Email,33,0.12,42.56,Bronze,False
+C-ADV-00106,2023-03-10,Direct,60,0.52,20.65,Gold,False
+C-ADV-00107,2023-11-10,Email,45,0.47,66.92,Platinum,True
+C-ADV-00108,2023-09-01,Direct,34,0.24,25.2,Silver,True
+C-ADV-00109,2023-09-24,Direct,58,0.12,131.85,Silver,True
+C-ADV-00110,2023-08-14,Search,63,0.14,35.15,Gold,True
+C-ADV-00111,2023-05-20,Referral,38,0.61,13.7,Bronze,True
+C-ADV-00112,2023-03-19,Social Media,42,0.45,43.01,Silver,True
+C-ADV-00113,2023-02-02,Direct,44,0.21,57.31,Gold,False
+C-ADV-00114,2023-08-01,Search,31,0.13,50.15,Platinum,False
+C-ADV-00115,2023-10-27,Search,66,0.14,60.3,Platinum,False
+C-ADV-00116,2023-01-04,Referral,37,0.29,25.49,Platinum,False
+C-ADV-00117,2023-10-03,Email,69,0.33,70.79,Silver,False
+C-ADV-00118,2023-04-23,Referral,45,0.22,71.36,Platinum,True
+C-ADV-00119,2023-07-19,Referral,60,0.17,149.35,Platinum,True
+C-ADV-00120,2023-08-28,Social Media,57,0.12,118.11,Bronze,False
+C-ADV-00121,2023-10-31,Email,60,0.02,79.13,Bronze,True
+C-ADV-00122,2023-11-26,Direct,26,0.15,265.11,Platinum,True
+C-ADV-00123,2023-01-26,Referral,42,0.36,81.0,Gold,True
+C-ADV-00124,2023-08-21,Referral,39,0.47,78.32,Platinum,True
+C-ADV-00125,2023-08-04,Referral,23,0.49,8.41,Platinum,True
+C-ADV-00126,2023-10-04,Search,40,0.38,55.48,Silver,True
+C-ADV-00127,2023-11-30,Search,66,0.69,12.45,Bronze,True
+C-ADV-00128,2023-04-13,Search,57,0.38,190.06,Silver,True
+C-ADV-00129,2023-03-06,Direct,60,0.27,125.25,Bronze,True
+C-ADV-00130,2023-08-27,Referral,67,0.08,81.62,Gold,True
+C-ADV-00131,2023-11-07,Email,65,0.48,41.68,Bronze,True
+C-ADV-00132,2023-06-09,Search,55,0.15,31.42,Bronze,True
+C-ADV-00133,2023-10-22,Direct,43,0.27,25.18,Silver,True
+C-ADV-00134,2023-10-31,Social Media,24,0.09,125.91,Gold,True
+C-ADV-00135,2023-10-17,Search,40,0.37,630.02,Platinum,True
+C-ADV-00136,2023-02-05,Email,59,0.16,98.52,Gold,True
+C-ADV-00137,2023-08-04,Direct,24,0.13,268.59,Platinum,True
+C-ADV-00138,2023-11-22,Direct,63,0.2,119.23,Silver,False
+C-ADV-00139,2023-04-01,Email,59,0.19,46.62,Gold,False
+C-ADV-00140,2023-08-27,Direct,70,0.15,5.36,Gold,True
+C-ADV-00141,2023-05-06,Search,35,0.17,42.12,Platinum,True
+C-ADV-00142,2023-08-26,Email,57,0.08,14.6,Platinum,True
+C-ADV-00143,2023-01-15,Direct,38,0.18,41.73,Silver,False
+C-ADV-00144,2023-04-19,Referral,69,0.12,63.96,Gold,True
+C-ADV-00145,2023-05-24,Email,62,0.27,30.76,Gold,True
+C-ADV-00146,2023-09-22,Social Media,23,0.08,18.05,Silver,False
+C-ADV-00147,2023-09-08,Email,66,0.13,189.82,Silver,False
+C-ADV-00148,2023-11-27,Direct,46,0.03,42.32,Bronze,True
+C-ADV-00149,2023-05-31,Social Media,43,0.12,139.17,Silver,True
+C-ADV-00150,2023-12-06,Email,41,0.54,26.36,Platinum,True
+C-ADV-00151,2023-08-06,Email,39,0.16,42.93,Gold,False
+C-ADV-00152,2023-05-19,Referral,34,0.19,70.3,Silver,True
+C-ADV-00153,2023-04-09,Referral,25,0.09,75.65,Silver,True
+C-ADV-00154,2023-04-21,Direct,35,0.17,24.14,Gold,True
+C-ADV-00155,2023-04-10,Referral,32,0.06,6.81,Gold,True
+C-ADV-00156,2023-06-04,Search,63,0.41,52.93,Silver,True
+C-ADV-00157,2023-01-24,Search,53,0.21,14.18,Gold,True
+C-ADV-00158,2023-11-23,Direct,24,0.54,60.39,Bronze,True
+C-ADV-00159,2023-08-29,Direct,46,0.4,152.8,Gold,True
+C-ADV-00160,2023-01-27,Referral,48,0.21,262.56,Bronze,True
+C-ADV-00161,2023-07-25,Direct,22,0.09,91.62,Bronze,True
+C-ADV-00162,2023-03-18,Email,37,0.29,97.61,Bronze,True
+C-ADV-00163,2023-03-02,Email,66,0.24,21.13,Platinum,True
+C-ADV-00164,2023-09-25,Direct,46,0.62,65.3,Platinum,True
+C-ADV-00165,2023-10-29,Direct,37,0.17,172.31,Bronze,True
+C-ADV-00166,2023-04-17,Social Media,34,0.15,39.06,Bronze,True
+C-ADV-00167,2023-05-03,Social Media,53,0.09,102.76,Bronze,True
+C-ADV-00168,2023-01-02,Direct,46,0.64,171.42,Platinum,True
+C-ADV-00169,2023-01-17,Social Media,36,0.2,79.85,Gold,False
+C-ADV-00170,2023-02-06,Social Media,34,0.24,157.94,Silver,False
+C-ADV-00171,2023-02-28,Email,32,0.22,67.2,Silver,True
+C-ADV-00172,2023-03-14,Search,21,0.37,85.34,Silver,True
+C-ADV-00173,2023-11-01,Email,36,0.23,107.93,Platinum,True
+C-ADV-00174,2023-08-28,Referral,62,0.14,13.39,Platinum,True
+C-ADV-00175,2023-09-14,Email,49,0.32,33.83,Platinum,True
+C-ADV-00176,2023-11-03,Search,45,0.21,28.49,Gold,True
+C-ADV-00177,2023-01-14,Search,32,0.39,132.9,Bronze,True
+C-ADV-00178,2023-10-23,Search,66,0.37,185.52,Silver,False
+C-ADV-00179,2023-09-23,Direct,35,0.07,37.98,Silver,False
+C-ADV-00180,2023-11-22,Direct,23,0.14,40.43,Platinum,True
+C-ADV-00181,2023-07-29,Referral,38,0.23,25.34,Bronze,True
+C-ADV-00182,2023-06-18,Direct,62,0.08,46.26,Platinum,True
+C-ADV-00183,2023-12-06,Direct,70,0.15,107.21,Bronze,False
+C-ADV-00184,2023-02-15,Referral,34,0.29,32.54,Gold,True
+C-ADV-00185,2023-07-26,Email,70,0.23,179.29,Bronze,False
+C-ADV-00186,2023-07-31,Search,30,0.32,76.99,Gold,False
+C-ADV-00187,2023-11-17,Direct,66,0.19,11.99,Bronze,True
+C-ADV-00188,2023-05-17,Email,26,0.14,94.02,Gold,False
+C-ADV-00189,2023-12-24,Direct,25,0.45,24.57,Bronze,True
+C-ADV-00190,2023-12-30,Social Media,37,0.52,109.37,Bronze,False
+C-ADV-00191,2023-02-17,Social Media,25,0.12,179.18,Platinum,True
+C-ADV-00192,2023-11-28,Social Media,49,0.41,10.6,Gold,True
+C-ADV-00193,2023-08-01,Direct,48,0.28,165.46,Silver,False
+C-ADV-00194,2023-10-10,Social Media,42,0.26,149.68,Silver,True
+C-ADV-00195,2023-02-05,Referral,67,0.51,63.23,Platinum,True
+C-ADV-00196,2023-09-17,Referral,70,0.14,43.57,Bronze,True
+C-ADV-00197,2023-06-02,Email,55,0.25,57.19,Platinum,True
+C-ADV-00198,2023-08-17,Email,48,0.55,71.28,Gold,True
+C-ADV-00199,2023-10-10,Email,42,0.21,72.17,Platinum,True
+C-ADV-00200,2023-04-07,Social Media,54,0.25,37.98,Platinum,True
+C-ADV-00201,2023-07-30,Search,38,0.2,11.9,Platinum,False
+C-ADV-00202,2023-07-17,Social Media,49,0.38,47.89,Bronze,True
+C-ADV-00203,2023-09-15,Email,39,0.05,358.22,Bronze,False
+C-ADV-00204,2023-02-21,Email,47,0.11,167.65,Bronze,True
+C-ADV-00205,2023-07-29,Social Media,22,0.39,49.44,Platinum,True
+C-ADV-00206,2023-06-23,Email,62,0.05,134.01,Platinum,True
+C-ADV-00207,2023-06-18,Email,42,0.37,231.31,Gold,False
+C-ADV-00208,2023-10-05,Search,57,0.34,110.8,Bronze,True
+C-ADV-00209,2023-11-20,Referral,32,0.31,206.26,Bronze,False
+C-ADV-00210,2023-02-20,Search,46,0.4,79.44,Silver,True
+C-ADV-00211,2023-01-15,Search,38,0.16,13.06,Bronze,True
+C-ADV-00212,2023-07-03,Referral,45,0.05,41.39,Silver,True
+C-ADV-00213,2023-09-29,Direct,54,0.3,4.84,Silver,True
+C-ADV-00214,2023-03-31,Search,57,0.56,53.29,Platinum,True
+C-ADV-00215,2023-09-12,Email,27,0.18,17.14,Silver,False
+C-ADV-00216,2023-11-23,Referral,47,0.2,22.73,Gold,True
+C-ADV-00217,2023-08-27,Referral,61,0.38,41.22,Silver,True
+C-ADV-00218,2023-08-15,Referral,55,0.35,71.92,Gold,False
+C-ADV-00219,2023-12-20,Referral,47,0.15,28.59,Gold,True
+C-ADV-00220,2023-07-16,Direct,24,0.26,61.22,Silver,False
+C-ADV-00221,2023-10-20,Referral,54,0.23,27.41,Gold,True
+C-ADV-00222,2023-01-12,Direct,35,0.19,19.46,Bronze,True
+C-ADV-00223,2023-11-07,Direct,36,0.19,465.11,Silver,True
+C-ADV-00224,2023-04-23,Social Media,57,0.52,95.99,Gold,True
+C-ADV-00225,2023-11-18,Search,58,0.42,33.68,Bronze,True
+C-ADV-00226,2023-08-14,Search,55,0.69,404.13,Gold,True
+C-ADV-00227,2023-02-16,Referral,38,0.43,104.83,Platinum,True
+C-ADV-00228,2023-04-13,Social Media,68,0.06,15.58,Gold,True
+C-ADV-00229,2023-03-26,Referral,70,0.15,31.49,Platinum,True
+C-ADV-00230,2023-06-23,Search,47,0.15,40.79,Bronze,True
+C-ADV-00231,2023-04-26,Direct,69,0.39,172.22,Gold,True
+C-ADV-00232,2023-07-22,Search,34,0.05,50.06,Bronze,False
+C-ADV-00233,2023-07-08,Referral,55,0.06,52.1,Platinum,True
+C-ADV-00234,2023-02-25,Social Media,48,0.62,70.4,Bronze,True
+C-ADV-00235,2023-11-09,Social Media,59,0.09,38.53,Bronze,False
+C-ADV-00236,2023-12-25,Referral,59,0.16,185.4,Platinum,True
+C-ADV-00237,2023-03-13,Search,20,0.28,42.14,Gold,False
+C-ADV-00238,2023-03-01,Search,33,0.23,27.45,Silver,False
+C-ADV-00239,2023-08-21,Referral,60,0.38,136.5,Platinum,True
+C-ADV-00240,2023-08-01,Search,49,0.6,1030.45,Platinum,True
+C-ADV-00241,2023-01-17,Referral,31,0.56,29.26,Platinum,False
+C-ADV-00242,2023-05-01,Referral,24,0.48,21.82,Gold,True
+C-ADV-00243,2023-02-01,Direct,35,0.25,66.76,Silver,True
+C-ADV-00244,2023-08-21,Search,60,0.4,85.56,Silver,True
+C-ADV-00245,2023-01-26,Referral,33,0.5,73.89,Silver,True
+C-ADV-00246,2023-02-05,Email,31,0.45,96.01,Silver,True
+C-ADV-00247,2023-06-18,Social Media,68,0.22,16.0,Bronze,True
+C-ADV-00248,2023-03-16,Social Media,52,0.31,61.59,Gold,True
+C-ADV-00249,2023-02-26,Search,26,0.2,12.94,Bronze,True
+C-ADV-00250,2023-05-02,Email,38,0.08,14.98,Bronze,True
+C-ADV-00251,2023-05-16,Search,26,0.1,149.88,Platinum,True
+C-ADV-00252,2023-02-02,Direct,46,0.2,53.52,Gold,True
+C-ADV-00253,2023-08-20,Email,32,0.18,217.95,Bronze,True
+C-ADV-00254,2023-08-23,Search,21,0.38,80.81,Platinum,False
+C-ADV-00255,2023-08-07,Search,49,0.18,20.32,Platinum,True
+C-ADV-00256,2023-02-11,Referral,56,0.27,81.19,Silver,True
+C-ADV-00257,2023-03-06,Referral,57,0.09,94.64,Gold,False
+C-ADV-00258,2023-11-02,Email,36,0.07,68.19,Platinum,False
+C-ADV-00259,2023-02-20,Search,59,0.31,213.61,Silver,False
+C-ADV-00260,2023-08-20,Social Media,44,0.32,41.1,Gold,False
+C-ADV-00261,2023-07-24,Direct,64,0.5,314.06,Bronze,True
+C-ADV-00262,2023-08-07,Referral,60,0.17,121.86,Gold,True
+C-ADV-00263,2023-03-20,Direct,22,0.24,72.17,Bronze,True
+C-ADV-00264,2023-02-17,Direct,24,0.72,38.32,Gold,True
+C-ADV-00265,2023-10-12,Search,55,0.33,47.13,Gold,True
+C-ADV-00266,2023-07-30,Referral,60,0.06,74.77,Platinum,True
+C-ADV-00267,2023-05-28,Email,37,0.35,281.21,Gold,True
+C-ADV-00268,2023-10-23,Email,31,0.3,73.9,Silver,False
+C-ADV-00269,2023-04-25,Search,40,0.22,44.54,Gold,True
+C-ADV-00270,2023-05-23,Email,32,0.16,25.56,Platinum,True
+C-ADV-00271,2023-11-08,Referral,19,0.25,11.52,Silver,True
+C-ADV-00272,2023-12-26,Referral,39,0.18,109.4,Gold,True
+C-ADV-00273,2023-04-03,Social Media,54,0.63,51.64,Platinum,True
+C-ADV-00274,2023-03-14,Search,23,0.1,265.99,Silver,False
+C-ADV-00275,2023-08-03,Direct,39,0.15,100.4,Silver,True
+C-ADV-00276,2023-06-09,Referral,67,0.18,119.11,Bronze,True
+C-ADV-00277,2023-03-21,Social Media,66,0.55,62.4,Bronze,True
+C-ADV-00278,2023-05-20,Direct,60,0.35,22.43,Platinum,False
+C-ADV-00279,2023-11-07,Direct,44,0.04,80.53,Gold,True
+C-ADV-00280,2023-09-20,Search,40,0.3,35.21,Platinum,True
+C-ADV-00281,2023-05-26,Email,49,0.41,75.32,Gold,True
+C-ADV-00282,2023-04-23,Direct,56,0.21,19.36,Bronze,True
+C-ADV-00283,2023-04-15,Referral,31,0.35,87.77,Silver,True
+C-ADV-00284,2023-05-29,Referral,25,0.64,4.37,Bronze,False
+C-ADV-00285,2023-08-09,Social Media,26,0.34,45.29,Platinum,True
+C-ADV-00286,2023-09-14,Email,60,0.34,3.04,Gold,True
+C-ADV-00287,2023-07-23,Search,45,0.45,99.48,Bronze,False
+C-ADV-00288,2023-02-09,Referral,54,0.11,27.42,Platinum,False
+C-ADV-00289,2023-12-30,Direct,36,0.24,38.97,Bronze,False
+C-ADV-00290,2023-01-11,Referral,28,0.21,73.88,Platinum,True
+C-ADV-00291,2023-02-15,Direct,24,0.16,54.76,Silver,False
+C-ADV-00292,2023-10-29,Direct,51,0.05,19.22,Bronze,False
+C-ADV-00293,2023-06-08,Referral,32,0.38,43.61,Gold,True
+C-ADV-00294,2023-02-09,Email,58,0.48,52.99,Bronze,True
+C-ADV-00295,2023-06-28,Referral,64,0.29,80.79,Silver,True
+C-ADV-00296,2023-02-22,Social Media,34,0.13,16.56,Silver,True
+C-ADV-00297,2023-11-05,Social Media,66,0.27,302.39,Bronze,True
+C-ADV-00298,2023-11-18,Direct,47,0.38,171.11,Platinum,True
+C-ADV-00299,2023-11-18,Referral,27,0.09,33.52,Platinum,True
+C-ADV-00300,2023-08-29,Direct,58,0.18,71.99,Gold,True
+C-ADV-00301,2023-10-30,Search,40,0.38,25.7,Bronze,True
+C-ADV-00302,2023-08-25,Direct,20,0.16,69.2,Bronze,True
+C-ADV-00303,2023-05-27,Search,59,0.33,20.66,Bronze,False
+C-ADV-00304,2023-08-25,Email,53,0.26,72.42,Bronze,False
+C-ADV-00305,2023-10-20,Social Media,38,0.11,25.62,Platinum,True
+C-ADV-00306,2023-02-01,Direct,24,0.12,103.72,Gold,True
+C-ADV-00307,2023-09-16,Social Media,20,0.53,138.08,Silver,False
+C-ADV-00308,2023-08-13,Email,51,0.31,23.25,Silver,True
+C-ADV-00309,2023-07-10,Referral,42,0.44,7.64,Platinum,True
+C-ADV-00310,2023-12-14,Email,21,0.34,67.39,Gold,True
+C-ADV-00311,2023-06-18,Search,53,0.18,30.48,Platinum,True
+C-ADV-00312,2023-05-10,Email,27,0.49,132.77,Gold,True
+C-ADV-00313,2023-10-26,Social Media,40,0.36,14.93,Gold,False
+C-ADV-00314,2023-03-08,Email,63,0.26,56.29,Bronze,True
+C-ADV-00315,2023-10-14,Direct,59,0.07,299.53,Gold,True
+C-ADV-00316,2023-12-10,Email,23,0.04,75.84,Platinum,True
+C-ADV-00317,2023-01-10,Referral,37,0.42,16.05,Silver,True
+C-ADV-00318,2023-06-24,Direct,30,0.5,197.94,Silver,True
+C-ADV-00319,2023-03-21,Search,36,0.11,81.02,Bronze,True
+C-ADV-00320,2023-12-05,Referral,67,0.29,12.81,Silver,False
+C-ADV-00321,2023-03-20,Social Media,29,0.09,37.61,Silver,False
+C-ADV-00322,2023-01-23,Direct,41,0.36,9.99,Silver,False
+C-ADV-00323,2023-11-09,Referral,66,0.68,192.98,Platinum,True
+C-ADV-00324,2023-10-01,Social Media,37,0.38,61.96,Platinum,True
+C-ADV-00325,2023-07-08,Email,46,0.08,182.8,Platinum,True
+C-ADV-00326,2023-07-15,Email,51,0.13,166.65,Platinum,True
+C-ADV-00327,2023-04-13,Email,26,0.17,239.26,Gold,True
+C-ADV-00328,2023-11-25,Direct,41,0.28,88.24,Bronze,True
+C-ADV-00329,2023-05-26,Search,66,0.14,348.66,Silver,True
+C-ADV-00330,2023-08-19,Email,27,0.19,181.03,Platinum,True
+C-ADV-00331,2023-04-24,Direct,40,0.05,17.82,Bronze,False
+C-ADV-00332,2023-01-28,Direct,50,0.14,153.39,Gold,True
+C-ADV-00333,2023-07-17,Search,41,0.2,32.05,Silver,True
+C-ADV-00334,2023-06-13,Search,63,0.12,3.09,Gold,True
+C-ADV-00335,2023-03-12,Search,36,0.3,87.25,Platinum,True
+C-ADV-00336,2023-12-28,Direct,46,0.39,20.57,Bronze,True
+C-ADV-00337,2023-01-10,Referral,31,0.15,78.84,Silver,False
+C-ADV-00338,2023-02-26,Referral,33,0.13,32.26,Gold,True
+C-ADV-00339,2023-01-25,Social Media,44,0.59,132.16,Platinum,True
+C-ADV-00340,2023-02-26,Direct,56,0.29,48.93,Bronze,True
+C-ADV-00341,2023-03-15,Referral,45,0.13,15.58,Bronze,True
+C-ADV-00342,2023-05-04,Email,44,0.04,24.33,Silver,True
+C-ADV-00343,2023-09-26,Referral,22,0.28,24.28,Bronze,False
+C-ADV-00344,2023-08-29,Search,58,0.2,40.63,Platinum,True
+C-ADV-00345,2023-05-10,Search,40,0.38,59.51,Bronze,True
+C-ADV-00346,2023-05-04,Search,67,0.1,34.87,Gold,True
+C-ADV-00347,2023-01-23,Referral,52,0.49,427.3,Gold,True
+C-ADV-00348,2023-12-17,Direct,62,0.47,29.12,Platinum,True
+C-ADV-00349,2023-03-11,Search,63,0.41,21.05,Platinum,True
+C-ADV-00350,2023-05-31,Social Media,20,0.08,38.07,Silver,True
+C-ADV-00351,2023-06-11,Referral,50,0.26,50.51,Platinum,False
+C-ADV-00352,2023-05-10,Search,66,0.13,202.24,Silver,True
+C-ADV-00353,2023-07-02,Search,59,0.17,12.96,Gold,True
+C-ADV-00354,2023-03-05,Referral,45,0.21,117.38,Platinum,False
+C-ADV-00355,2023-07-17,Referral,29,0.2,23.42,Platinum,False
+C-ADV-00356,2023-07-08,Email,35,0.44,31.61,Bronze,False
+C-ADV-00357,2023-02-10,Direct,56,0.27,83.4,Silver,True
+C-ADV-00358,2023-06-14,Search,23,0.15,91.95,Gold,True
+C-ADV-00359,2023-06-06,Direct,56,0.38,83.79,Platinum,True
+C-ADV-00360,2023-12-20,Direct,40,0.12,327.97,Platinum,True
+C-ADV-00361,2023-06-30,Email,45,0.28,38.35,Gold,True
+C-ADV-00362,2023-02-08,Direct,41,0.28,40.3,Silver,True
+C-ADV-00363,2023-03-15,Email,61,0.12,29.73,Platinum,True
+C-ADV-00364,2023-03-06,Search,33,0.13,31.02,Gold,True
+C-ADV-00365,2023-07-16,Email,20,0.12,39.55,Silver,False
+C-ADV-00366,2023-07-09,Referral,46,0.05,56.71,Bronze,True
+C-ADV-00367,2023-09-29,Referral,43,0.42,179.05,Gold,True
+C-ADV-00368,2023-05-08,Search,19,0.17,216.13,Silver,False
+C-ADV-00369,2023-09-23,Direct,53,0.54,27.72,Bronze,True
+C-ADV-00370,2023-05-14,Direct,31,0.59,112.57,Gold,False
+C-ADV-00371,2023-04-13,Search,26,0.32,42.89,Bronze,False
+C-ADV-00372,2023-03-30,Direct,23,0.12,62.85,Gold,True
+C-ADV-00373,2023-12-30,Search,53,0.49,49.87,Gold,True
+C-ADV-00374,2023-03-22,Social Media,68,0.2,66.42,Gold,True
+C-ADV-00375,2023-03-04,Social Media,68,0.42,161.74,Silver,True
+C-ADV-00376,2023-09-10,Search,41,0.41,21.96,Gold,False
+C-ADV-00377,2023-10-10,Social Media,57,0.28,40.32,Bronze,True
+C-ADV-00378,2023-06-08,Direct,63,0.05,83.79,Platinum,False
+C-ADV-00379,2023-07-29,Email,22,0.41,46.12,Silver,True
+C-ADV-00380,2023-11-25,Search,46,0.32,26.21,Platinum,True
+C-ADV-00381,2023-03-07,Email,58,0.37,69.29,Silver,True
+C-ADV-00382,2023-08-10,Email,21,0.25,104.93,Bronze,True
+C-ADV-00383,2023-06-05,Social Media,28,0.7,8.75,Gold,True
+C-ADV-00384,2023-06-27,Email,36,0.37,185.27,Bronze,True
+C-ADV-00385,2023-04-11,Email,35,0.51,11.0,Silver,True
+C-ADV-00386,2023-11-11,Email,23,0.14,100.6,Silver,True
+C-ADV-00387,2023-03-29,Email,64,0.16,29.61,Gold,True
+C-ADV-00388,2023-01-15,Search,20,0.28,6.9,Gold,True
+C-ADV-00389,2023-10-20,Direct,57,0.06,40.08,Bronze,False
+C-ADV-00390,2023-11-18,Email,36,0.13,837.87,Gold,False
+C-ADV-00391,2023-05-06,Direct,37,0.19,39.68,Platinum,True
+C-ADV-00392,2023-12-19,Search,28,0.15,160.16,Platinum,False
+C-ADV-00393,2023-09-05,Direct,31,0.3,71.32,Gold,True
+C-ADV-00394,2023-06-10,Referral,64,0.26,31.74,Gold,False
+C-ADV-00395,2023-03-08,Referral,50,0.18,273.75,Bronze,True
+C-ADV-00396,2023-05-04,Direct,25,0.5,5.99,Gold,False
+C-ADV-00397,2023-05-07,Social Media,24,0.33,43.6,Bronze,True
+C-ADV-00398,2023-07-16,Email,44,0.11,173.66,Silver,True
+C-ADV-00399,2023-06-17,Email,64,0.25,141.62,Gold,True
+C-ADV-00400,2023-03-23,Direct,50,0.3,25.93,Platinum,False
+C-ADV-00401,2023-06-07,Direct,19,0.28,31.54,Bronze,False
+C-ADV-00402,2023-09-16,Direct,33,0.53,113.6,Silver,True
+C-ADV-00403,2023-01-25,Search,36,0.37,16.55,Platinum,False
+C-ADV-00404,2023-05-27,Email,18,0.43,228.93,Bronze,False
+C-ADV-00405,2023-03-10,Referral,64,0.28,120.72,Gold,False
+C-ADV-00406,2023-07-07,Search,43,0.03,119.05,Bronze,True
+C-ADV-00407,2023-07-05,Email,36,0.14,40.12,Bronze,False
+C-ADV-00408,2023-09-16,Direct,66,0.38,46.46,Gold,True
+C-ADV-00409,2023-03-07,Search,43,0.2,143.29,Gold,True
+C-ADV-00410,2023-10-13,Referral,66,0.32,34.39,Silver,True
+C-ADV-00411,2023-11-05,Email,43,0.2,35.29,Bronze,True
+C-ADV-00412,2023-01-20,Social Media,63,0.36,38.02,Gold,False
+C-ADV-00413,2023-09-23,Direct,27,0.13,109.61,Silver,True
+C-ADV-00414,2023-11-10,Referral,28,0.38,12.35,Platinum,True
+C-ADV-00415,2023-10-31,Referral,50,0.1,103.34,Platinum,True
+C-ADV-00416,2023-09-01,Search,41,0.47,22.8,Gold,True
+C-ADV-00417,2023-08-02,Email,37,0.28,7.54,Bronze,False
+C-ADV-00418,2023-05-16,Email,54,0.4,18.03,Silver,True
+C-ADV-00419,2023-10-26,Direct,28,0.15,386.97,Platinum,True
+C-ADV-00420,2023-12-15,Social Media,20,0.32,11.89,Bronze,True
+C-ADV-00421,2023-01-10,Direct,38,0.28,87.16,Platinum,True
+C-ADV-00422,2023-07-31,Social Media,44,0.19,48.2,Platinum,True
+C-ADV-00423,2023-12-28,Social Media,51,0.07,51.86,Silver,True
+C-ADV-00424,2023-12-06,Direct,51,0.12,69.44,Platinum,True
+C-ADV-00425,2023-03-30,Direct,52,0.01,68.25,Gold,True
+C-ADV-00426,2023-12-13,Referral,57,0.48,175.18,Platinum,True
+C-ADV-00427,2023-05-07,Referral,53,0.19,2.89,Gold,True
+C-ADV-00428,2023-06-02,Referral,63,0.58,36.24,Silver,False
+C-ADV-00429,2023-06-12,Direct,40,0.2,129.33,Gold,True
+C-ADV-00430,2023-03-04,Email,61,0.14,91.38,Platinum,False
+C-ADV-00431,2023-06-26,Social Media,36,0.3,116.08,Bronze,True
+C-ADV-00432,2024-01-01,Search,40,0.31,24.04,Platinum,True
+C-ADV-00433,2023-09-03,Social Media,30,0.33,47.25,Gold,True
+C-ADV-00434,2023-03-12,Search,57,0.29,56.27,Silver,True
+C-ADV-00435,2023-01-26,Email,32,0.36,24.12,Silver,True
+C-ADV-00436,2023-02-21,Direct,39,0.23,20.13,Platinum,True
+C-ADV-00437,2023-12-15,Social Media,18,0.11,44.98,Silver,False
+C-ADV-00438,2023-12-01,Direct,48,0.08,10.46,Silver,True
+C-ADV-00439,2023-06-14,Referral,59,0.84,65.62,Bronze,True
+C-ADV-00440,2023-11-30,Email,32,0.16,126.9,Bronze,True
+C-ADV-00441,2023-08-02,Social Media,20,0.25,862.35,Platinum,False
+C-ADV-00442,2023-04-06,Referral,20,0.11,76.34,Bronze,True
+C-ADV-00443,2023-10-18,Email,24,0.19,167.51,Gold,True
+C-ADV-00444,2023-08-21,Email,51,0.17,23.14,Platinum,True
+C-ADV-00445,2023-09-16,Direct,35,0.61,24.06,Silver,True
+C-ADV-00446,2023-06-19,Social Media,64,0.5,43.54,Platinum,True
+C-ADV-00447,2023-04-06,Search,65,0.35,30.49,Gold,True
+C-ADV-00448,2023-10-18,Social Media,29,0.66,92.04,Platinum,False
+C-ADV-00449,2023-09-21,Referral,23,0.14,66.51,Platinum,True
+C-ADV-00450,2023-04-05,Social Media,48,0.32,82.1,Gold,True
+C-ADV-00451,2023-01-04,Referral,42,0.41,5.49,Silver,False
+C-ADV-00452,2023-05-17,Referral,37,0.16,187.75,Bronze,True
+C-ADV-00453,2023-12-01,Referral,62,0.17,17.48,Silver,True
+C-ADV-00454,2023-12-08,Search,47,0.2,26.0,Gold,True
+C-ADV-00455,2023-07-27,Email,63,0.28,168.25,Gold,True
+C-ADV-00456,2023-11-24,Referral,41,0.59,22.68,Silver,True
+C-ADV-00457,2023-03-10,Direct,27,0.08,20.04,Platinum,True
+C-ADV-00458,2023-08-01,Email,48,0.12,43.9,Silver,True
+C-ADV-00459,2023-12-15,Email,68,0.0,119.65,Bronze,False
+C-ADV-00460,2023-09-28,Referral,22,0.35,156.59,Bronze,True
+C-ADV-00461,2023-10-08,Email,30,0.14,55.68,Silver,True
+C-ADV-00462,2023-06-17,Email,46,0.21,145.6,Bronze,True
+C-ADV-00463,2023-10-26,Direct,23,0.26,12.58,Platinum,True
+C-ADV-00464,2023-08-21,Social Media,50,0.59,106.72,Platinum,False
+C-ADV-00465,2023-10-16,Search,53,0.58,23.84,Platinum,True
+C-ADV-00466,2023-01-12,Direct,34,0.22,27.25,Bronze,True
+C-ADV-00467,2023-10-24,Search,20,0.26,68.77,Platinum,True
+C-ADV-00468,2023-12-25,Search,52,0.29,76.62,Bronze,True
+C-ADV-00469,2023-08-30,Search,36,0.21,69.86,Platinum,True
+C-ADV-00470,2023-03-11,Direct,41,0.05,103.39,Platinum,False
+C-ADV-00471,2023-07-13,Direct,23,0.16,50.6,Silver,True
+C-ADV-00472,2023-03-02,Social Media,52,0.12,54.81,Platinum,True
+C-ADV-00473,2023-04-25,Search,66,0.07,38.19,Bronze,True
+C-ADV-00474,2023-08-26,Email,45,0.79,44.67,Platinum,True
+C-ADV-00475,2023-05-07,Direct,40,0.12,98.35,Silver,True
+C-ADV-00476,2023-04-07,Search,20,0.24,26.67,Platinum,True
+C-ADV-00477,2023-05-04,Social Media,22,0.25,55.65,Bronze,True
+C-ADV-00478,2023-08-17,Email,61,0.39,219.75,Bronze,True
+C-ADV-00479,2023-01-23,Direct,46,0.3,77.91,Silver,True
+C-ADV-00480,2023-01-29,Social Media,50,0.38,27.23,Gold,True
+C-ADV-00481,2023-10-22,Referral,54,0.14,71.23,Gold,True
+C-ADV-00482,2023-06-04,Social Media,60,0.31,25.59,Silver,False
+C-ADV-00483,2023-06-03,Referral,21,0.09,204.65,Silver,False
+C-ADV-00484,2023-10-12,Direct,21,0.29,179.82,Gold,False
+C-ADV-00485,2023-09-26,Referral,62,0.39,133.3,Platinum,False
+C-ADV-00486,2023-03-18,Referral,42,0.21,11.87,Silver,False
+C-ADV-00487,2023-05-04,Social Media,37,0.31,108.45,Silver,False
+C-ADV-00488,2023-01-30,Email,44,0.03,24.41,Platinum,True
+C-ADV-00489,2023-07-18,Social Media,34,0.43,137.23,Silver,True
+C-ADV-00490,2023-11-28,Search,46,0.73,31.48,Gold,True
+C-ADV-00491,2023-10-02,Social Media,21,0.4,66.62,Gold,False
+C-ADV-00492,2023-12-11,Email,56,0.14,21.07,Bronze,True
+C-ADV-00493,2023-04-07,Email,64,0.56,75.16,Silver,False
+C-ADV-00494,2023-04-17,Referral,37,0.46,19.63,Bronze,True
+C-ADV-00495,2023-04-08,Search,65,0.51,9.72,Platinum,True
+C-ADV-00496,2023-12-23,Email,63,0.12,97.48,Silver,False
+C-ADV-00497,2023-05-03,Email,38,0.41,30.04,Gold,False
+C-ADV-00498,2023-08-27,Email,59,0.55,68.62,Gold,True
+C-ADV-00499,2023-05-14,Referral,50,0.12,104.63,Platinum,False
+C-ADV-00500,2023-02-20,Direct,66,0.05,121.92,Gold,True
+C-ADV-00501,2023-07-09,Referral,44,0.49,132.64,Bronze,True
+C-ADV-00502,2023-03-16,Search,34,0.4,35.78,Platinum,True
+C-ADV-00503,2023-03-20,Social Media,39,0.43,18.17,Silver,False
+C-ADV-00504,2023-10-19,Social Media,49,0.33,5.0,Gold,True
+C-ADV-00505,2023-09-08,Direct,47,0.2,127.63,Silver,True
+C-ADV-00506,2023-03-28,Social Media,64,0.22,66.23,Platinum,True
+C-ADV-00507,2023-10-05,Search,51,0.46,28.21,Bronze,True
+C-ADV-00508,2023-12-09,Search,66,0.21,20.16,Bronze,False
+C-ADV-00509,2023-03-12,Social Media,22,0.26,23.04,Silver,True
+C-ADV-00510,2023-04-22,Email,47,0.25,165.93,Gold,True
+C-ADV-00511,2023-11-13,Email,48,0.59,63.02,Platinum,True
+C-ADV-00512,2023-01-04,Email,53,0.2,184.52,Platinum,True
+C-ADV-00513,2023-01-09,Email,64,0.18,9.9,Gold,True
+C-ADV-00514,2023-01-09,Email,70,0.21,218.6,Platinum,True
+C-ADV-00515,2023-02-24,Search,51,0.48,14.5,Silver,True
+C-ADV-00516,2023-04-09,Email,51,0.27,14.46,Gold,True
+C-ADV-00517,2023-05-17,Direct,23,0.3,21.67,Gold,False
+C-ADV-00518,2023-08-24,Email,33,0.09,23.84,Silver,True
+C-ADV-00519,2023-12-17,Search,59,0.24,20.01,Bronze,True
+C-ADV-00520,2023-07-27,Direct,42,0.24,50.23,Platinum,True
+C-ADV-00521,2023-11-23,Search,62,0.17,208.61,Silver,True
+C-ADV-00522,2023-09-13,Direct,59,0.34,105.17,Gold,True
+C-ADV-00523,2023-09-28,Search,32,0.06,76.75,Silver,False
+C-ADV-00524,2023-05-19,Search,22,0.43,57.04,Gold,True
+C-ADV-00525,2023-04-02,Referral,19,0.18,51.31,Silver,True
+C-ADV-00526,2023-12-31,Direct,22,0.18,23.0,Gold,True
+C-ADV-00527,2023-10-16,Social Media,54,0.25,124.72,Platinum,True
+C-ADV-00528,2023-07-16,Social Media,68,0.57,261.97,Bronze,True
+C-ADV-00529,2023-01-28,Search,45,0.52,71.06,Silver,True
+C-ADV-00530,2023-06-24,Email,67,0.27,27.15,Platinum,True
+C-ADV-00531,2023-01-16,Referral,68,0.15,26.69,Platinum,False
+C-ADV-00532,2023-04-27,Referral,53,0.4,82.09,Platinum,False
+C-ADV-00533,2023-04-06,Email,60,0.32,114.74,Platinum,True
+C-ADV-00534,2023-11-13,Referral,69,0.4,45.37,Silver,True
+C-ADV-00535,2023-02-12,Referral,27,0.12,580.49,Platinum,True
+C-ADV-00536,2023-07-19,Referral,41,0.42,464.7,Bronze,True
+C-ADV-00537,2023-01-03,Referral,46,0.2,304.72,Gold,True
+C-ADV-00538,2023-02-22,Social Media,23,0.33,33.82,Silver,False
+C-ADV-00539,2023-08-18,Email,53,0.05,8.01,Platinum,True
+C-ADV-00540,2023-01-14,Search,40,0.39,313.95,Bronze,True
+C-ADV-00541,2023-07-17,Search,36,0.14,41.27,Platinum,False
+C-ADV-00542,2023-02-13,Email,33,0.47,27.27,Silver,False
+C-ADV-00543,2023-03-28,Social Media,35,0.44,23.92,Gold,True
+C-ADV-00544,2023-09-10,Social Media,22,0.02,27.99,Silver,False
+C-ADV-00545,2023-05-22,Direct,37,0.43,75.78,Platinum,True
+C-ADV-00546,2023-07-04,Referral,33,0.37,158.36,Platinum,True
+C-ADV-00547,2023-08-23,Search,26,0.03,39.9,Gold,True
+C-ADV-00548,2023-07-22,Referral,57,0.27,18.12,Platinum,True
+C-ADV-00549,2023-08-14,Referral,45,0.27,21.79,Silver,True
+C-ADV-00550,2023-06-14,Email,62,0.16,41.22,Silver,False
+C-ADV-00551,2023-06-10,Social Media,43,0.35,40.11,Gold,True
+C-ADV-00552,2023-12-22,Direct,54,0.07,26.13,Silver,True
+C-ADV-00553,2023-07-12,Referral,70,0.11,440.73,Platinum,True
+C-ADV-00554,2023-02-28,Email,30,0.77,54.62,Silver,True
+C-ADV-00555,2023-08-25,Social Media,46,0.08,137.59,Gold,True
+C-ADV-00556,2023-07-29,Direct,26,0.41,84.22,Gold,True
+C-ADV-00557,2023-05-10,Social Media,63,0.11,43.18,Platinum,False
+C-ADV-00558,2023-02-07,Direct,56,0.01,52.16,Platinum,False
+C-ADV-00559,2023-10-01,Email,62,0.09,147.95,Platinum,True
+C-ADV-00560,2023-07-04,Email,56,0.44,6.78,Bronze,True
+C-ADV-00561,2023-05-08,Referral,28,0.38,44.57,Bronze,False
+C-ADV-00562,2023-06-19,Direct,24,0.18,41.44,Bronze,True
+C-ADV-00563,2023-05-13,Social Media,50,0.48,67.44,Silver,False
+C-ADV-00564,2023-07-11,Direct,47,0.14,18.58,Silver,True
+C-ADV-00565,2023-01-13,Direct,24,0.21,45.4,Gold,False
+C-ADV-00566,2023-02-13,Search,64,0.56,44.3,Silver,True
+C-ADV-00567,2023-06-09,Referral,47,0.5,106.52,Silver,False
+C-ADV-00568,2023-06-28,Direct,24,0.43,17.39,Platinum,False
+C-ADV-00569,2023-06-13,Search,37,0.17,109.72,Bronze,True
+C-ADV-00570,2023-01-12,Referral,59,0.3,93.82,Bronze,True
+C-ADV-00571,2023-05-05,Email,29,0.46,139.95,Silver,True
+C-ADV-00572,2023-10-14,Direct,47,0.38,29.07,Silver,False
+C-ADV-00573,2023-11-19,Social Media,29,0.15,13.39,Platinum,False
+C-ADV-00574,2023-01-15,Email,30,0.09,173.45,Platinum,False
+C-ADV-00575,2023-07-19,Search,63,0.26,128.32,Silver,True
+C-ADV-00576,2023-05-23,Search,54,0.28,24.11,Bronze,True
+C-ADV-00577,2023-07-07,Referral,30,0.15,13.91,Platinum,True
+C-ADV-00578,2023-05-15,Direct,51,0.37,21.13,Gold,False
+C-ADV-00579,2023-11-09,Direct,55,0.44,11.42,Bronze,True
+C-ADV-00580,2023-06-30,Direct,57,0.06,106.78,Silver,True
+C-ADV-00581,2023-11-11,Email,23,0.2,74.9,Silver,True
+C-ADV-00582,2023-03-02,Social Media,37,0.16,174.41,Bronze,True
+C-ADV-00583,2023-07-11,Social Media,50,0.23,42.77,Platinum,False
+C-ADV-00584,2023-11-02,Social Media,54,0.52,16.42,Platinum,False
+C-ADV-00585,2023-04-06,Direct,58,0.31,206.22,Silver,True
+C-ADV-00586,2023-09-08,Referral,26,0.25,279.76,Silver,True
+C-ADV-00587,2023-08-19,Email,21,0.12,90.0,Gold,True
+C-ADV-00588,2023-09-06,Social Media,30,0.09,95.63,Platinum,False
+C-ADV-00589,2023-07-29,Direct,44,0.28,385.35,Platinum,False
+C-ADV-00590,2023-03-27,Search,54,0.15,46.51,Bronze,True
+C-ADV-00591,2023-05-30,Search,35,0.55,25.98,Silver,True
+C-ADV-00592,2023-03-28,Direct,54,0.31,79.32,Platinum,True
+C-ADV-00593,2023-10-21,Search,35,0.62,258.31,Gold,True
+C-ADV-00594,2023-08-14,Email,31,0.52,1166.71,Platinum,True
+C-ADV-00595,2023-12-01,Social Media,37,0.43,315.92,Bronze,False
+C-ADV-00596,2023-05-15,Referral,70,0.6,47.04,Bronze,False
+C-ADV-00597,2023-03-02,Social Media,31,0.09,102.47,Gold,False
+C-ADV-00598,2023-03-26,Email,26,0.13,58.84,Silver,True
+C-ADV-00599,2023-01-31,Email,40,0.2,44.44,Gold,True
+C-ADV-00600,2023-06-15,Referral,36,0.21,26.98,Gold,True
+C-ADV-00601,2023-03-11,Direct,21,0.21,51.33,Gold,True
+C-ADV-00602,2023-12-26,Social Media,33,0.41,156.32,Silver,True
+C-ADV-00603,2023-05-07,Direct,49,0.22,34.6,Silver,True
+C-ADV-00604,2023-11-18,Direct,42,0.33,76.1,Platinum,True
+C-ADV-00605,2023-11-21,Search,43,0.35,38.11,Gold,True
+C-ADV-00606,2023-08-21,Direct,38,0.45,55.59,Bronze,True
+C-ADV-00607,2023-08-23,Referral,22,0.46,136.37,Platinum,True
+C-ADV-00608,2023-08-08,Social Media,49,0.29,5.36,Gold,True
+C-ADV-00609,2023-05-26,Referral,53,0.44,80.95,Silver,False
+C-ADV-00610,2023-06-25,Search,20,0.08,33.14,Bronze,False
+C-ADV-00611,2023-01-09,Search,28,0.15,141.38,Platinum,False
+C-ADV-00612,2023-01-01,Direct,30,0.25,7.66,Silver,True
+C-ADV-00613,2023-03-23,Referral,23,0.25,366.55,Gold,True
+C-ADV-00614,2023-02-12,Referral,60,0.66,105.71,Silver,True
+C-ADV-00615,2023-07-22,Referral,64,0.63,30.3,Silver,False
+C-ADV-00616,2023-12-02,Search,63,0.12,35.5,Bronze,True
+C-ADV-00617,2023-04-20,Direct,22,0.11,26.63,Silver,True
+C-ADV-00618,2023-09-23,Direct,18,0.2,87.21,Bronze,True
+C-ADV-00619,2023-03-03,Direct,62,0.09,23.6,Silver,False
+C-ADV-00620,2023-02-06,Social Media,42,0.13,79.46,Bronze,True
+C-ADV-00621,2023-02-22,Referral,41,0.15,52.93,Gold,True
+C-ADV-00622,2023-07-15,Social Media,59,0.18,26.24,Silver,True
+C-ADV-00623,2023-09-29,Email,18,0.08,3.5,Silver,False
+C-ADV-00624,2023-06-29,Social Media,58,0.13,37.89,Silver,False
+C-ADV-00625,2023-11-12,Direct,31,0.57,90.76,Bronze,True
+C-ADV-00626,2023-03-13,Search,55,0.74,32.72,Platinum,True
+C-ADV-00627,2023-08-08,Referral,68,0.2,30.88,Silver,True
+C-ADV-00628,2023-05-22,Search,33,0.41,31.62,Gold,True
+C-ADV-00629,2023-12-04,Referral,31,0.13,26.29,Silver,False
+C-ADV-00630,2023-06-01,Search,68,0.31,61.18,Silver,False
+C-ADV-00631,2023-07-17,Search,33,0.18,44.94,Platinum,True
+C-ADV-00632,2023-09-28,Search,41,0.21,66.41,Gold,True
+C-ADV-00633,2023-07-18,Email,44,0.39,22.44,Gold,True
+C-ADV-00634,2023-08-30,Search,19,0.31,154.22,Bronze,True
+C-ADV-00635,2023-05-15,Social Media,20,0.19,147.91,Bronze,False
+C-ADV-00636,2023-09-17,Referral,58,0.23,17.21,Platinum,False
+C-ADV-00637,2023-12-26,Direct,23,0.45,59.45,Silver,True
+C-ADV-00638,2023-02-12,Referral,23,0.0,37.63,Silver,True
+C-ADV-00639,2023-10-02,Referral,43,0.21,21.14,Bronze,True
+C-ADV-00640,2023-12-24,Direct,64,0.55,98.88,Silver,True
+C-ADV-00641,2023-05-06,Search,45,0.19,185.51,Bronze,False
+C-ADV-00642,2023-11-10,Email,21,0.21,302.68,Gold,True
+C-ADV-00643,2023-03-03,Search,63,0.05,135.82,Silver,True
+C-ADV-00644,2023-03-25,Direct,40,0.21,190.84,Gold,True
+C-ADV-00645,2023-07-10,Social Media,65,0.2,10.43,Gold,True
+C-ADV-00646,2023-01-16,Referral,69,0.11,90.59,Platinum,True
+C-ADV-00647,2023-09-26,Search,34,0.06,99.7,Bronze,False
+C-ADV-00648,2023-08-22,Email,41,0.17,9.54,Bronze,False
+C-ADV-00649,2023-10-18,Social Media,41,0.61,23.09,Silver,True
+C-ADV-00650,2023-02-22,Email,61,0.31,13.24,Bronze,True
+C-ADV-00651,2023-09-18,Search,20,0.26,34.09,Bronze,True
+C-ADV-00652,2023-01-24,Direct,41,0.03,18.58,Platinum,True
+C-ADV-00653,2023-04-02,Search,53,0.32,3.22,Platinum,True
+C-ADV-00654,2023-06-14,Social Media,44,0.31,24.72,Gold,True
+C-ADV-00655,2023-02-09,Email,41,0.02,85.56,Bronze,True
+C-ADV-00656,2023-04-02,Social Media,69,0.31,64.11,Bronze,False
+C-ADV-00657,2023-02-05,Direct,36,0.3,64.75,Gold,True
+C-ADV-00658,2023-02-14,Email,47,0.41,43.97,Bronze,True
+C-ADV-00659,2023-04-13,Referral,54,0.11,39.01,Gold,True
+C-ADV-00660,2023-08-26,Referral,55,0.04,18.74,Platinum,True
+C-ADV-00661,2023-10-07,Social Media,27,0.07,66.98,Bronze,False
+C-ADV-00662,2023-01-13,Social Media,52,0.24,16.45,Gold,True
+C-ADV-00663,2023-06-21,Search,66,0.39,75.31,Platinum,True
+C-ADV-00664,2023-02-23,Social Media,51,0.34,214.95,Silver,False
+C-ADV-00665,2023-09-09,Search,27,0.46,279.18,Gold,True
+C-ADV-00666,2023-01-23,Social Media,51,0.57,63.55,Platinum,True
+C-ADV-00667,2023-08-23,Search,55,0.71,17.86,Bronze,True
+C-ADV-00668,2023-11-23,Direct,22,0.42,107.01,Bronze,False
+C-ADV-00669,2023-12-06,Social Media,33,0.06,83.06,Gold,True
+C-ADV-00670,2023-06-11,Direct,62,0.61,209.91,Gold,True
+C-ADV-00671,2023-08-20,Referral,32,0.11,159.27,Bronze,True
+C-ADV-00672,2023-03-11,Email,24,0.47,5.77,Silver,True
+C-ADV-00673,2023-03-26,Direct,47,0.49,16.29,Gold,False
+C-ADV-00674,2023-03-03,Email,40,0.16,17.59,Silver,False
+C-ADV-00675,2023-06-07,Direct,34,0.27,38.17,Bronze,True
+C-ADV-00676,2023-03-22,Referral,70,0.19,38.14,Bronze,True
+C-ADV-00677,2023-06-17,Social Media,23,0.26,52.58,Silver,True
+C-ADV-00678,2023-07-22,Email,21,0.32,19.7,Gold,True
+C-ADV-00679,2023-03-31,Search,43,0.32,6.51,Platinum,True
+C-ADV-00680,2023-02-18,Direct,24,0.48,103.1,Silver,True
+C-ADV-00681,2023-01-07,Search,67,0.19,22.27,Silver,True
+C-ADV-00682,2023-04-12,Direct,41,0.46,7.91,Bronze,True
+C-ADV-00683,2023-02-08,Search,22,0.28,60.91,Silver,False
+C-ADV-00684,2023-03-07,Search,69,0.29,24.38,Gold,True
+C-ADV-00685,2023-01-22,Direct,21,0.11,63.95,Silver,False
+C-ADV-00686,2023-07-22,Direct,19,0.6,92.15,Platinum,False
+C-ADV-00687,2023-03-30,Referral,31,0.31,25.73,Silver,True
+C-ADV-00688,2023-05-24,Direct,27,0.52,37.51,Bronze,True
+C-ADV-00689,2023-11-28,Referral,49,0.54,206.56,Platinum,False
+C-ADV-00690,2023-02-01,Search,35,0.22,100.01,Platinum,True
+C-ADV-00691,2023-08-03,Social Media,59,0.48,111.31,Silver,True
+C-ADV-00692,2023-07-15,Referral,48,0.05,171.5,Platinum,True
+C-ADV-00693,2023-10-17,Email,38,0.28,83.55,Platinum,True
+C-ADV-00694,2023-04-03,Search,38,0.45,106.0,Silver,True
+C-ADV-00695,2023-05-24,Search,69,0.11,85.73,Platinum,True
+C-ADV-00696,2023-10-27,Social Media,28,0.25,9.77,Bronze,True
+C-ADV-00697,2023-12-03,Social Media,35,0.62,112.33,Bronze,True
+C-ADV-00698,2023-10-22,Direct,40,0.52,159.63,Silver,True
+C-ADV-00699,2023-05-02,Email,38,0.41,190.49,Gold,True
+C-ADV-00700,2023-12-27,Referral,54,0.19,45.35,Silver,True
+C-ADV-00701,2023-09-10,Email,37,0.32,369.23,Silver,False
+C-ADV-00702,2023-01-20,Search,21,0.26,276.5,Silver,True
+C-ADV-00703,2023-01-11,Email,48,0.75,157.39,Bronze,True
+C-ADV-00704,2023-11-11,Social Media,69,0.13,365.61,Silver,True
+C-ADV-00705,2023-04-01,Referral,21,0.24,157.29,Bronze,True
+C-ADV-00706,2023-10-28,Social Media,67,0.23,104.86,Bronze,True
+C-ADV-00707,2023-02-07,Referral,63,0.12,57.17,Platinum,True
+C-ADV-00708,2023-06-22,Referral,38,0.6,25.53,Silver,True
+C-ADV-00709,2023-08-12,Direct,59,0.23,112.3,Gold,True
+C-ADV-00710,2023-12-29,Email,62,0.13,100.32,Gold,True
+C-ADV-00711,2023-12-07,Email,70,0.86,131.16,Silver,False
+C-ADV-00712,2023-06-07,Referral,26,0.11,52.9,Silver,True
+C-ADV-00713,2023-12-26,Email,43,0.2,76.56,Bronze,True
+C-ADV-00714,2023-11-05,Referral,69,0.3,24.72,Silver,True
+C-ADV-00715,2023-09-12,Social Media,39,0.19,19.57,Bronze,True
+C-ADV-00716,2023-06-27,Referral,28,0.34,115.01,Bronze,True
+C-ADV-00717,2023-08-17,Search,34,0.29,19.79,Silver,True
+C-ADV-00718,2023-12-21,Search,40,0.24,702.53,Gold,True
+C-ADV-00719,2023-01-01,Search,42,0.16,22.11,Platinum,False
+C-ADV-00720,2023-03-27,Direct,49,0.52,391.84,Platinum,True
+C-ADV-00721,2023-10-07,Direct,24,0.19,11.64,Platinum,True
+C-ADV-00722,2023-03-25,Direct,22,0.21,32.49,Bronze,True
+C-ADV-00723,2023-01-11,Referral,34,0.52,329.1,Bronze,True
+C-ADV-00724,2023-06-25,Social Media,42,0.22,185.62,Silver,True
+C-ADV-00725,2023-10-08,Search,39,0.12,267.89,Platinum,True
+C-ADV-00726,2023-08-09,Social Media,56,0.41,45.54,Platinum,True
+C-ADV-00727,2023-01-28,Search,39,0.16,20.5,Silver,True
+C-ADV-00728,2023-07-29,Email,64,0.05,44.11,Gold,True
+C-ADV-00729,2023-06-02,Social Media,24,0.5,385.01,Bronze,False
+C-ADV-00730,2023-10-20,Email,49,0.24,629.28,Silver,True
+C-ADV-00731,2023-07-04,Search,45,0.36,19.61,Bronze,True
+C-ADV-00732,2023-12-05,Email,48,0.13,59.19,Silver,True
+C-ADV-00733,2023-01-14,Social Media,28,0.15,152.47,Gold,True
+C-ADV-00734,2023-08-31,Search,37,0.19,44.51,Platinum,False
+C-ADV-00735,2023-09-08,Referral,23,0.39,50.62,Platinum,True
+C-ADV-00736,2023-07-09,Direct,41,0.15,181.72,Silver,False
+C-ADV-00737,2023-01-23,Referral,46,0.16,36.44,Platinum,True
+C-ADV-00738,2023-04-26,Referral,54,0.12,95.54,Bronze,True
+C-ADV-00739,2023-12-23,Search,23,0.13,4.34,Gold,False
+C-ADV-00740,2023-10-29,Social Media,53,0.25,30.27,Bronze,False
+C-ADV-00741,2023-09-25,Direct,52,0.22,23.76,Platinum,True
+C-ADV-00742,2023-09-01,Referral,23,0.34,40.71,Platinum,True
+C-ADV-00743,2023-09-15,Email,51,0.07,82.95,Silver,True
+C-ADV-00744,2023-08-18,Social Media,28,0.5,188.89,Silver,True
+C-ADV-00745,2023-03-06,Search,45,0.3,49.51,Bronze,False
+C-ADV-00746,2023-04-14,Social Media,56,0.07,221.49,Gold,True
+C-ADV-00747,2023-02-04,Search,42,0.28,17.44,Platinum,True
+C-ADV-00748,2023-05-22,Email,47,0.11,31.87,Bronze,False
+C-ADV-00749,2023-02-27,Direct,27,0.66,425.38,Silver,True
+C-ADV-00750,2023-02-24,Email,67,0.22,61.96,Bronze,True
+C-ADV-00751,2023-10-02,Referral,44,0.15,151.95,Gold,False
+C-ADV-00752,2023-12-02,Direct,54,0.5,33.52,Platinum,True
+C-ADV-00753,2023-03-30,Referral,43,0.4,50.36,Silver,False
+C-ADV-00754,2023-01-20,Direct,39,0.06,75.13,Silver,True
+C-ADV-00755,2023-09-01,Referral,41,0.21,6.65,Bronze,True
+C-ADV-00756,2023-06-05,Referral,35,0.06,60.97,Platinum,True
+C-ADV-00757,2023-04-27,Social Media,37,0.45,11.05,Platinum,True
+C-ADV-00758,2023-05-18,Direct,56,0.26,22.25,Bronze,True
+C-ADV-00759,2023-08-15,Social Media,70,0.09,57.47,Platinum,False
+C-ADV-00760,2023-09-22,Referral,70,0.08,160.44,Bronze,True
+C-ADV-00761,2023-02-03,Referral,63,0.73,24.64,Platinum,True
+C-ADV-00762,2023-09-26,Email,19,0.63,164.69,Silver,True
+C-ADV-00763,2023-04-13,Search,33,0.07,30.51,Bronze,False
+C-ADV-00764,2023-01-26,Referral,63,0.37,32.41,Silver,True
+C-ADV-00765,2023-07-08,Direct,50,0.31,444.01,Platinum,True
+C-ADV-00766,2023-12-15,Search,33,0.38,29.25,Gold,False
+C-ADV-00767,2023-11-01,Direct,29,0.53,108.53,Platinum,True
+C-ADV-00768,2023-06-26,Social Media,34,0.53,29.61,Bronze,True
+C-ADV-00769,2023-01-15,Direct,21,0.15,8.67,Silver,True
+C-ADV-00770,2023-04-24,Social Media,61,0.25,38.09,Silver,True
+C-ADV-00771,2023-11-30,Direct,50,0.39,6.11,Bronze,True
+C-ADV-00772,2023-08-31,Social Media,59,0.45,57.39,Silver,True
+C-ADV-00773,2023-04-25,Referral,56,0.21,40.55,Gold,True
+C-ADV-00774,2023-08-05,Direct,40,0.45,124.79,Platinum,True
+C-ADV-00775,2023-04-22,Direct,37,0.19,457.04,Platinum,True
+C-ADV-00776,2023-01-04,Email,60,0.55,66.69,Gold,True
+C-ADV-00777,2023-06-02,Search,48,0.42,188.59,Bronze,True
+C-ADV-00778,2023-05-22,Referral,35,0.13,178.14,Gold,True
+C-ADV-00779,2023-04-07,Social Media,51,0.76,20.63,Silver,True
+C-ADV-00780,2023-11-04,Direct,60,0.45,85.7,Gold,True
+C-ADV-00781,2023-01-14,Direct,36,0.56,25.03,Gold,False
+C-ADV-00782,2023-07-27,Direct,65,0.37,65.86,Bronze,True
+C-ADV-00783,2023-06-25,Social Media,61,0.3,20.37,Platinum,True
+C-ADV-00784,2023-09-17,Referral,28,0.18,276.58,Silver,True
+C-ADV-00785,2023-02-19,Direct,26,0.04,23.7,Gold,True
+C-ADV-00786,2023-12-15,Referral,59,0.48,28.84,Bronze,True
+C-ADV-00787,2023-07-01,Social Media,65,0.18,38.9,Gold,False
+C-ADV-00788,2023-06-19,Referral,34,0.51,17.17,Gold,False
+C-ADV-00789,2023-03-02,Direct,21,0.13,70.72,Bronze,False
+C-ADV-00790,2023-04-10,Email,25,0.36,83.36,Platinum,True
+C-ADV-00791,2023-07-31,Search,27,0.25,64.1,Silver,True
+C-ADV-00792,2023-06-25,Direct,54,0.47,29.51,Platinum,True
+C-ADV-00793,2023-06-11,Social Media,67,0.6,47.36,Bronze,False
+C-ADV-00794,2023-06-20,Social Media,38,0.28,26.52,Bronze,True
+C-ADV-00795,2023-08-20,Referral,31,0.08,58.74,Silver,True
+C-ADV-00796,2023-09-08,Search,26,0.27,156.02,Platinum,False
+C-ADV-00797,2023-07-26,Direct,48,0.2,655.36,Platinum,True
+C-ADV-00798,2023-01-20,Email,30,0.27,79.66,Gold,True
+C-ADV-00799,2023-06-14,Email,30,0.34,30.82,Bronze,True
+C-ADV-00800,2023-11-17,Social Media,32,0.31,65.84,Gold,True
+C-ADV-00801,2023-03-08,Search,42,0.19,32.31,Gold,True
+C-ADV-00802,2023-02-03,Search,37,0.46,41.92,Gold,False
+C-ADV-00803,2023-09-24,Email,51,0.15,150.3,Gold,False
+C-ADV-00804,2023-12-18,Social Media,39,0.36,55.95,Platinum,True
+C-ADV-00805,2023-04-07,Social Media,69,0.25,10.61,Platinum,True
+C-ADV-00806,2023-04-27,Social Media,64,0.04,33.62,Silver,True
+C-ADV-00807,2023-01-12,Email,50,0.31,7.25,Silver,True
+C-ADV-00808,2023-07-07,Search,42,0.29,55.76,Gold,True
+C-ADV-00809,2023-11-01,Search,60,0.21,26.72,Bronze,True
+C-ADV-00810,2023-01-25,Search,44,0.33,40.92,Platinum,False
+C-ADV-00811,2023-03-05,Email,34,0.14,227.89,Platinum,True
+C-ADV-00812,2023-04-16,Search,37,0.08,34.68,Platinum,True
+C-ADV-00813,2023-12-06,Email,35,0.37,72.05,Silver,False
+C-ADV-00814,2023-02-23,Email,64,0.24,10.74,Bronze,True
+C-ADV-00815,2023-02-28,Search,49,0.08,106.13,Silver,True
+C-ADV-00816,2023-05-15,Email,30,0.28,24.78,Gold,False
+C-ADV-00817,2023-06-01,Social Media,20,0.04,6.85,Platinum,True
+C-ADV-00818,2023-12-19,Direct,39,0.36,18.94,Silver,True
+C-ADV-00819,2023-01-07,Search,25,0.4,65.44,Platinum,True
+C-ADV-00820,2023-02-16,Email,22,0.48,68.06,Bronze,True
+C-ADV-00821,2023-11-26,Social Media,47,0.3,46.32,Gold,True
+C-ADV-00822,2023-08-26,Search,24,0.39,12.64,Silver,True
+C-ADV-00823,2023-05-29,Referral,69,0.1,56.53,Gold,False
+C-ADV-00824,2023-03-01,Search,66,0.03,200.44,Bronze,True
+C-ADV-00825,2023-03-12,Social Media,39,0.14,37.23,Gold,False
+C-ADV-00826,2023-11-15,Referral,64,0.2,47.74,Bronze,True
+C-ADV-00827,2023-06-25,Social Media,25,0.19,27.94,Platinum,False
+C-ADV-00828,2023-08-22,Referral,42,0.49,39.21,Platinum,False
+C-ADV-00829,2023-11-29,Social Media,25,0.39,153.87,Silver,True
+C-ADV-00830,2023-03-23,Search,44,0.07,18.46,Platinum,False
+C-ADV-00831,2023-04-03,Email,42,0.15,145.31,Gold,True
+C-ADV-00832,2023-12-17,Social Media,48,0.14,222.5,Platinum,True
+C-ADV-00833,2023-07-30,Direct,20,0.4,199.55,Bronze,True
+C-ADV-00834,2023-12-02,Referral,18,0.19,171.93,Silver,True
+C-ADV-00835,2023-09-23,Email,62,0.07,34.75,Bronze,False
+C-ADV-00836,2023-12-05,Social Media,48,0.24,52.17,Gold,False
+C-ADV-00837,2023-03-18,Email,57,0.19,13.6,Bronze,True
+C-ADV-00838,2023-11-26,Social Media,50,0.31,99.06,Platinum,False
+C-ADV-00839,2023-03-26,Search,66,0.1,141.18,Platinum,True
+C-ADV-00840,2023-05-04,Referral,35,0.32,10.28,Bronze,True
+C-ADV-00841,2023-10-09,Direct,43,0.29,51.21,Silver,True
+C-ADV-00842,2023-08-24,Direct,69,0.28,42.4,Platinum,True
+C-ADV-00843,2023-09-13,Direct,38,0.31,36.85,Bronze,False
+C-ADV-00844,2023-12-01,Search,24,0.4,96.68,Platinum,False
+C-ADV-00845,2023-01-19,Email,53,0.29,289.76,Bronze,True
+C-ADV-00846,2023-11-06,Email,58,0.18,198.67,Gold,True
+C-ADV-00847,2023-12-02,Direct,39,0.44,149.83,Gold,True
+C-ADV-00848,2023-04-25,Direct,39,0.21,4.1,Platinum,True
+C-ADV-00849,2023-08-20,Search,24,0.51,41.99,Silver,True
+C-ADV-00850,2023-06-24,Referral,58,0.16,16.65,Gold,True
+C-ADV-00851,2023-12-26,Search,20,0.1,132.62,Silver,False
+C-ADV-00852,2023-03-13,Direct,24,0.63,129.57,Gold,True
+C-ADV-00853,2023-04-07,Search,43,0.28,30.05,Silver,False
+C-ADV-00854,2023-04-08,Referral,24,0.44,39.29,Platinum,True
+C-ADV-00855,2023-11-21,Email,25,0.27,23.71,Platinum,False
+C-ADV-00856,2023-12-04,Email,50,0.09,102.53,Silver,False
+C-ADV-00857,2023-01-03,Email,65,0.07,361.56,Bronze,False
+C-ADV-00858,2023-10-27,Direct,50,0.3,37.82,Silver,True
+C-ADV-00859,2023-03-07,Search,42,0.08,198.47,Gold,False
+C-ADV-00860,2023-08-03,Email,62,0.67,58.97,Silver,True
+C-ADV-00861,2023-07-23,Referral,36,0.23,19.11,Platinum,True
+C-ADV-00862,2023-03-12,Direct,56,0.1,13.3,Gold,True
+C-ADV-00863,2023-12-31,Email,58,0.15,25.16,Silver,True
+C-ADV-00864,2023-04-18,Email,63,0.55,54.85,Gold,True
+C-ADV-00865,2023-12-11,Social Media,63,0.67,39.63,Silver,True
+C-ADV-00866,2023-12-30,Search,66,0.29,596.31,Gold,False
+C-ADV-00867,2023-10-26,Email,60,0.7,29.08,Platinum,True
+C-ADV-00868,2023-08-05,Search,51,0.21,61.45,Bronze,True
+C-ADV-00869,2023-07-15,Social Media,21,0.17,30.6,Bronze,True
+C-ADV-00870,2023-05-17,Social Media,36,0.35,294.29,Gold,True
+C-ADV-00871,2023-02-01,Referral,31,0.62,39.72,Bronze,True
+C-ADV-00872,2023-08-20,Search,57,0.33,72.28,Silver,False
+C-ADV-00873,2023-05-02,Email,68,0.33,13.25,Gold,True
+C-ADV-00874,2023-07-15,Direct,44,0.52,130.79,Gold,True
+C-ADV-00875,2023-01-07,Referral,30,0.45,73.67,Platinum,True
+C-ADV-00876,2023-11-21,Referral,66,0.2,214.87,Silver,True
+C-ADV-00877,2023-05-31,Direct,29,0.05,66.34,Bronze,True
+C-ADV-00878,2023-03-30,Email,25,0.41,75.86,Platinum,True
+C-ADV-00879,2023-08-08,Referral,53,0.51,75.08,Gold,True
+C-ADV-00880,2023-03-24,Email,34,0.27,46.38,Bronze,True
+C-ADV-00881,2023-08-27,Social Media,20,0.56,61.14,Silver,True
+C-ADV-00882,2023-11-02,Search,67,0.11,40.85,Gold,False
+C-ADV-00883,2023-10-21,Email,40,0.12,8.07,Bronze,True
+C-ADV-00884,2023-09-27,Social Media,29,0.3,59.13,Bronze,True
+C-ADV-00885,2023-08-01,Email,52,0.09,37.06,Platinum,True
+C-ADV-00886,2023-06-28,Social Media,31,0.25,21.95,Gold,True
+C-ADV-00887,2023-07-04,Referral,31,0.08,30.27,Platinum,True
+C-ADV-00888,2023-02-28,Referral,46,0.3,183.49,Silver,True
+C-ADV-00889,2023-01-21,Referral,42,0.21,68.84,Bronze,False
+C-ADV-00890,2023-05-12,Email,64,0.26,18.46,Gold,True
+C-ADV-00891,2023-09-22,Referral,50,0.6,8.25,Platinum,False
+C-ADV-00892,2023-01-23,Referral,59,0.23,294.23,Silver,True
+C-ADV-00893,2023-09-21,Search,24,0.51,286.06,Silver,True
+C-ADV-00894,2023-11-17,Search,31,0.21,58.36,Silver,False
+C-ADV-00895,2023-02-23,Social Media,52,0.22,11.95,Platinum,True
+C-ADV-00896,2023-12-18,Social Media,19,0.02,52.75,Platinum,True
+C-ADV-00897,2023-01-20,Search,22,0.44,28.51,Bronze,True
+C-ADV-00898,2023-05-09,Email,22,0.51,61.09,Silver,True
+C-ADV-00899,2023-07-28,Direct,46,0.15,146.4,Platinum,False
+C-ADV-00900,2023-06-11,Search,42,0.21,33.53,Bronze,True
+C-ADV-00901,2023-11-25,Email,22,0.2,334.76,Bronze,True
+C-ADV-00902,2023-07-03,Email,24,0.31,145.81,Gold,True
+C-ADV-00903,2023-11-07,Search,36,0.17,35.99,Platinum,False
+C-ADV-00904,2023-07-22,Search,48,0.27,139.28,Silver,True
+C-ADV-00905,2023-03-11,Direct,68,0.13,11.41,Gold,True
+C-ADV-00906,2023-06-02,Referral,18,0.22,10.52,Silver,True
+C-ADV-00907,2023-01-22,Search,54,0.34,29.19,Platinum,True
+C-ADV-00908,2023-06-06,Social Media,65,0.36,30.55,Gold,True
+C-ADV-00909,2023-07-31,Email,27,0.17,8.51,Silver,True
+C-ADV-00910,2023-04-24,Email,34,0.21,162.71,Silver,True
+C-ADV-00911,2023-04-03,Email,21,0.37,8.99,Platinum,True
+C-ADV-00912,2023-05-29,Search,34,0.12,672.86,Bronze,True
+C-ADV-00913,2023-10-25,Direct,39,0.14,83.07,Gold,True
+C-ADV-00914,2023-12-10,Social Media,24,0.53,23.31,Gold,True
+C-ADV-00915,2023-04-10,Referral,49,0.02,50.49,Platinum,True
+C-ADV-00916,2023-11-12,Referral,62,0.49,9.81,Silver,True
+C-ADV-00917,2023-06-11,Direct,28,0.25,490.89,Bronze,True
+C-ADV-00918,2023-05-07,Social Media,63,0.23,157.12,Platinum,True
+C-ADV-00919,2023-07-04,Social Media,61,0.39,226.9,Gold,False
+C-ADV-00920,2023-08-25,Direct,40,0.19,15.7,Gold,False
+C-ADV-00921,2023-10-10,Search,29,0.21,17.79,Bronze,True
+C-ADV-00922,2023-03-13,Email,30,0.61,16.1,Gold,True
+C-ADV-00923,2023-02-08,Search,50,0.04,51.0,Bronze,False
+C-ADV-00924,2023-10-30,Social Media,20,0.29,57.16,Gold,False
+C-ADV-00925,2023-12-01,Social Media,41,0.34,34.55,Platinum,True
+C-ADV-00926,2023-10-29,Referral,26,0.38,108.12,Platinum,True
+C-ADV-00927,2023-07-23,Referral,50,0.08,182.47,Bronze,True
+C-ADV-00928,2023-11-11,Social Media,66,0.09,27.65,Silver,False
+C-ADV-00929,2023-03-23,Social Media,54,0.34,14.77,Silver,False
+C-ADV-00930,2023-07-03,Search,32,0.16,60.44,Platinum,True
+C-ADV-00931,2023-02-02,Referral,41,0.41,168.66,Silver,True
+C-ADV-00932,2023-12-09,Social Media,51,0.09,139.36,Gold,False
+C-ADV-00933,2023-08-29,Direct,20,0.1,36.53,Bronze,True
+C-ADV-00934,2023-02-22,Email,58,0.28,83.27,Gold,True
+C-ADV-00935,2023-10-24,Email,54,0.76,39.75,Silver,False
+C-ADV-00936,2023-12-01,Direct,41,0.21,7.65,Bronze,True
+C-ADV-00937,2023-07-12,Social Media,51,0.51,57.25,Platinum,True
+C-ADV-00938,2023-06-26,Direct,68,0.12,29.88,Platinum,True
+C-ADV-00939,2023-09-14,Social Media,46,0.26,107.79,Silver,True
+C-ADV-00940,2023-02-09,Email,59,0.37,304.42,Gold,True
+C-ADV-00941,2023-03-18,Social Media,28,0.02,68.26,Gold,True
+C-ADV-00942,2023-12-05,Social Media,44,0.56,33.1,Gold,True
+C-ADV-00943,2023-09-04,Direct,48,0.66,420.76,Silver,True
+C-ADV-00944,2023-11-28,Direct,19,0.36,36.37,Silver,True
+C-ADV-00945,2023-03-07,Email,55,0.17,98.03,Silver,True
+C-ADV-00946,2023-11-19,Email,20,0.15,13.5,Silver,True
+C-ADV-00947,2023-03-27,Referral,29,0.21,160.78,Platinum,True
+C-ADV-00948,2023-12-05,Referral,23,0.28,204.6,Silver,False
+C-ADV-00949,2023-11-07,Direct,48,0.18,93.78,Silver,True
+C-ADV-00950,2023-07-30,Email,27,0.41,28.94,Silver,True
+C-ADV-00951,2023-03-27,Referral,47,0.24,38.44,Bronze,True
+C-ADV-00952,2023-07-13,Direct,26,0.02,193.53,Bronze,True
+C-ADV-00953,2023-04-14,Email,50,0.22,60.49,Platinum,True
+C-ADV-00954,2023-11-07,Search,29,0.2,143.64,Platinum,True
+C-ADV-00955,2023-09-30,Email,66,0.36,176.52,Bronze,True
+C-ADV-00956,2023-09-04,Social Media,56,0.2,11.26,Bronze,False
+C-ADV-00957,2023-09-25,Direct,41,0.28,7.87,Bronze,False
+C-ADV-00958,2023-04-28,Direct,68,0.14,39.68,Platinum,True
+C-ADV-00959,2023-10-29,Email,24,0.23,172.37,Platinum,True
+C-ADV-00960,2023-05-11,Direct,67,0.3,30.16,Silver,True
+C-ADV-00961,2023-05-26,Email,52,0.2,179.22,Platinum,True
+C-ADV-00962,2023-04-07,Search,63,0.66,102.51,Bronze,True
+C-ADV-00963,2023-09-24,Search,42,0.35,75.43,Silver,True
+C-ADV-00964,2023-07-29,Referral,24,0.38,145.36,Silver,False
+C-ADV-00965,2023-11-30,Email,34,0.15,16.53,Gold,False
+C-ADV-00966,2023-10-17,Referral,57,0.36,28.39,Gold,False
+C-ADV-00967,2023-04-15,Direct,53,0.39,81.08,Platinum,True
+C-ADV-00968,2023-07-09,Email,53,0.11,22.58,Platinum,True
+C-ADV-00969,2023-06-07,Email,40,0.1,20.93,Platinum,True
+C-ADV-00970,2023-12-04,Search,65,0.08,45.27,Silver,False
+C-ADV-00971,2023-12-25,Social Media,24,0.34,105.4,Silver,False
+C-ADV-00972,2023-06-23,Email,57,0.35,30.24,Bronze,True
+C-ADV-00973,2023-07-19,Search,69,0.33,77.35,Bronze,True
+C-ADV-00974,2023-08-30,Email,45,0.08,15.47,Bronze,True
+C-ADV-00975,2023-05-15,Social Media,41,0.33,51.77,Bronze,True
+C-ADV-00976,2023-07-16,Direct,57,0.12,70.43,Gold,True
+C-ADV-00977,2023-03-31,Direct,46,0.44,114.72,Bronze,True
+C-ADV-00978,2023-12-03,Email,36,0.16,59.56,Silver,True
+C-ADV-00979,2023-11-03,Email,51,0.06,79.06,Silver,True
+C-ADV-00980,2023-12-12,Search,41,0.37,43.05,Silver,True
+C-ADV-00981,2023-03-22,Search,35,0.38,50.43,Platinum,True
+C-ADV-00982,2023-12-09,Direct,43,0.2,40.25,Silver,True
+C-ADV-00983,2023-12-27,Search,23,0.06,120.53,Gold,True
+C-ADV-00984,2023-06-27,Referral,32,0.23,54.92,Silver,False
+C-ADV-00985,2023-07-26,Email,18,0.47,40.48,Gold,True
+C-ADV-00986,2023-07-28,Email,24,0.13,56.15,Bronze,True
+C-ADV-00987,2023-06-24,Search,69,0.34,125.41,Gold,True
+C-ADV-00988,2023-12-22,Direct,42,0.36,322.49,Platinum,True
+C-ADV-00989,2023-06-23,Direct,61,0.23,18.54,Platinum,True
+C-ADV-00990,2023-09-04,Search,34,0.29,209.64,Bronze,False
+C-ADV-00991,2023-11-21,Social Media,61,0.21,202.39,Silver,True
+C-ADV-00992,2023-07-31,Referral,51,0.7,26.23,Bronze,True
+C-ADV-00993,2023-05-08,Referral,23,0.16,7.24,Platinum,True
+C-ADV-00994,2023-02-08,Email,29,0.16,16.92,Platinum,True
+C-ADV-00995,2023-07-01,Social Media,54,0.59,49.12,Gold,True
+C-ADV-00996,2023-12-16,Social Media,49,0.56,14.07,Silver,True
+C-ADV-00997,2023-05-04,Referral,31,0.23,83.54,Silver,True
+C-ADV-00998,2023-05-08,Email,40,0.4,12.85,Silver,True
+C-ADV-00999,2023-03-03,Search,61,0.51,3.21,Platinum,True
+C-ADV-01000,2023-10-05,Search,48,0.57,46.47,Gold,True
+C-ADV-01001,2023-09-10,Email,35,0.1,102.17,Platinum,True
+C-ADV-01002,2023-09-19,Referral,43,0.52,24.54,Silver,True
+C-ADV-01003,2023-01-28,Email,69,0.14,41.13,Platinum,False
+C-ADV-01004,2023-10-04,Search,50,0.33,95.45,Gold,False
+C-ADV-01005,2023-12-18,Social Media,47,0.01,10.68,Bronze,False
+C-ADV-01006,2023-06-11,Search,18,0.07,153.32,Silver,False
+C-ADV-01007,2023-10-25,Search,38,0.52,30.68,Gold,True
+C-ADV-01008,2023-04-06,Email,34,0.29,28.44,Silver,True
+C-ADV-01009,2023-08-30,Email,39,0.07,69.62,Gold,True
+C-ADV-01010,2023-09-13,Direct,31,0.2,33.65,Platinum,True
+C-ADV-01011,2023-07-06,Direct,35,0.39,12.87,Platinum,True
+C-ADV-01012,2023-10-20,Social Media,54,0.13,49.78,Silver,True
+C-ADV-01013,2023-05-19,Social Media,53,0.57,98.74,Platinum,False
+C-ADV-01014,2023-04-11,Social Media,69,0.15,61.96,Silver,False
+C-ADV-01015,2023-01-05,Social Media,44,0.08,61.06,Platinum,True
+C-ADV-01016,2023-11-19,Email,52,0.02,56.54,Gold,False
+C-ADV-01017,2023-06-03,Referral,53,0.7,51.94,Bronze,False
+C-ADV-01018,2023-02-20,Social Media,21,0.29,55.82,Silver,True
+C-ADV-01019,2023-09-01,Search,46,0.52,110.11,Gold,True
+C-ADV-01020,2023-07-04,Referral,53,0.15,414.78,Gold,True
+C-ADV-01021,2023-01-11,Direct,25,0.46,43.12,Gold,True
+C-ADV-01022,2023-10-23,Email,59,0.18,28.19,Silver,True
+C-ADV-01023,2023-07-01,Referral,61,0.05,15.33,Platinum,False
+C-ADV-01024,2023-02-10,Direct,57,0.34,151.9,Gold,False
+C-ADV-01025,2023-11-20,Social Media,28,0.12,55.43,Gold,False
+C-ADV-01026,2023-11-20,Email,54,0.13,114.15,Platinum,True
+C-ADV-01027,2023-02-10,Social Media,39,0.52,2.28,Silver,True
+C-ADV-01028,2023-06-12,Referral,63,0.14,12.12,Gold,False
+C-ADV-01029,2023-05-19,Direct,67,0.61,46.05,Gold,False
+C-ADV-01030,2023-07-31,Social Media,29,0.17,51.84,Bronze,True
+C-ADV-01031,2023-05-01,Referral,65,0.5,114.34,Bronze,True
+C-ADV-01032,2023-03-27,Direct,24,0.22,265.75,Bronze,True
+C-ADV-01033,2023-08-31,Email,21,0.14,35.89,Bronze,False
+C-ADV-01034,2023-09-26,Search,24,0.08,38.28,Gold,True
+C-ADV-01035,2023-02-13,Direct,37,0.22,22.77,Silver,True
+C-ADV-01036,2023-05-26,Direct,58,0.41,107.79,Silver,True
+C-ADV-01037,2023-09-27,Social Media,19,0.17,19.09,Bronze,True
+C-ADV-01038,2023-06-16,Direct,47,0.2,57.43,Gold,False
+C-ADV-01039,2023-03-11,Email,29,0.54,25.57,Platinum,False
+C-ADV-01040,2023-09-26,Email,37,0.18,44.77,Gold,False
+C-ADV-01041,2023-10-04,Social Media,69,0.09,92.85,Bronze,False
+C-ADV-01042,2023-06-07,Referral,44,0.17,57.24,Gold,True
+C-ADV-01043,2023-06-05,Search,18,0.08,63.36,Silver,True
+C-ADV-01044,2023-05-27,Direct,52,0.17,27.74,Bronze,False
+C-ADV-01045,2023-09-02,Referral,18,0.38,23.9,Platinum,True
+C-ADV-01046,2023-11-02,Social Media,68,0.12,32.0,Bronze,True
+C-ADV-01047,2023-04-07,Direct,53,0.11,212.75,Platinum,False
+C-ADV-01048,2023-05-08,Social Media,63,0.24,39.84,Platinum,False
+C-ADV-01049,2023-04-23,Referral,23,0.29,143.71,Platinum,True
+C-ADV-01050,2023-09-22,Email,69,0.42,64.81,Gold,True
+C-ADV-01051,2023-11-29,Email,69,0.26,33.98,Gold,False
+C-ADV-01052,2023-04-07,Search,29,0.34,27.29,Silver,True
+C-ADV-01053,2023-02-26,Direct,57,0.39,16.13,Platinum,True
+C-ADV-01054,2023-12-25,Email,49,0.33,182.9,Silver,True
+C-ADV-01055,2023-01-10,Social Media,21,0.2,19.73,Bronze,True
+C-ADV-01056,2023-02-22,Referral,35,0.37,24.24,Silver,False
+C-ADV-01057,2023-01-05,Social Media,23,0.27,205.47,Silver,True
+C-ADV-01058,2023-09-10,Social Media,39,0.21,83.18,Platinum,True
+C-ADV-01059,2023-09-13,Referral,47,0.26,74.09,Bronze,True
+C-ADV-01060,2023-02-11,Social Media,21,0.1,50.65,Gold,False
+C-ADV-01061,2023-02-06,Email,48,0.1,6.1,Silver,True
+C-ADV-01062,2023-05-09,Direct,18,0.36,45.43,Bronze,True
+C-ADV-01063,2023-07-17,Direct,33,0.29,186.79,Bronze,True
+C-ADV-01064,2023-08-24,Search,51,0.27,495.48,Silver,False
+C-ADV-01065,2023-07-19,Referral,38,0.54,14.37,Silver,True
+C-ADV-01066,2023-10-09,Email,25,0.39,21.82,Gold,False
+C-ADV-01067,2023-11-23,Referral,30,0.39,157.6,Gold,True
+C-ADV-01068,2023-12-08,Social Media,25,0.12,121.6,Silver,False
+C-ADV-01069,2023-06-16,Search,28,0.26,43.13,Gold,True
+C-ADV-01070,2023-07-22,Social Media,18,0.5,31.38,Bronze,False
+C-ADV-01071,2023-12-19,Email,27,0.65,13.82,Gold,True
+C-ADV-01072,2023-05-08,Social Media,49,0.13,21.62,Bronze,True
+C-ADV-01073,2023-11-17,Search,21,0.11,280.28,Gold,True
+C-ADV-01074,2023-12-26,Email,68,0.31,27.97,Bronze,True
+C-ADV-01075,2023-09-07,Social Media,38,0.24,96.23,Gold,False
+C-ADV-01076,2023-04-09,Search,62,0.18,26.93,Platinum,True
+C-ADV-01077,2023-03-10,Referral,20,0.58,39.25,Platinum,False
+C-ADV-01078,2023-10-14,Referral,52,0.34,45.92,Platinum,True
+C-ADV-01079,2023-10-18,Social Media,52,0.12,113.7,Gold,True
+C-ADV-01080,2023-08-28,Referral,56,0.18,56.98,Silver,True
+C-ADV-01081,2023-09-29,Social Media,46,0.32,81.3,Gold,True
+C-ADV-01082,2023-10-05,Referral,47,0.07,8.79,Bronze,False
+C-ADV-01083,2023-04-05,Search,57,0.3,55.4,Gold,True
+C-ADV-01084,2023-06-14,Search,60,0.36,68.89,Platinum,True
+C-ADV-01085,2023-09-26,Direct,67,0.22,27.48,Silver,True
+C-ADV-01086,2023-06-15,Direct,59,0.1,246.66,Gold,True
+C-ADV-01087,2023-02-19,Email,60,0.42,53.41,Bronze,True
+C-ADV-01088,2023-03-08,Social Media,20,0.25,39.42,Silver,True
+C-ADV-01089,2023-09-06,Social Media,24,0.31,55.67,Bronze,False
+C-ADV-01090,2023-12-03,Direct,51,0.45,8.15,Gold,True
+C-ADV-01091,2023-07-07,Social Media,56,0.1,272.48,Bronze,True
+C-ADV-01092,2023-04-17,Direct,23,0.17,25.22,Platinum,True
+C-ADV-01093,2023-07-04,Email,65,0.38,60.39,Platinum,True
+C-ADV-01094,2023-12-29,Search,70,0.48,9.65,Gold,True
+C-ADV-01095,2023-02-06,Referral,22,0.22,558.18,Silver,True
+C-ADV-01096,2023-02-21,Social Media,52,0.16,102.2,Platinum,True
+C-ADV-01097,2023-04-09,Email,60,0.37,300.1,Silver,True
+C-ADV-01098,2023-10-13,Email,44,0.14,122.29,Bronze,True
+C-ADV-01099,2023-12-12,Direct,62,0.24,58.44,Platinum,True
+C-ADV-01100,2023-03-27,Social Media,53,0.26,56.4,Platinum,True
+C-ADV-01101,2023-12-03,Social Media,52,0.52,59.21,Platinum,True
+C-ADV-01102,2023-06-11,Email,38,0.63,104.07,Gold,False
+C-ADV-01103,2023-11-21,Direct,70,0.15,30.28,Gold,True
+C-ADV-01104,2023-10-16,Email,31,0.32,39.44,Platinum,True
+C-ADV-01105,2023-07-04,Direct,46,0.1,27.56,Platinum,True
+C-ADV-01106,2023-01-18,Referral,56,0.34,98.35,Bronze,True
+C-ADV-01107,2023-06-04,Search,37,0.32,126.96,Silver,True
+C-ADV-01108,2023-06-11,Search,67,0.3,97.78,Gold,True
+C-ADV-01109,2023-02-18,Search,47,0.26,28.25,Gold,True
+C-ADV-01110,2023-03-12,Referral,41,0.14,121.27,Silver,True
+C-ADV-01111,2023-05-12,Referral,23,0.05,23.28,Platinum,True
+C-ADV-01112,2023-02-09,Referral,68,0.47,16.99,Platinum,True
+C-ADV-01113,2023-09-07,Email,70,0.24,6.86,Bronze,True
+C-ADV-01114,2023-01-20,Email,42,0.08,20.25,Bronze,True
+C-ADV-01115,2023-06-21,Referral,70,0.22,20.18,Platinum,False
+C-ADV-01116,2023-03-03,Social Media,65,0.02,86.49,Bronze,False
+C-ADV-01117,2023-01-28,Referral,51,0.21,7.73,Bronze,True
+C-ADV-01118,2023-10-04,Email,27,0.37,43.47,Gold,True
+C-ADV-01119,2023-03-20,Search,61,0.37,38.98,Platinum,False
+C-ADV-01120,2023-11-01,Email,50,0.2,148.43,Bronze,True
+C-ADV-01121,2023-08-10,Referral,68,0.49,32.92,Platinum,True
+C-ADV-01122,2023-03-09,Referral,23,0.37,25.17,Platinum,True
+C-ADV-01123,2023-10-08,Direct,34,0.36,32.88,Bronze,False
+C-ADV-01124,2023-09-14,Direct,67,0.58,36.38,Silver,True
+C-ADV-01125,2023-09-04,Email,30,0.02,82.75,Platinum,False
+C-ADV-01126,2023-11-30,Email,30,0.2,81.33,Silver,True
+C-ADV-01127,2023-02-06,Referral,67,0.26,181.74,Platinum,True
+C-ADV-01128,2023-12-17,Email,23,0.14,53.16,Bronze,False
+C-ADV-01129,2023-08-05,Referral,40,0.55,11.49,Silver,True
+C-ADV-01130,2023-06-26,Email,59,0.25,36.56,Bronze,True
+C-ADV-01131,2023-03-28,Referral,57,0.44,12.39,Platinum,True
+C-ADV-01132,2023-08-14,Search,70,0.18,7.58,Silver,True
+C-ADV-01133,2023-12-17,Referral,27,0.14,82.89,Bronze,True
+C-ADV-01134,2023-01-28,Social Media,57,0.14,29.81,Silver,True
+C-ADV-01135,2023-01-08,Referral,62,0.55,112.63,Bronze,True
+C-ADV-01136,2023-08-19,Direct,19,0.53,166.2,Gold,True
+C-ADV-01137,2023-10-03,Social Media,31,0.22,15.44,Gold,False
+C-ADV-01138,2023-11-15,Social Media,62,0.5,124.3,Bronze,False
+C-ADV-01139,2023-10-26,Email,20,0.52,135.7,Gold,True
+C-ADV-01140,2023-01-31,Referral,30,0.1,408.99,Gold,True
+C-ADV-01141,2023-08-27,Search,22,0.37,39.94,Platinum,True
+C-ADV-01142,2023-12-06,Referral,24,0.28,12.18,Bronze,True
+C-ADV-01143,2023-11-29,Direct,32,0.23,187.49,Platinum,True
+C-ADV-01144,2023-06-11,Direct,56,0.29,45.6,Bronze,True
+C-ADV-01145,2023-04-12,Email,47,0.49,93.72,Bronze,True
+C-ADV-01146,2023-05-07,Email,37,0.35,65.05,Gold,False
+C-ADV-01147,2023-07-21,Social Media,19,0.12,54.1,Gold,True
+C-ADV-01148,2023-07-01,Referral,33,0.09,185.95,Gold,True
+C-ADV-01149,2023-11-17,Referral,42,0.31,33.18,Bronze,True
+C-ADV-01150,2023-04-26,Social Media,39,0.48,84.36,Platinum,True
+C-ADV-01151,2023-02-14,Direct,51,0.32,83.75,Silver,False
+C-ADV-01152,2023-05-04,Email,27,0.53,46.59,Platinum,True
+C-ADV-01153,2023-11-06,Referral,46,0.42,56.49,Silver,True
+C-ADV-01154,2023-12-01,Social Media,55,0.29,23.83,Silver,True
+C-ADV-01155,2023-06-08,Email,26,0.16,41.48,Platinum,True
+C-ADV-01156,2023-12-02,Email,28,0.19,43.12,Gold,True
+C-ADV-01157,2023-10-13,Email,64,0.13,40.3,Bronze,True
+C-ADV-01158,2023-06-12,Social Media,64,0.07,48.84,Bronze,True
+C-ADV-01159,2023-07-31,Direct,37,0.43,114.4,Platinum,True
+C-ADV-01160,2023-03-19,Social Media,24,0.33,32.32,Silver,True
+C-ADV-01161,2023-01-14,Email,57,0.45,294.28,Gold,True
+C-ADV-01162,2023-11-02,Social Media,32,0.36,36.6,Bronze,True
+C-ADV-01163,2023-02-10,Direct,26,0.22,6.18,Platinum,True
+C-ADV-01164,2023-04-05,Direct,49,0.62,29.11,Platinum,True
+C-ADV-01165,2023-03-25,Social Media,32,0.54,74.55,Bronze,False
+C-ADV-01166,2023-01-08,Referral,44,0.46,67.23,Silver,True
+C-ADV-01167,2023-04-15,Search,29,0.17,167.09,Platinum,False
+C-ADV-01168,2023-12-19,Referral,47,0.43,28.96,Silver,False
+C-ADV-01169,2023-07-27,Search,56,0.15,16.79,Platinum,True
+C-ADV-01170,2023-07-21,Email,65,0.4,4.92,Bronze,True
+C-ADV-01171,2023-08-20,Direct,70,0.32,60.77,Bronze,True
+C-ADV-01172,2023-09-23,Email,43,0.18,78.22,Bronze,False
+C-ADV-01173,2023-09-22,Search,30,0.32,23.32,Gold,False
+C-ADV-01174,2023-07-23,Referral,67,0.17,117.51,Gold,False
+C-ADV-01175,2023-03-27,Direct,36,0.49,300.24,Bronze,True
+C-ADV-01176,2023-08-26,Direct,23,0.21,161.71,Bronze,True
+C-ADV-01177,2023-10-27,Email,26,0.13,162.42,Platinum,False
+C-ADV-01178,2023-06-15,Direct,19,0.11,30.48,Silver,False
+C-ADV-01179,2023-10-30,Social Media,47,0.21,37.59,Bronze,True
+C-ADV-01180,2023-06-15,Social Media,63,0.53,15.02,Bronze,True
+C-ADV-01181,2023-02-28,Direct,58,0.13,59.31,Gold,True
+C-ADV-01182,2023-09-26,Direct,64,0.23,48.58,Silver,False
+C-ADV-01183,2023-10-09,Direct,20,0.19,37.38,Silver,True
+C-ADV-01184,2023-10-17,Social Media,28,0.64,63.11,Silver,True
+C-ADV-01185,2023-12-31,Search,44,0.01,64.42,Gold,True
+C-ADV-01186,2023-08-17,Referral,58,0.08,72.9,Silver,True
+C-ADV-01187,2023-03-09,Social Media,18,0.38,43.51,Gold,True
+C-ADV-01188,2023-08-23,Direct,49,0.13,128.88,Bronze,False
+C-ADV-01189,2023-05-02,Social Media,55,0.64,90.43,Platinum,False
+C-ADV-01190,2023-07-29,Direct,23,0.3,5.73,Bronze,True
+C-ADV-01191,2023-10-08,Referral,57,0.21,23.19,Silver,True
+C-ADV-01192,2023-04-05,Social Media,21,0.2,93.85,Gold,True
+C-ADV-01193,2023-03-16,Search,60,0.55,46.51,Gold,True
+C-ADV-01194,2023-02-14,Search,24,0.62,61.48,Platinum,True
+C-ADV-01195,2023-03-24,Referral,57,0.07,185.67,Silver,False
+C-ADV-01196,2023-10-24,Referral,20,0.13,5.4,Bronze,True
+C-ADV-01197,2023-06-15,Referral,42,0.12,45.94,Bronze,False
+C-ADV-01198,2023-10-09,Search,36,0.26,52.67,Platinum,True
+C-ADV-01199,2023-03-04,Referral,39,0.2,29.24,Platinum,True
+C-ADV-01200,2023-12-23,Social Media,57,0.21,68.75,Bronze,True
+C-ADV-01201,2023-10-20,Email,23,0.42,38.7,Platinum,True
+C-ADV-01202,2023-08-07,Email,38,0.11,18.47,Gold,True
+C-ADV-01203,2023-03-08,Email,54,0.09,282.46,Platinum,False
+C-ADV-01204,2023-09-10,Social Media,57,0.36,246.11,Silver,True
+C-ADV-01205,2023-04-10,Search,25,0.3,25.69,Bronze,False
+C-ADV-01206,2023-11-17,Search,65,0.22,75.17,Silver,False
+C-ADV-01207,2023-07-31,Search,39,0.35,61.15,Gold,True
+C-ADV-01208,2023-01-06,Social Media,62,0.29,39.44,Gold,True
+C-ADV-01209,2023-02-04,Referral,37,0.31,134.11,Gold,True
+C-ADV-01210,2023-02-28,Referral,39,0.25,36.08,Platinum,True
+C-ADV-01211,2023-03-31,Social Media,39,0.41,46.14,Gold,False
+C-ADV-01212,2023-08-31,Search,59,0.22,64.96,Silver,False
+C-ADV-01213,2023-03-21,Direct,52,0.11,75.78,Gold,False
+C-ADV-01214,2023-07-31,Search,51,0.37,34.12,Gold,True
+C-ADV-01215,2023-10-12,Email,19,0.26,439.09,Silver,True
+C-ADV-01216,2023-07-01,Search,27,0.14,93.96,Gold,True
+C-ADV-01217,2023-06-23,Direct,58,0.0,29.74,Silver,False
+C-ADV-01218,2023-04-06,Email,25,0.38,150.24,Gold,True
+C-ADV-01219,2023-12-30,Search,35,0.17,149.95,Platinum,True
+C-ADV-01220,2023-09-12,Social Media,41,0.29,69.56,Platinum,True
+C-ADV-01221,2023-04-21,Email,37,0.44,109.28,Silver,True
+C-ADV-01222,2023-07-11,Search,67,0.36,115.06,Silver,True
+C-ADV-01223,2023-08-16,Email,19,0.61,14.6,Platinum,True
+C-ADV-01224,2023-04-08,Referral,48,0.39,61.73,Gold,True
+C-ADV-01225,2023-03-15,Search,70,0.15,31.06,Silver,True
+C-ADV-01226,2023-01-19,Direct,42,0.08,226.73,Bronze,True
+C-ADV-01227,2023-06-09,Search,61,0.49,302.18,Bronze,True
+C-ADV-01228,2023-08-28,Search,24,0.4,37.47,Gold,True
+C-ADV-01229,2023-10-23,Referral,58,0.2,57.88,Silver,True
+C-ADV-01230,2023-04-13,Social Media,36,0.08,31.44,Gold,True
+C-ADV-01231,2023-08-14,Search,35,0.08,59.56,Silver,True
+C-ADV-01232,2023-05-21,Search,18,0.12,38.64,Bronze,True
+C-ADV-01233,2023-10-05,Referral,53,0.37,85.67,Gold,True
+C-ADV-01234,2023-03-14,Referral,54,0.28,58.74,Silver,True
+C-ADV-01235,2023-02-06,Referral,57,0.11,34.88,Gold,False
+C-ADV-01236,2023-01-26,Social Media,19,0.19,18.06,Platinum,True
+C-ADV-01237,2023-02-24,Direct,21,0.24,30.75,Bronze,False
+C-ADV-01238,2023-07-20,Social Media,63,0.14,383.74,Platinum,True
+C-ADV-01239,2023-06-09,Referral,70,0.43,9.31,Silver,True
+C-ADV-01240,2023-08-27,Email,26,0.27,116.15,Bronze,False
+C-ADV-01241,2023-02-19,Direct,37,0.37,52.18,Platinum,False
+C-ADV-01242,2023-04-29,Social Media,27,0.15,76.64,Gold,True
+C-ADV-01243,2023-07-20,Social Media,62,0.39,32.5,Gold,True
+C-ADV-01244,2023-08-21,Direct,19,0.65,70.64,Bronze,False
+C-ADV-01245,2023-02-27,Referral,48,0.31,67.03,Platinum,True
+C-ADV-01246,2023-05-25,Referral,56,0.08,65.59,Silver,True
+C-ADV-01247,2023-07-27,Search,38,0.47,85.8,Bronze,True
+C-ADV-01248,2023-09-30,Direct,43,0.48,71.77,Platinum,True
+C-ADV-01249,2023-11-14,Social Media,53,0.18,49.06,Silver,False
+C-ADV-01250,2023-07-16,Search,39,0.59,9.99,Silver,False
+C-ADV-01251,2023-08-11,Email,68,0.29,1209.91,Gold,True
+C-ADV-01252,2023-03-30,Search,65,0.2,109.44,Platinum,True
+C-ADV-01253,2023-10-31,Email,47,0.43,814.87,Gold,True
+C-ADV-01254,2023-08-16,Social Media,37,0.21,106.97,Platinum,True
+C-ADV-01255,2023-11-03,Search,61,0.39,4.78,Platinum,True
+C-ADV-01256,2023-09-11,Search,23,0.38,23.5,Silver,True
+C-ADV-01257,2023-10-25,Search,66,0.25,30.06,Silver,True
+C-ADV-01258,2023-08-20,Email,36,0.14,73.04,Platinum,False
+C-ADV-01259,2023-04-11,Social Media,61,0.08,8.13,Gold,True
+C-ADV-01260,2023-10-19,Referral,45,0.41,18.07,Gold,True
+C-ADV-01261,2023-10-26,Search,57,0.46,112.28,Platinum,True
+C-ADV-01262,2023-05-31,Search,41,0.39,82.72,Bronze,True
+C-ADV-01263,2023-12-27,Email,70,0.35,13.71,Gold,True
+C-ADV-01264,2023-05-25,Search,33,0.07,42.04,Platinum,False
+C-ADV-01265,2023-11-17,Referral,63,0.33,30.98,Platinum,False
+C-ADV-01266,2023-07-15,Direct,52,0.19,67.87,Silver,True
+C-ADV-01267,2023-09-01,Social Media,30,0.2,78.29,Platinum,True
+C-ADV-01268,2023-08-02,Social Media,36,0.11,319.74,Silver,True
+C-ADV-01269,2023-01-06,Search,59,0.13,106.94,Bronze,True
+C-ADV-01270,2023-09-07,Direct,26,0.14,33.71,Bronze,True
+C-ADV-01271,2023-11-25,Direct,47,0.36,11.94,Platinum,True
+C-ADV-01272,2023-08-21,Email,45,0.29,4.49,Platinum,False
+C-ADV-01273,2023-07-01,Social Media,29,0.33,157.61,Platinum,True
+C-ADV-01274,2023-10-23,Direct,64,0.35,24.91,Silver,True
+C-ADV-01275,2023-07-30,Email,54,0.41,121.25,Gold,True
+C-ADV-01276,2023-01-20,Email,48,0.06,88.78,Gold,True
+C-ADV-01277,2023-10-25,Direct,62,0.43,103.97,Bronze,True
+C-ADV-01278,2023-09-27,Referral,47,0.2,10.86,Bronze,True
+C-ADV-01279,2023-05-06,Direct,58,0.4,60.52,Bronze,True
+C-ADV-01280,2023-11-10,Search,39,0.03,204.83,Bronze,False
+C-ADV-01281,2023-08-21,Email,48,0.25,54.66,Gold,False
+C-ADV-01282,2023-06-30,Referral,36,0.05,107.4,Silver,True
+C-ADV-01283,2023-12-22,Email,65,0.13,62.59,Gold,True
+C-ADV-01284,2023-02-01,Direct,55,0.21,32.21,Silver,True
+C-ADV-01285,2023-12-03,Referral,69,0.2,24.23,Bronze,True
+C-ADV-01286,2023-09-06,Search,26,0.28,133.65,Bronze,True
+C-ADV-01287,2023-05-10,Social Media,57,0.28,144.85,Gold,True
+C-ADV-01288,2023-05-12,Search,65,0.27,37.4,Bronze,True
+C-ADV-01289,2023-10-30,Social Media,60,0.4,285.23,Platinum,True
+C-ADV-01290,2023-03-31,Referral,68,0.27,183.53,Silver,False
+C-ADV-01291,2023-04-03,Email,20,0.51,24.6,Gold,True
+C-ADV-01292,2023-03-16,Email,70,0.23,116.02,Silver,False
+C-ADV-01293,2023-07-31,Direct,33,0.1,172.89,Platinum,True
+C-ADV-01294,2023-04-18,Email,64,0.2,171.28,Gold,True
+C-ADV-01295,2023-11-25,Referral,66,0.17,39.6,Bronze,True
+C-ADV-01296,2023-03-27,Direct,43,0.04,45.21,Platinum,True
+C-ADV-01297,2023-09-01,Email,32,0.44,47.12,Platinum,False
+C-ADV-01298,2023-08-31,Referral,27,0.42,286.84,Platinum,True
+C-ADV-01299,2023-05-28,Direct,42,0.21,7.65,Gold,True
+C-ADV-01300,2023-02-19,Email,58,0.24,32.71,Gold,False
+C-ADV-01301,2023-11-09,Referral,39,0.08,123.99,Gold,True
+C-ADV-01302,2023-02-20,Referral,59,0.42,425.45,Platinum,False
+C-ADV-01303,2023-12-12,Social Media,64,0.32,14.22,Silver,True
+C-ADV-01304,2023-12-13,Social Media,38,0.11,80.65,Bronze,True
+C-ADV-01305,2023-02-04,Search,44,0.2,766.64,Bronze,True
+C-ADV-01306,2023-12-17,Direct,40,0.18,99.83,Silver,True
+C-ADV-01307,2023-05-09,Social Media,20,0.32,129.95,Bronze,True
+C-ADV-01308,2023-01-30,Email,60,0.22,93.18,Silver,True
+C-ADV-01309,2023-12-29,Search,23,0.25,15.21,Silver,False
+C-ADV-01310,2023-12-03,Email,69,0.26,57.69,Silver,True
+C-ADV-01311,2023-12-23,Social Media,34,0.13,62.42,Gold,False
+C-ADV-01312,2023-12-05,Search,58,0.13,47.68,Platinum,True
+C-ADV-01313,2023-08-07,Referral,34,0.31,59.95,Silver,True
+C-ADV-01314,2023-05-22,Search,42,0.3,110.31,Platinum,True
+C-ADV-01315,2023-01-31,Referral,70,0.37,59.59,Gold,True
+C-ADV-01316,2023-08-14,Search,49,0.35,65.37,Silver,False
+C-ADV-01317,2023-04-02,Direct,24,0.23,158.04,Silver,False
+C-ADV-01318,2023-04-22,Email,59,0.09,21.03,Bronze,False
+C-ADV-01319,2023-05-13,Search,20,0.35,19.47,Bronze,True
+C-ADV-01320,2023-10-20,Referral,67,0.1,86.68,Platinum,True
+C-ADV-01321,2023-09-12,Social Media,59,0.06,25.08,Bronze,True
+C-ADV-01322,2023-12-07,Direct,35,0.06,56.39,Silver,True
+C-ADV-01323,2023-07-20,Email,18,0.63,17.34,Platinum,False
+C-ADV-01324,2023-08-12,Direct,64,0.27,6.43,Bronze,True
+C-ADV-01325,2023-01-02,Direct,62,0.24,37.65,Platinum,True
+C-ADV-01326,2023-10-18,Email,40,0.36,33.48,Gold,True
+C-ADV-01327,2023-07-25,Search,58,0.13,85.5,Bronze,True
+C-ADV-01328,2023-10-01,Referral,23,0.09,7.85,Platinum,True
+C-ADV-01329,2023-11-28,Social Media,29,0.26,29.61,Bronze,False
+C-ADV-01330,2023-12-05,Social Media,37,0.63,14.25,Platinum,True
+C-ADV-01331,2023-11-19,Referral,49,0.22,16.28,Bronze,False
+C-ADV-01332,2023-04-08,Social Media,20,0.08,26.39,Silver,True
+C-ADV-01333,2023-10-31,Social Media,49,0.21,175.41,Platinum,True
+C-ADV-01334,2023-10-04,Referral,49,0.12,145.68,Platinum,True
+C-ADV-01335,2023-01-19,Referral,21,0.75,47.02,Gold,True
+C-ADV-01336,2023-07-27,Search,31,0.22,12.49,Platinum,True
+C-ADV-01337,2023-10-24,Social Media,22,0.49,18.23,Bronze,True
+C-ADV-01338,2023-09-08,Search,48,0.2,265.03,Bronze,True
+C-ADV-01339,2023-12-26,Social Media,18,0.11,28.23,Silver,True
+C-ADV-01340,2023-06-07,Search,47,0.15,18.43,Silver,True
+C-ADV-01341,2023-02-24,Search,49,0.24,214.88,Silver,True
+C-ADV-01342,2023-04-14,Direct,39,0.26,66.22,Platinum,True
+C-ADV-01343,2023-03-03,Email,52,0.33,29.03,Silver,True
+C-ADV-01344,2023-04-20,Search,55,0.12,151.38,Silver,True
+C-ADV-01345,2023-02-02,Search,35,0.03,78.29,Silver,False
+C-ADV-01346,2023-03-28,Referral,53,0.65,105.53,Silver,False
+C-ADV-01347,2023-05-05,Email,20,0.25,89.82,Silver,True
+C-ADV-01348,2023-11-20,Email,42,0.22,56.11,Silver,True
+C-ADV-01349,2023-09-07,Search,18,0.14,6.02,Bronze,True
+C-ADV-01350,2023-02-15,Email,36,0.35,77.0,Platinum,False
+C-ADV-01351,2023-12-21,Social Media,31,0.14,74.31,Silver,True
+C-ADV-01352,2023-09-25,Direct,44,0.35,417.8,Silver,True
+C-ADV-01353,2023-11-09,Search,56,0.36,114.64,Silver,False
+C-ADV-01354,2023-11-10,Search,58,0.69,50.51,Gold,True
+C-ADV-01355,2023-08-03,Search,53,0.31,57.79,Silver,True
+C-ADV-01356,2023-03-02,Email,24,0.3,106.19,Gold,True
+C-ADV-01357,2023-08-26,Social Media,35,0.07,39.84,Bronze,True
+C-ADV-01358,2023-02-27,Social Media,61,0.51,25.69,Platinum,False
+C-ADV-01359,2023-04-01,Social Media,60,0.16,30.39,Bronze,True
+C-ADV-01360,2023-11-27,Referral,36,0.41,29.48,Silver,False
+C-ADV-01361,2023-05-09,Referral,57,0.56,145.25,Platinum,True
+C-ADV-01362,2023-02-23,Search,52,0.53,434.32,Silver,True
+C-ADV-01363,2023-01-15,Direct,50,0.1,111.76,Bronze,True
+C-ADV-01364,2023-05-01,Direct,55,0.07,81.69,Gold,False
+C-ADV-01365,2023-04-12,Referral,32,0.39,13.29,Bronze,True
+C-ADV-01366,2023-04-27,Search,33,0.47,15.14,Platinum,True
+C-ADV-01367,2023-07-12,Social Media,22,0.39,59.39,Platinum,False
+C-ADV-01368,2023-01-28,Direct,27,0.15,35.44,Silver,False
+C-ADV-01369,2023-04-02,Direct,41,0.55,46.29,Silver,False
+C-ADV-01370,2023-04-10,Referral,35,0.35,48.65,Silver,True
+C-ADV-01371,2023-03-07,Search,62,0.13,113.8,Bronze,True
+C-ADV-01372,2023-03-11,Search,47,0.29,9.65,Platinum,False
+C-ADV-01373,2023-03-29,Referral,32,0.44,168.14,Gold,True
+C-ADV-01374,2023-11-23,Email,28,0.54,7.54,Silver,True
+C-ADV-01375,2023-07-30,Email,49,0.26,45.25,Silver,False
+C-ADV-01376,2023-08-25,Referral,18,0.31,445.29,Platinum,True
+C-ADV-01377,2023-05-07,Referral,45,0.39,427.44,Silver,True
+C-ADV-01378,2023-10-21,Search,44,0.15,84.66,Bronze,True
+C-ADV-01379,2023-08-29,Email,20,0.32,11.13,Platinum,False
+C-ADV-01380,2023-09-03,Search,46,0.22,32.3,Platinum,True
+C-ADV-01381,2023-02-12,Email,66,0.58,37.88,Bronze,False
+C-ADV-01382,2023-04-22,Social Media,40,0.3,59.32,Gold,True
+C-ADV-01383,2023-11-28,Search,19,0.19,8.99,Platinum,True
+C-ADV-01384,2023-03-24,Direct,54,0.23,212.16,Bronze,False
+C-ADV-01385,2023-08-26,Social Media,63,0.36,200.86,Platinum,True
+C-ADV-01386,2023-07-09,Direct,63,0.24,23.09,Bronze,True
+C-ADV-01387,2023-07-17,Referral,51,0.52,29.12,Bronze,True
+C-ADV-01388,2023-08-07,Referral,62,0.02,47.0,Silver,True
+C-ADV-01389,2023-11-14,Referral,65,0.1,8.17,Bronze,True
+C-ADV-01390,2023-01-27,Search,42,0.34,24.98,Gold,False
+C-ADV-01391,2023-11-13,Search,41,0.19,5.74,Gold,True
+C-ADV-01392,2023-11-28,Email,63,0.52,19.29,Bronze,True
+C-ADV-01393,2023-03-12,Referral,33,0.12,27.16,Bronze,False
+C-ADV-01394,2023-10-25,Social Media,66,0.23,47.5,Silver,True
+C-ADV-01395,2023-06-30,Referral,50,0.08,23.34,Platinum,True
+C-ADV-01396,2023-01-28,Search,41,0.43,147.43,Gold,False
+C-ADV-01397,2023-09-06,Email,51,0.04,42.78,Bronze,False
+C-ADV-01398,2023-12-30,Email,61,0.34,115.98,Gold,False
+C-ADV-01399,2023-11-14,Referral,69,0.16,43.47,Bronze,True
+C-ADV-01400,2023-08-23,Search,23,0.12,66.11,Platinum,True
+C-ADV-01401,2023-05-28,Search,24,0.34,148.01,Silver,True
+C-ADV-01402,2023-02-27,Social Media,49,0.67,21.72,Silver,True
+C-ADV-01403,2023-09-24,Search,36,0.5,158.44,Platinum,True
+C-ADV-01404,2023-08-31,Referral,44,0.22,67.27,Platinum,True
+C-ADV-01405,2023-05-30,Social Media,22,0.06,25.49,Bronze,True
+C-ADV-01406,2023-09-24,Referral,44,0.18,692.56,Gold,True
+C-ADV-01407,2023-09-06,Email,60,0.01,37.76,Platinum,False
+C-ADV-01408,2023-06-05,Email,26,0.41,175.42,Gold,True
+C-ADV-01409,2023-05-14,Social Media,48,0.35,97.41,Gold,True
+C-ADV-01410,2023-01-25,Social Media,40,0.36,58.45,Gold,False
+C-ADV-01411,2023-03-27,Email,28,0.12,32.57,Gold,True
+C-ADV-01412,2023-03-31,Social Media,28,0.54,180.45,Silver,True
+C-ADV-01413,2023-01-22,Referral,54,0.31,80.74,Silver,False
+C-ADV-01414,2023-05-14,Referral,29,0.49,53.79,Silver,True
+C-ADV-01415,2023-12-07,Referral,40,0.37,49.0,Silver,True
+C-ADV-01416,2023-08-18,Email,28,0.31,88.23,Gold,True
+C-ADV-01417,2023-01-13,Direct,49,0.14,238.68,Silver,False
+C-ADV-01418,2023-06-13,Social Media,18,0.37,68.06,Gold,True
+C-ADV-01419,2023-08-31,Referral,66,0.63,63.99,Silver,False
+C-ADV-01420,2023-06-23,Search,64,0.58,20.81,Platinum,True
+C-ADV-01421,2023-03-13,Email,25,0.2,268.86,Gold,True
+C-ADV-01422,2023-07-25,Email,32,0.23,193.8,Platinum,True
+C-ADV-01423,2023-02-17,Referral,21,0.35,8.67,Silver,True
+C-ADV-01424,2023-05-23,Social Media,19,0.42,12.78,Bronze,False
+C-ADV-01425,2023-12-13,Search,50,0.09,51.44,Platinum,True
+C-ADV-01426,2023-09-09,Referral,56,0.63,136.73,Bronze,True
+C-ADV-01427,2023-07-23,Social Media,63,0.52,491.1,Platinum,True
+C-ADV-01428,2023-07-17,Referral,18,0.21,5.87,Gold,True
+C-ADV-01429,2023-06-29,Referral,46,0.82,66.2,Bronze,True
+C-ADV-01430,2023-08-16,Direct,69,0.12,248.32,Platinum,True
+C-ADV-01431,2023-03-25,Direct,64,0.53,86.25,Platinum,True
+C-ADV-01432,2023-10-28,Email,23,0.19,41.43,Silver,True
+C-ADV-01433,2023-06-05,Direct,51,0.25,52.38,Gold,True
+C-ADV-01434,2023-10-30,Direct,23,0.09,15.77,Bronze,False
+C-ADV-01435,2023-11-24,Referral,44,0.15,66.73,Silver,False
+C-ADV-01436,2023-12-30,Email,66,0.26,104.76,Silver,True
+C-ADV-01437,2023-04-06,Direct,36,0.39,253.7,Platinum,True
+C-ADV-01438,2023-06-04,Email,37,0.31,36.38,Platinum,False
+C-ADV-01439,2023-04-25,Search,68,0.09,21.67,Bronze,True
+C-ADV-01440,2023-05-15,Referral,58,0.29,203.38,Platinum,True
+C-ADV-01441,2023-12-01,Referral,44,0.36,118.74,Silver,False
+C-ADV-01442,2023-12-19,Social Media,19,0.07,49.63,Bronze,True
+C-ADV-01443,2023-09-10,Search,56,0.11,63.01,Gold,False
+C-ADV-01444,2023-10-17,Direct,34,0.33,118.46,Platinum,True
+C-ADV-01445,2023-07-11,Email,64,0.24,18.55,Bronze,True
+C-ADV-01446,2023-03-25,Email,21,0.07,50.37,Silver,True
+C-ADV-01447,2023-08-25,Social Media,40,0.69,13.47,Silver,True
+C-ADV-01448,2023-05-20,Referral,44,0.76,108.27,Gold,True
+C-ADV-01449,2023-05-29,Referral,51,0.29,72.58,Bronze,True
+C-ADV-01450,2023-11-18,Social Media,66,0.17,68.26,Bronze,True
+C-ADV-01451,2023-10-06,Referral,38,0.35,161.8,Gold,True
+C-ADV-01452,2023-12-17,Referral,24,0.47,70.41,Gold,True
+C-ADV-01453,2023-01-07,Social Media,51,0.09,22.56,Gold,True
+C-ADV-01454,2023-09-06,Direct,39,0.42,73.01,Silver,True
+C-ADV-01455,2023-04-22,Social Media,50,0.5,9.87,Silver,True
+C-ADV-01456,2023-10-14,Email,62,0.37,24.62,Bronze,False
+C-ADV-01457,2023-08-24,Search,25,0.11,133.52,Silver,True
+C-ADV-01458,2023-09-03,Referral,37,0.17,12.11,Gold,True
+C-ADV-01459,2023-08-15,Email,51,0.27,123.93,Gold,True
+C-ADV-01460,2023-12-30,Referral,19,0.13,647.6,Bronze,True
+C-ADV-01461,2023-03-07,Social Media,62,0.54,52.88,Silver,True
+C-ADV-01462,2023-03-06,Social Media,26,0.16,23.97,Bronze,False
+C-ADV-01463,2023-12-20,Search,22,0.36,181.62,Bronze,False
+C-ADV-01464,2023-08-09,Search,30,0.45,111.52,Bronze,True
+C-ADV-01465,2023-12-04,Email,55,0.55,49.97,Bronze,False
+C-ADV-01466,2023-03-02,Referral,20,0.16,94.92,Bronze,True
+C-ADV-01467,2023-12-08,Search,66,0.34,21.14,Bronze,True
+C-ADV-01468,2023-11-05,Social Media,55,0.34,9.38,Silver,True
+C-ADV-01469,2023-12-10,Referral,19,0.11,84.92,Bronze,True
+C-ADV-01470,2023-05-23,Email,40,0.04,5.33,Gold,True
+C-ADV-01471,2023-09-14,Email,33,0.09,400.23,Bronze,True
+C-ADV-01472,2023-10-24,Search,51,0.6,26.56,Silver,True
+C-ADV-01473,2023-05-25,Social Media,66,0.08,84.97,Bronze,True
+C-ADV-01474,2023-04-20,Email,63,0.19,86.62,Platinum,True
+C-ADV-01475,2023-12-24,Email,29,0.64,28.9,Platinum,True
+C-ADV-01476,2023-04-03,Referral,42,0.3,126.03,Platinum,True
+C-ADV-01477,2023-09-21,Social Media,44,0.15,20.21,Bronze,True
+C-ADV-01478,2023-03-05,Direct,25,0.13,296.88,Silver,False
+C-ADV-01479,2023-07-04,Referral,53,0.25,40.74,Bronze,True
+C-ADV-01480,2023-06-17,Direct,25,0.57,59.69,Platinum,True
+C-ADV-01481,2023-08-22,Email,65,0.45,153.03,Gold,False
+C-ADV-01482,2023-04-26,Email,44,0.12,28.02,Gold,False
+C-ADV-01483,2023-04-07,Search,69,0.66,22.22,Platinum,True
+C-ADV-01484,2023-04-02,Search,61,0.1,52.07,Platinum,True
+C-ADV-01485,2023-07-22,Direct,51,0.28,24.17,Bronze,True
+C-ADV-01486,2023-03-15,Direct,43,0.17,16.58,Bronze,True
+C-ADV-01487,2023-02-03,Referral,30,0.41,85.61,Gold,True
+C-ADV-01488,2023-11-01,Direct,25,0.17,36.62,Silver,False
+C-ADV-01489,2023-09-13,Referral,66,0.19,57.69,Gold,False
+C-ADV-01490,2023-07-02,Direct,60,0.29,32.19,Platinum,False
+C-ADV-01491,2023-09-19,Referral,27,0.39,208.37,Platinum,True
+C-ADV-01492,2023-03-04,Referral,49,0.46,35.49,Platinum,True
+C-ADV-01493,2023-11-18,Social Media,19,0.52,706.63,Bronze,True
+C-ADV-01494,2023-02-04,Direct,61,0.19,33.24,Bronze,True
+C-ADV-01495,2023-07-15,Email,61,0.51,17.62,Gold,True
+C-ADV-01496,2023-06-05,Email,57,0.52,40.98,Bronze,True
+C-ADV-01497,2023-12-05,Email,67,0.49,14.86,Platinum,False
+C-ADV-01498,2023-04-14,Referral,60,0.62,149.58,Platinum,False
+C-ADV-01499,2023-09-16,Referral,52,0.06,110.23,Gold,True
+C-ADV-01500,2023-01-17,Direct,25,0.25,269.86,Platinum,False
+C-ADV-01501,2023-06-11,Direct,46,0.07,60.17,Platinum,True
+C-ADV-01502,2023-01-17,Social Media,53,0.34,68.72,Gold,True
+C-ADV-01503,2023-09-09,Direct,26,0.34,50.53,Gold,False
+C-ADV-01504,2023-09-07,Search,54,0.2,40.82,Platinum,False
+C-ADV-01505,2023-09-01,Email,28,0.11,174.87,Bronze,False
+C-ADV-01506,2023-05-15,Direct,55,0.28,26.63,Platinum,True
+C-ADV-01507,2023-05-26,Referral,21,0.68,202.24,Bronze,True
+C-ADV-01508,2023-03-07,Referral,40,0.42,17.71,Bronze,True
+C-ADV-01509,2023-07-14,Search,45,0.15,441.9,Gold,True
+C-ADV-01510,2023-07-30,Referral,21,0.48,18.7,Silver,True
+C-ADV-01511,2023-05-01,Referral,55,0.35,32.22,Bronze,True
+C-ADV-01512,2023-06-06,Search,39,0.22,25.76,Silver,True
+C-ADV-01513,2023-10-03,Referral,20,0.22,43.22,Platinum,False
+C-ADV-01514,2023-10-18,Email,44,0.23,130.38,Gold,True
+C-ADV-01515,2023-12-23,Direct,55,0.32,52.72,Bronze,True
+C-ADV-01516,2023-07-13,Email,42,0.16,191.04,Gold,True
+C-ADV-01517,2023-09-08,Search,62,0.18,74.48,Silver,True
+C-ADV-01518,2023-09-12,Email,69,0.12,70.32,Gold,True
+C-ADV-01519,2023-11-11,Referral,41,0.46,11.34,Platinum,True
+C-ADV-01520,2023-09-12,Search,52,0.09,40.31,Silver,True
+C-ADV-01521,2023-05-16,Search,37,0.43,86.56,Platinum,True
+C-ADV-01522,2023-11-16,Search,63,0.19,117.87,Bronze,True
+C-ADV-01523,2023-05-20,Search,54,0.37,62.99,Platinum,False
+C-ADV-01524,2023-04-18,Referral,68,0.06,42.19,Bronze,True
+C-ADV-01525,2023-09-16,Referral,45,0.43,69.15,Gold,True
+C-ADV-01526,2023-08-01,Direct,34,0.14,24.82,Platinum,True
+C-ADV-01527,2023-01-10,Email,29,0.56,113.51,Platinum,True
+C-ADV-01528,2023-12-05,Direct,35,0.48,56.17,Platinum,True
+C-ADV-01529,2023-09-25,Social Media,41,0.37,25.04,Platinum,True
+C-ADV-01530,2023-05-04,Social Media,65,0.36,44.02,Gold,False
+C-ADV-01531,2023-07-30,Referral,22,0.2,12.67,Silver,False
+C-ADV-01532,2023-05-17,Referral,59,0.45,831.27,Silver,True
+C-ADV-01533,2023-12-18,Email,33,0.26,43.82,Platinum,True
+C-ADV-01534,2023-02-28,Social Media,30,0.38,131.52,Bronze,True
+C-ADV-01535,2023-06-08,Direct,49,0.05,20.51,Platinum,False
+C-ADV-01536,2023-11-28,Search,30,0.53,21.82,Silver,True
+C-ADV-01537,2023-03-11,Search,34,0.48,23.56,Gold,True
+C-ADV-01538,2023-11-26,Search,64,0.4,10.46,Platinum,True
+C-ADV-01539,2023-01-29,Search,38,0.72,66.25,Gold,True
+C-ADV-01540,2023-07-28,Referral,60,0.38,9.27,Bronze,False
+C-ADV-01541,2023-03-13,Social Media,25,0.17,32.2,Bronze,True
+C-ADV-01542,2023-09-12,Search,33,0.68,42.99,Bronze,True
+C-ADV-01543,2023-06-18,Email,65,0.27,214.09,Platinum,True
+C-ADV-01544,2023-08-05,Social Media,27,0.12,138.53,Bronze,True
+C-ADV-01545,2023-04-20,Referral,46,0.45,23.23,Platinum,True
+C-ADV-01546,2023-10-29,Search,49,0.32,398.94,Gold,True
+C-ADV-01547,2023-06-12,Email,45,0.55,33.66,Platinum,True
+C-ADV-01548,2023-05-23,Social Media,41,0.15,8.24,Platinum,True
+C-ADV-01549,2023-06-07,Search,59,0.56,74.77,Bronze,True
+C-ADV-01550,2023-12-20,Social Media,34,0.2,60.27,Platinum,True
+C-ADV-01551,2023-11-24,Referral,69,0.02,63.95,Bronze,True
+C-ADV-01552,2023-08-15,Direct,18,0.14,35.65,Platinum,True
+C-ADV-01553,2023-06-04,Search,70,0.34,62.78,Silver,True
+C-ADV-01554,2023-04-18,Social Media,46,0.26,291.06,Gold,False
+C-ADV-01555,2023-01-18,Referral,23,0.19,582.55,Platinum,False
+C-ADV-01556,2023-07-31,Referral,63,0.11,59.46,Platinum,True
+C-ADV-01557,2023-03-24,Referral,50,0.25,44.52,Bronze,True
+C-ADV-01558,2023-08-04,Email,64,0.8,53.77,Gold,False
+C-ADV-01559,2023-12-22,Search,66,0.23,69.76,Bronze,True
+C-ADV-01560,2023-11-19,Direct,68,0.33,48.65,Silver,True
+C-ADV-01561,2023-07-25,Social Media,58,0.2,108.66,Gold,True
+C-ADV-01562,2023-10-22,Search,25,0.21,38.37,Silver,True
+C-ADV-01563,2023-09-22,Social Media,56,0.44,8.03,Platinum,True
+C-ADV-01564,2023-08-20,Direct,65,0.05,154.08,Silver,True
+C-ADV-01565,2023-03-30,Email,70,0.22,30.44,Gold,True
+C-ADV-01566,2023-04-12,Search,44,0.35,125.67,Gold,True
+C-ADV-01567,2023-07-21,Direct,54,0.3,28.31,Silver,True
+C-ADV-01568,2023-01-12,Email,59,0.6,130.7,Silver,True
+C-ADV-01569,2023-08-25,Social Media,34,0.51,43.56,Silver,True
+C-ADV-01570,2023-07-25,Email,45,0.13,294.89,Gold,True
+C-ADV-01571,2023-02-15,Referral,28,0.11,52.5,Bronze,True
+C-ADV-01572,2023-09-27,Direct,67,0.32,53.39,Platinum,False
+C-ADV-01573,2023-03-02,Social Media,63,0.47,20.53,Silver,True
+C-ADV-01574,2023-05-17,Referral,65,0.07,17.33,Platinum,False
+C-ADV-01575,2023-03-08,Direct,31,0.19,76.63,Silver,True
+C-ADV-01576,2023-12-13,Social Media,44,0.54,52.36,Silver,False
+C-ADV-01577,2023-03-16,Search,36,0.29,25.64,Gold,True
+C-ADV-01578,2023-11-13,Direct,33,0.53,15.62,Gold,False
+C-ADV-01579,2023-02-13,Search,48,0.1,48.54,Silver,True
+C-ADV-01580,2023-12-21,Direct,61,0.24,58.32,Silver,False
+C-ADV-01581,2023-12-29,Direct,65,0.03,220.4,Gold,True
+C-ADV-01582,2023-02-18,Email,21,0.26,291.18,Bronze,True
+C-ADV-01583,2023-05-01,Direct,40,0.2,21.98,Bronze,True
+C-ADV-01584,2023-05-10,Email,57,0.14,129.37,Platinum,True
+C-ADV-01585,2023-07-22,Referral,26,0.04,177.48,Bronze,True
+C-ADV-01586,2023-05-14,Social Media,50,0.11,15.21,Platinum,True
+C-ADV-01587,2023-08-28,Social Media,23,0.29,106.02,Gold,False
+C-ADV-01588,2023-03-14,Referral,25,0.27,24.89,Gold,True
+C-ADV-01589,2023-03-07,Direct,35,0.46,57.87,Gold,False
+C-ADV-01590,2023-05-25,Referral,57,0.6,79.4,Gold,True
+C-ADV-01591,2023-08-12,Social Media,38,0.44,24.63,Platinum,True
+C-ADV-01592,2023-10-12,Direct,21,0.3,67.46,Silver,True
+C-ADV-01593,2023-01-28,Social Media,29,0.71,38.66,Bronze,False
+C-ADV-01594,2023-05-14,Social Media,63,0.23,82.09,Platinum,False
+C-ADV-01595,2023-03-01,Direct,20,0.26,37.51,Platinum,True
+C-ADV-01596,2023-12-30,Email,49,0.3,9.82,Platinum,False
+C-ADV-01597,2023-02-27,Social Media,25,0.41,538.5,Gold,True
+C-ADV-01598,2023-04-15,Referral,29,0.09,22.27,Silver,True
+C-ADV-01599,2023-10-16,Email,31,0.01,152.81,Bronze,True
+C-ADV-01600,2023-08-02,Search,33,0.18,13.39,Platinum,True
+C-ADV-01601,2023-06-18,Search,36,0.25,21.66,Bronze,False
+C-ADV-01602,2023-07-11,Email,24,0.36,66.76,Gold,True
+C-ADV-01603,2023-01-15,Search,47,0.06,120.09,Platinum,False
+C-ADV-01604,2023-11-18,Referral,56,0.36,43.4,Bronze,True
+C-ADV-01605,2023-01-23,Email,46,0.5,87.82,Gold,True
+C-ADV-01606,2023-04-19,Search,69,0.2,24.02,Gold,True
+C-ADV-01607,2023-01-29,Search,53,0.42,14.18,Platinum,True
+C-ADV-01608,2023-07-24,Referral,29,0.08,19.93,Silver,False
+C-ADV-01609,2023-02-15,Search,31,0.36,101.63,Silver,False
+C-ADV-01610,2023-07-26,Referral,59,0.25,213.9,Silver,True
+C-ADV-01611,2023-06-02,Direct,69,0.55,66.38,Platinum,True
+C-ADV-01612,2023-12-17,Email,26,0.34,38.08,Gold,True
+C-ADV-01613,2023-07-08,Email,30,0.4,29.15,Platinum,False
+C-ADV-01614,2023-07-18,Direct,35,0.57,89.29,Platinum,True
+C-ADV-01615,2023-08-05,Referral,57,0.13,306.65,Silver,False
+C-ADV-01616,2023-11-19,Direct,23,0.3,104.59,Bronze,True
+C-ADV-01617,2023-08-26,Social Media,59,0.38,312.58,Silver,False
+C-ADV-01618,2023-09-27,Email,23,0.5,239.73,Gold,False
+C-ADV-01619,2023-08-12,Search,69,0.56,146.26,Platinum,True
+C-ADV-01620,2023-03-18,Social Media,61,0.09,68.04,Gold,True
+C-ADV-01621,2023-09-25,Direct,36,0.47,192.65,Bronze,True
+C-ADV-01622,2023-01-24,Email,24,0.51,79.18,Platinum,False
+C-ADV-01623,2023-02-18,Direct,60,0.45,100.47,Gold,True
+C-ADV-01624,2023-05-11,Email,23,0.16,203.55,Bronze,True
+C-ADV-01625,2023-12-05,Direct,29,0.37,76.87,Silver,False
+C-ADV-01626,2023-01-24,Search,44,0.42,11.87,Gold,True
+C-ADV-01627,2023-10-28,Direct,66,0.46,11.79,Platinum,True
+C-ADV-01628,2023-06-24,Social Media,31,0.15,22.3,Silver,True
+C-ADV-01629,2023-11-06,Referral,61,0.33,18.44,Bronze,False
+C-ADV-01630,2023-10-01,Search,18,0.44,28.56,Platinum,True
+C-ADV-01631,2023-01-07,Social Media,59,0.03,179.33,Platinum,False
+C-ADV-01632,2023-12-21,Direct,60,0.55,52.88,Platinum,True
+C-ADV-01633,2023-11-13,Email,41,0.09,81.16,Platinum,True
+C-ADV-01634,2023-02-14,Social Media,26,0.31,14.34,Bronze,True
+C-ADV-01635,2023-02-27,Search,62,0.56,147.57,Silver,True
+C-ADV-01636,2023-04-18,Direct,59,0.43,37.96,Silver,True
+C-ADV-01637,2023-08-12,Email,30,0.39,37.51,Bronze,True
+C-ADV-01638,2023-08-26,Social Media,48,0.52,55.25,Platinum,True
+C-ADV-01639,2023-03-01,Social Media,27,0.62,14.69,Platinum,False
+C-ADV-01640,2023-08-30,Search,46,0.38,28.03,Silver,True
+C-ADV-01641,2023-05-31,Email,43,0.29,89.3,Bronze,True
+C-ADV-01642,2023-01-05,Search,58,0.21,111.27,Platinum,False
+C-ADV-01643,2023-09-11,Email,56,0.07,35.95,Gold,True
+C-ADV-01644,2023-09-07,Direct,49,0.32,55.32,Platinum,True
+C-ADV-01645,2024-01-01,Search,51,0.19,55.02,Bronze,False
+C-ADV-01646,2023-10-23,Referral,53,0.2,22.77,Bronze,True
+C-ADV-01647,2023-11-28,Direct,48,0.08,88.48,Bronze,False
+C-ADV-01648,2023-11-15,Referral,46,0.15,68.01,Platinum,True
+C-ADV-01649,2023-03-24,Referral,64,0.59,105.94,Silver,False
+C-ADV-01650,2023-06-26,Direct,32,0.12,7.02,Silver,True
+C-ADV-01651,2023-11-05,Direct,26,0.15,40.85,Gold,False
+C-ADV-01652,2023-08-02,Referral,68,0.43,25.25,Platinum,True
+C-ADV-01653,2023-11-15,Social Media,36,0.2,255.26,Bronze,False
+C-ADV-01654,2023-03-08,Social Media,30,0.15,31.16,Silver,False
+C-ADV-01655,2023-02-21,Direct,49,0.16,30.05,Gold,True
+C-ADV-01656,2023-04-18,Email,21,0.29,17.61,Bronze,True
+C-ADV-01657,2023-05-14,Referral,61,0.48,147.61,Silver,True
+C-ADV-01658,2023-09-15,Search,69,0.19,26.32,Bronze,True
+C-ADV-01659,2023-08-09,Search,57,0.34,14.39,Silver,True
+C-ADV-01660,2023-10-15,Social Media,49,0.5,94.58,Gold,True
+C-ADV-01661,2023-07-01,Search,67,0.19,15.87,Gold,True
+C-ADV-01662,2023-12-20,Email,56,0.08,205.24,Bronze,True
+C-ADV-01663,2023-08-13,Direct,66,0.3,36.45,Bronze,True
+C-ADV-01664,2023-11-09,Email,68,0.3,55.28,Bronze,True
+C-ADV-01665,2023-09-17,Search,28,0.28,47.44,Bronze,True
+C-ADV-01666,2023-07-05,Social Media,64,0.24,107.88,Gold,False
+C-ADV-01667,2023-09-17,Direct,64,0.39,74.96,Bronze,True
+C-ADV-01668,2023-11-28,Referral,39,0.14,121.14,Silver,True
+C-ADV-01669,2023-04-14,Direct,44,0.68,14.91,Bronze,True
+C-ADV-01670,2023-08-31,Referral,36,0.28,48.35,Silver,True
+C-ADV-01671,2023-05-17,Referral,63,0.41,175.31,Platinum,True
+C-ADV-01672,2023-11-19,Social Media,27,0.5,28.88,Platinum,True
+C-ADV-01673,2023-03-12,Direct,44,0.36,150.69,Platinum,False
+C-ADV-01674,2023-09-22,Referral,19,0.19,67.94,Platinum,True
+C-ADV-01675,2023-01-06,Email,22,0.37,58.78,Bronze,True
+C-ADV-01676,2023-06-11,Direct,67,0.38,142.92,Silver,False
+C-ADV-01677,2023-02-01,Direct,66,0.1,63.07,Bronze,True
+C-ADV-01678,2023-10-22,Search,58,0.04,14.53,Gold,False
+C-ADV-01679,2023-07-25,Email,37,0.29,281.25,Gold,True
+C-ADV-01680,2023-01-05,Referral,51,0.03,75.16,Silver,False
+C-ADV-01681,2023-08-17,Social Media,52,0.26,99.38,Platinum,True
+C-ADV-01682,2023-11-29,Direct,67,0.36,31.88,Silver,True
+C-ADV-01683,2023-02-13,Search,52,0.27,44.99,Gold,False
+C-ADV-01684,2023-03-06,Email,52,0.5,489.61,Gold,True
+C-ADV-01685,2023-02-17,Email,53,0.25,105.44,Gold,True
+C-ADV-01686,2023-11-22,Social Media,19,0.16,550.74,Bronze,True
+C-ADV-01687,2023-05-04,Referral,64,0.19,78.27,Platinum,True
+C-ADV-01688,2023-01-31,Referral,34,0.5,143.74,Gold,True
+C-ADV-01689,2023-01-25,Search,46,0.15,425.9,Gold,True
+C-ADV-01690,2023-08-21,Referral,33,0.36,32.73,Silver,True
+C-ADV-01691,2023-06-03,Referral,60,0.31,251.34,Silver,False
+C-ADV-01692,2023-09-24,Social Media,24,0.6,1081.74,Gold,True
+C-ADV-01693,2023-07-04,Direct,24,0.16,14.58,Silver,False
+C-ADV-01694,2023-07-30,Search,23,0.38,200.54,Bronze,False
+C-ADV-01695,2023-03-08,Direct,31,0.38,16.54,Platinum,True
+C-ADV-01696,2023-07-09,Email,43,0.14,204.65,Platinum,True
+C-ADV-01697,2023-10-27,Direct,58,0.48,14.29,Platinum,False
+C-ADV-01698,2023-12-19,Direct,64,0.28,32.6,Platinum,True
+C-ADV-01699,2023-03-15,Email,26,0.44,118.26,Platinum,False
+C-ADV-01700,2023-03-08,Email,51,0.35,64.28,Bronze,True
+C-ADV-01701,2023-08-22,Direct,20,0.21,41.49,Silver,True
+C-ADV-01702,2023-03-02,Email,44,0.18,117.64,Bronze,True
+C-ADV-01703,2023-07-09,Email,36,0.06,22.06,Bronze,True
+C-ADV-01704,2023-03-02,Referral,37,0.32,33.05,Gold,True
+C-ADV-01705,2023-05-31,Direct,19,0.24,45.85,Silver,True
+C-ADV-01706,2023-10-29,Direct,21,0.39,4.5,Gold,True
+C-ADV-01707,2023-04-21,Social Media,70,0.52,12.89,Platinum,True
+C-ADV-01708,2023-03-04,Email,40,0.22,166.69,Bronze,True
+C-ADV-01709,2023-08-02,Direct,54,0.41,13.26,Gold,False
+C-ADV-01710,2023-06-22,Direct,48,0.52,28.4,Silver,True
+C-ADV-01711,2023-09-16,Direct,66,0.27,59.82,Platinum,False
+C-ADV-01712,2023-03-18,Referral,23,0.12,33.69,Platinum,False
+C-ADV-01713,2023-04-30,Direct,39,0.22,36.42,Bronze,False
+C-ADV-01714,2023-05-23,Search,28,0.55,122.19,Bronze,True
+C-ADV-01715,2023-10-15,Search,59,0.25,20.33,Bronze,True
+C-ADV-01716,2023-11-13,Email,54,0.65,62.35,Bronze,True
+C-ADV-01717,2023-09-01,Email,19,0.14,69.28,Bronze,True
+C-ADV-01718,2023-01-10,Referral,68,0.12,40.67,Silver,True
+C-ADV-01719,2023-12-28,Email,46,0.45,26.91,Bronze,True
+C-ADV-01720,2023-07-25,Email,20,0.49,375.33,Platinum,True
+C-ADV-01721,2023-06-24,Direct,29,0.31,195.95,Platinum,True
+C-ADV-01722,2023-09-28,Referral,42,0.25,58.09,Gold,True
+C-ADV-01723,2023-02-28,Search,52,0.19,37.44,Silver,True
+C-ADV-01724,2023-03-15,Social Media,34,0.43,44.34,Bronze,True
+C-ADV-01725,2023-06-07,Direct,61,0.46,8.92,Silver,True
+C-ADV-01726,2023-11-11,Referral,29,0.08,3.27,Bronze,True
+C-ADV-01727,2023-06-02,Direct,24,0.06,36.06,Gold,True
+C-ADV-01728,2023-07-31,Referral,34,0.39,174.23,Platinum,True
+C-ADV-01729,2023-01-27,Social Media,33,0.14,44.6,Silver,False
+C-ADV-01730,2023-09-18,Email,42,0.26,79.09,Bronze,True
+C-ADV-01731,2023-02-01,Referral,47,0.33,14.98,Platinum,True
+C-ADV-01732,2023-09-05,Search,44,0.37,33.9,Silver,True
+C-ADV-01733,2023-05-18,Email,55,0.16,65.56,Bronze,True
+C-ADV-01734,2023-10-12,Social Media,37,0.1,194.9,Platinum,False
+C-ADV-01735,2023-02-12,Email,31,0.14,56.51,Silver,True
+C-ADV-01736,2023-10-04,Social Media,68,0.26,96.21,Silver,False
+C-ADV-01737,2023-10-12,Direct,20,0.25,207.31,Bronze,False
+C-ADV-01738,2023-11-14,Referral,59,0.47,48.08,Silver,True
+C-ADV-01739,2023-01-31,Direct,35,0.06,32.43,Gold,False
+C-ADV-01740,2023-06-29,Social Media,55,0.38,160.89,Gold,True
+C-ADV-01741,2023-03-24,Email,54,0.18,174.61,Bronze,True
+C-ADV-01742,2023-02-15,Direct,62,0.32,6.25,Bronze,True
+C-ADV-01743,2023-10-12,Referral,45,0.14,123.81,Silver,True
+C-ADV-01744,2023-12-16,Referral,58,0.14,106.04,Gold,False
+C-ADV-01745,2023-05-20,Social Media,60,0.32,46.54,Gold,True
+C-ADV-01746,2023-04-18,Direct,56,0.41,45.5,Gold,True
+C-ADV-01747,2023-12-21,Social Media,59,0.16,131.5,Bronze,False
+C-ADV-01748,2023-01-03,Search,61,0.12,45.57,Silver,False
+C-ADV-01749,2023-10-12,Direct,66,0.17,22.01,Platinum,True
+C-ADV-01750,2023-11-29,Search,52,0.41,12.4,Bronze,False
+C-ADV-01751,2023-12-11,Search,40,0.43,71.08,Platinum,True
+C-ADV-01752,2023-07-18,Social Media,67,0.24,120.18,Bronze,True
+C-ADV-01753,2023-08-25,Referral,30,0.45,84.43,Platinum,True
+C-ADV-01754,2023-04-24,Search,66,0.19,3.34,Gold,True
+C-ADV-01755,2023-04-09,Search,70,0.02,25.71,Gold,True
+C-ADV-01756,2023-04-30,Direct,41,0.33,42.57,Bronze,True
+C-ADV-01757,2023-09-10,Email,31,0.13,116.4,Bronze,True
+C-ADV-01758,2023-11-23,Direct,25,0.22,54.22,Gold,False
+C-ADV-01759,2023-03-29,Email,30,0.43,108.02,Silver,True
+C-ADV-01760,2023-10-29,Social Media,65,0.44,42.11,Bronze,True
+C-ADV-01761,2023-05-13,Email,32,0.2,495.95,Gold,True
+C-ADV-01762,2023-12-14,Search,62,0.43,52.86,Gold,False
+C-ADV-01763,2023-01-02,Direct,59,0.24,100.71,Bronze,True
+C-ADV-01764,2023-08-10,Direct,35,0.06,33.98,Bronze,False
+C-ADV-01765,2023-09-11,Referral,51,0.23,32.9,Bronze,True
+C-ADV-01766,2023-01-25,Referral,44,0.46,70.15,Platinum,True
+C-ADV-01767,2023-01-03,Direct,30,0.04,137.14,Gold,True
+C-ADV-01768,2023-10-20,Search,65,0.21,69.98,Silver,False
+C-ADV-01769,2023-02-08,Social Media,30,0.09,54.95,Silver,True
+C-ADV-01770,2023-06-09,Search,58,0.03,19.16,Bronze,True
+C-ADV-01771,2023-09-03,Direct,69,0.53,67.55,Bronze,True
+C-ADV-01772,2023-05-09,Social Media,24,0.46,41.72,Platinum,True
+C-ADV-01773,2023-06-24,Search,70,0.31,36.26,Gold,True
+C-ADV-01774,2023-02-07,Email,57,0.08,31.6,Platinum,True
+C-ADV-01775,2023-11-17,Direct,55,0.41,32.5,Bronze,True
+C-ADV-01776,2023-02-01,Search,42,0.52,28.57,Gold,True
+C-ADV-01777,2023-03-07,Search,69,0.52,12.47,Platinum,True
+C-ADV-01778,2023-06-04,Email,58,0.39,20.0,Platinum,True
+C-ADV-01779,2023-02-22,Search,53,0.53,23.01,Bronze,True
+C-ADV-01780,2023-07-15,Direct,24,0.63,6.0,Platinum,True
+C-ADV-01781,2023-11-03,Email,18,0.09,28.97,Platinum,False
+C-ADV-01782,2023-08-26,Direct,57,0.02,48.6,Bronze,True
+C-ADV-01783,2023-11-30,Search,47,0.3,45.28,Gold,True
+C-ADV-01784,2023-02-25,Search,18,0.37,236.93,Bronze,True
+C-ADV-01785,2023-10-21,Social Media,58,0.31,13.14,Gold,True
+C-ADV-01786,2023-08-04,Direct,64,0.53,23.19,Platinum,True
+C-ADV-01787,2023-05-05,Social Media,69,0.4,45.25,Bronze,True
+C-ADV-01788,2023-03-07,Referral,55,0.44,114.23,Platinum,True
+C-ADV-01789,2023-06-09,Email,52,0.07,58.31,Silver,True
+C-ADV-01790,2023-08-29,Referral,56,0.56,122.45,Gold,True
+C-ADV-01791,2023-07-08,Search,51,0.26,44.03,Silver,True
+C-ADV-01792,2023-05-02,Email,70,0.27,185.6,Bronze,False
+C-ADV-01793,2023-06-26,Social Media,30,0.23,63.36,Silver,True
+C-ADV-01794,2023-06-24,Social Media,60,0.24,70.82,Platinum,False
+C-ADV-01795,2023-11-04,Referral,55,0.03,37.47,Gold,True
+C-ADV-01796,2023-08-03,Referral,28,0.46,315.39,Bronze,False
+C-ADV-01797,2023-01-22,Direct,32,0.26,51.58,Bronze,True
+C-ADV-01798,2023-12-21,Social Media,47,0.11,17.91,Silver,True
+C-ADV-01799,2023-09-04,Referral,69,0.11,96.41,Platinum,True
+C-ADV-01800,2023-07-24,Social Media,70,0.39,82.47,Bronze,True
+C-ADV-01801,2023-01-06,Search,40,0.64,45.41,Bronze,True
+C-ADV-01802,2023-03-14,Referral,46,0.17,12.09,Silver,True
+C-ADV-01803,2023-01-23,Search,30,0.25,61.77,Silver,True
+C-ADV-01804,2023-03-31,Social Media,34,0.12,111.8,Silver,True
+C-ADV-01805,2023-10-11,Social Media,29,0.34,23.63,Silver,True
+C-ADV-01806,2023-04-01,Referral,24,0.41,143.84,Bronze,True
+C-ADV-01807,2023-07-14,Search,39,0.21,211.11,Silver,True
+C-ADV-01808,2023-08-22,Social Media,41,0.04,693.22,Gold,True
+C-ADV-01809,2023-09-27,Email,45,0.17,30.62,Bronze,True
+C-ADV-01810,2023-03-15,Social Media,68,0.38,29.46,Silver,True
+C-ADV-01811,2023-09-30,Direct,62,0.23,100.83,Gold,True
+C-ADV-01812,2023-11-03,Direct,58,0.3,287.27,Silver,True
+C-ADV-01813,2023-11-12,Email,30,0.16,40.93,Gold,True
+C-ADV-01814,2023-06-17,Social Media,21,0.27,45.97,Gold,True
+C-ADV-01815,2023-09-18,Email,49,0.22,43.1,Silver,True
+C-ADV-01816,2023-08-29,Email,22,0.05,190.27,Silver,False
+C-ADV-01817,2023-11-27,Email,41,0.13,22.52,Platinum,False
+C-ADV-01818,2023-04-02,Referral,63,0.13,17.77,Gold,False
+C-ADV-01819,2023-09-11,Direct,35,0.41,25.78,Platinum,True
+C-ADV-01820,2023-04-17,Social Media,30,0.06,216.69,Platinum,True
+C-ADV-01821,2023-07-22,Social Media,37,0.23,50.62,Platinum,False
+C-ADV-01822,2023-10-20,Social Media,41,0.55,35.7,Gold,True
+C-ADV-01823,2023-03-10,Search,36,0.48,39.58,Platinum,True
+C-ADV-01824,2023-04-28,Email,20,0.18,442.92,Platinum,True
+C-ADV-01825,2023-08-07,Direct,47,0.44,193.77,Platinum,False
+C-ADV-01826,2023-07-08,Direct,38,0.07,26.23,Gold,False
+C-ADV-01827,2023-01-13,Social Media,46,0.24,668.78,Silver,True
+C-ADV-01828,2023-11-27,Search,40,0.25,320.87,Bronze,True
+C-ADV-01829,2023-09-14,Email,52,0.53,54.77,Bronze,True
+C-ADV-01830,2023-04-27,Search,25,0.26,142.81,Bronze,True
+C-ADV-01831,2023-01-20,Email,30,0.08,43.22,Gold,True
+C-ADV-01832,2023-12-12,Referral,34,0.41,9.63,Gold,True
+C-ADV-01833,2023-04-08,Email,26,0.2,22.6,Gold,True
+C-ADV-01834,2023-06-03,Referral,70,0.04,170.59,Gold,False
+C-ADV-01835,2023-07-27,Email,66,0.22,39.62,Bronze,False
+C-ADV-01836,2023-12-01,Email,66,0.08,26.2,Silver,False
+C-ADV-01837,2023-04-27,Social Media,64,0.19,14.45,Silver,False
+C-ADV-01838,2023-04-30,Email,55,0.15,87.41,Platinum,False
+C-ADV-01839,2023-06-24,Search,38,0.1,36.55,Silver,False
+C-ADV-01840,2023-12-24,Direct,31,0.34,161.61,Platinum,False
+C-ADV-01841,2023-10-13,Search,41,0.02,85.27,Silver,True
+C-ADV-01842,2023-06-06,Search,49,0.05,40.82,Gold,True
+C-ADV-01843,2023-04-26,Direct,45,0.21,5.72,Platinum,True
+C-ADV-01844,2023-06-16,Email,19,0.22,331.98,Bronze,True
+C-ADV-01845,2023-03-20,Referral,54,0.18,27.12,Platinum,False
+C-ADV-01846,2023-04-15,Direct,22,0.21,668.65,Platinum,True
+C-ADV-01847,2023-09-01,Search,39,0.27,35.29,Platinum,True
+C-ADV-01848,2023-02-17,Social Media,24,0.47,40.0,Silver,True
+C-ADV-01849,2023-12-19,Email,49,0.58,13.18,Bronze,True
+C-ADV-01850,2023-04-12,Search,42,0.4,41.0,Gold,True
+C-ADV-01851,2023-04-30,Referral,60,0.31,53.95,Bronze,False
+C-ADV-01852,2023-01-30,Referral,51,0.09,20.34,Bronze,True
+C-ADV-01853,2023-06-17,Direct,43,0.12,151.71,Silver,True
+C-ADV-01854,2023-03-08,Email,44,0.44,31.73,Platinum,True
+C-ADV-01855,2023-07-19,Social Media,26,0.1,248.49,Silver,True
+C-ADV-01856,2023-08-10,Direct,28,0.58,15.26,Gold,True
+C-ADV-01857,2023-09-15,Direct,35,0.41,275.08,Silver,True
+C-ADV-01858,2023-03-15,Direct,22,0.18,126.97,Platinum,True
+C-ADV-01859,2023-09-27,Referral,54,0.21,17.72,Platinum,False
+C-ADV-01860,2023-08-25,Email,20,0.32,180.57,Bronze,True
+C-ADV-01861,2023-11-27,Direct,40,0.38,61.95,Gold,False
+C-ADV-01862,2023-11-10,Social Media,44,0.46,13.87,Silver,True
+C-ADV-01863,2023-11-13,Direct,47,0.11,121.34,Platinum,True
+C-ADV-01864,2023-12-24,Email,24,0.39,101.64,Platinum,True
+C-ADV-01865,2023-05-03,Social Media,35,0.2,10.97,Gold,True
+C-ADV-01866,2023-12-24,Social Media,49,0.42,63.34,Platinum,True
+C-ADV-01867,2023-07-08,Search,66,0.47,217.05,Bronze,True
+C-ADV-01868,2023-07-29,Direct,28,0.29,68.27,Gold,True
+C-ADV-01869,2023-09-17,Search,47,0.3,48.45,Bronze,True
+C-ADV-01870,2023-11-24,Direct,42,0.07,48.5,Gold,False
+C-ADV-01871,2023-04-10,Direct,20,0.57,12.89,Bronze,True
+C-ADV-01872,2023-02-28,Social Media,38,0.32,231.98,Platinum,False
+C-ADV-01873,2023-08-25,Search,23,0.26,48.82,Silver,False
+C-ADV-01874,2023-03-13,Direct,70,0.17,22.63,Gold,True
+C-ADV-01875,2023-03-29,Search,56,0.35,40.06,Bronze,True
+C-ADV-01876,2023-05-31,Search,52,0.28,6.69,Platinum,True
+C-ADV-01877,2023-02-09,Search,61,0.35,73.17,Gold,True
+C-ADV-01878,2023-08-14,Referral,29,0.06,36.66,Silver,True
+C-ADV-01879,2023-12-12,Email,31,0.67,62.25,Platinum,True
+C-ADV-01880,2023-11-22,Email,59,0.35,62.6,Bronze,False
+C-ADV-01881,2023-12-20,Referral,46,0.27,131.77,Bronze,True
+C-ADV-01882,2023-01-25,Direct,67,0.31,87.35,Silver,True
+C-ADV-01883,2023-07-11,Social Media,30,0.17,144.23,Bronze,True
+C-ADV-01884,2023-08-04,Search,18,0.05,9.27,Gold,True
+C-ADV-01885,2023-12-15,Search,32,0.21,24.83,Bronze,True
+C-ADV-01886,2023-03-27,Search,44,0.29,91.33,Bronze,True
+C-ADV-01887,2023-06-15,Email,58,0.46,178.31,Silver,True
+C-ADV-01888,2023-10-05,Direct,45,0.13,22.65,Bronze,True
+C-ADV-01889,2023-04-20,Search,40,0.45,6.59,Gold,True
+C-ADV-01890,2023-01-08,Direct,59,0.37,204.27,Gold,True
+C-ADV-01891,2023-07-19,Social Media,47,0.14,191.75,Silver,True
+C-ADV-01892,2023-12-03,Referral,59,0.35,33.42,Gold,True
+C-ADV-01893,2023-02-04,Social Media,44,0.59,22.95,Gold,False
+C-ADV-01894,2023-02-22,Email,68,0.24,60.0,Silver,True
+C-ADV-01895,2023-02-18,Email,38,0.22,41.75,Platinum,True
+C-ADV-01896,2023-06-20,Social Media,58,0.21,15.97,Gold,False
+C-ADV-01897,2023-02-04,Referral,19,0.54,76.39,Platinum,False
+C-ADV-01898,2023-09-19,Social Media,50,0.12,47.38,Bronze,True
+C-ADV-01899,2023-01-11,Email,66,0.31,26.93,Bronze,True
+C-ADV-01900,2023-05-02,Direct,66,0.5,39.33,Silver,True
+C-ADV-01901,2023-01-31,Social Media,41,0.2,353.92,Platinum,True
+C-ADV-01902,2023-04-14,Social Media,42,0.21,49.54,Silver,True
+C-ADV-01903,2023-05-02,Email,46,0.28,73.4,Gold,True
+C-ADV-01904,2023-05-23,Referral,59,0.18,41.2,Bronze,False
+C-ADV-01905,2023-11-28,Referral,66,0.4,157.27,Bronze,True
+C-ADV-01906,2023-06-19,Referral,33,0.38,25.44,Silver,True
+C-ADV-01907,2023-12-07,Social Media,69,0.35,6.32,Silver,False
+C-ADV-01908,2023-09-24,Referral,29,0.2,172.58,Platinum,True
+C-ADV-01909,2023-02-03,Direct,22,0.33,40.36,Silver,True
+C-ADV-01910,2023-11-21,Social Media,31,0.26,11.65,Silver,True
+C-ADV-01911,2023-03-30,Email,53,0.31,48.59,Silver,True
+C-ADV-01912,2023-09-17,Search,45,0.28,23.25,Platinum,True
+C-ADV-01913,2023-03-26,Social Media,33,0.27,96.04,Platinum,True
+C-ADV-01914,2023-11-07,Social Media,37,0.46,7.76,Gold,False
+C-ADV-01915,2023-11-22,Social Media,35,0.04,18.4,Platinum,True
+C-ADV-01916,2023-07-04,Direct,42,0.28,13.2,Silver,False
+C-ADV-01917,2023-08-14,Direct,50,0.12,37.85,Platinum,True
+C-ADV-01918,2023-09-04,Search,66,0.22,89.48,Platinum,False
+C-ADV-01919,2023-02-12,Referral,56,0.41,46.84,Silver,True
+C-ADV-01920,2023-05-12,Direct,47,0.07,30.82,Gold,False
+C-ADV-01921,2023-05-26,Direct,53,0.05,65.68,Platinum,True
+C-ADV-01922,2023-06-20,Social Media,63,0.13,72.48,Platinum,True
+C-ADV-01923,2023-03-21,Social Media,18,0.35,38.19,Bronze,True
+C-ADV-01924,2023-09-09,Direct,44,0.16,41.55,Platinum,True
+C-ADV-01925,2023-07-16,Direct,37,0.17,11.65,Bronze,False
+C-ADV-01926,2023-01-20,Search,42,0.26,250.24,Silver,True
+C-ADV-01927,2023-08-12,Referral,67,0.15,21.9,Gold,False
+C-ADV-01928,2023-11-22,Referral,62,0.45,279.93,Bronze,False
+C-ADV-01929,2023-08-06,Social Media,33,0.28,29.54,Platinum,True
+C-ADV-01930,2023-07-05,Search,62,0.23,29.77,Silver,True
+C-ADV-01931,2023-11-06,Direct,61,0.26,60.44,Silver,True
+C-ADV-01932,2023-05-07,Email,55,0.46,125.91,Silver,True
+C-ADV-01933,2023-03-01,Search,59,0.13,7.83,Platinum,False
+C-ADV-01934,2023-12-28,Email,23,0.43,15.22,Silver,False
+C-ADV-01935,2023-03-26,Direct,34,0.67,63.36,Gold,False
+C-ADV-01936,2023-10-28,Referral,64,0.17,87.2,Platinum,True
+C-ADV-01937,2023-02-25,Email,67,0.22,272.62,Gold,True
+C-ADV-01938,2023-05-18,Social Media,65,0.44,13.64,Platinum,True
+C-ADV-01939,2023-01-04,Social Media,70,0.25,81.07,Platinum,True
+C-ADV-01940,2023-02-19,Search,67,0.12,24.67,Platinum,False
+C-ADV-01941,2023-12-02,Referral,64,0.17,83.29,Platinum,True
+C-ADV-01942,2023-04-01,Referral,29,0.11,52.71,Silver,True
+C-ADV-01943,2023-09-07,Social Media,50,0.08,45.44,Bronze,False
+C-ADV-01944,2023-10-18,Social Media,29,0.16,16.62,Silver,True
+C-ADV-01945,2023-04-04,Social Media,34,0.41,22.27,Platinum,False
+C-ADV-01946,2023-11-17,Email,24,0.46,169.39,Silver,True
+C-ADV-01947,2023-05-31,Search,42,0.04,39.03,Bronze,True
+C-ADV-01948,2023-02-02,Referral,19,0.06,31.77,Silver,False
+C-ADV-01949,2023-09-06,Search,18,0.22,418.02,Bronze,True
+C-ADV-01950,2023-01-04,Email,68,0.63,76.78,Bronze,True
+C-ADV-01951,2023-04-19,Email,68,0.27,63.78,Bronze,False
+C-ADV-01952,2023-11-05,Email,66,0.28,158.59,Gold,False
+C-ADV-01953,2023-08-31,Referral,56,0.24,216.62,Platinum,True
+C-ADV-01954,2023-07-09,Referral,38,0.41,61.51,Silver,True
+C-ADV-01955,2023-12-07,Direct,42,0.08,93.69,Bronze,True
+C-ADV-01956,2023-06-19,Search,18,0.32,718.42,Platinum,False
+C-ADV-01957,2023-03-13,Search,56,0.3,216.44,Bronze,True
+C-ADV-01958,2023-12-25,Social Media,41,0.7,125.62,Platinum,False
+C-ADV-01959,2023-09-21,Direct,60,0.25,408.93,Silver,True
+C-ADV-01960,2023-11-23,Referral,19,0.23,96.75,Gold,True
+C-ADV-01961,2023-06-16,Direct,32,0.26,121.07,Platinum,False
+C-ADV-01962,2023-11-10,Search,40,0.13,23.44,Platinum,False
+C-ADV-01963,2023-12-04,Search,64,0.29,82.84,Platinum,True
+C-ADV-01964,2023-11-07,Social Media,63,0.25,85.11,Silver,True
+C-ADV-01965,2023-03-07,Direct,68,0.14,179.68,Bronze,True
+C-ADV-01966,2023-12-11,Email,47,0.11,110.17,Silver,False
+C-ADV-01967,2023-03-01,Direct,60,0.31,57.09,Silver,True
+C-ADV-01968,2023-04-19,Social Media,66,0.06,33.76,Bronze,True
+C-ADV-01969,2023-08-11,Search,28,0.57,34.53,Gold,False
+C-ADV-01970,2023-05-24,Social Media,64,0.41,28.06,Gold,False
+C-ADV-01971,2023-12-10,Search,60,0.65,80.78,Silver,False
+C-ADV-01972,2023-02-16,Referral,32,0.03,70.42,Bronze,True
+C-ADV-01973,2023-07-13,Direct,59,0.46,11.83,Platinum,True
+C-ADV-01974,2023-04-25,Referral,25,0.23,195.28,Gold,True
+C-ADV-01975,2023-02-27,Search,39,0.21,156.42,Silver,True
+C-ADV-01976,2023-10-21,Referral,26,0.04,62.16,Gold,False
+C-ADV-01977,2023-10-23,Search,37,0.05,93.03,Bronze,True
+C-ADV-01978,2023-07-18,Direct,38,0.66,36.18,Gold,True
+C-ADV-01979,2023-09-24,Email,55,0.13,11.83,Silver,True
+C-ADV-01980,2023-07-22,Search,52,0.22,27.23,Platinum,True
+C-ADV-01981,2023-03-16,Referral,32,0.17,14.7,Platinum,False
+C-ADV-01982,2023-03-17,Email,36,0.44,35.14,Silver,True
+C-ADV-01983,2023-11-03,Referral,37,0.38,80.11,Bronze,True
+C-ADV-01984,2023-12-28,Email,48,0.09,73.27,Silver,False
+C-ADV-01985,2023-05-30,Direct,21,0.08,67.97,Gold,True
+C-ADV-01986,2023-04-18,Social Media,62,0.26,37.95,Bronze,True
+C-ADV-01987,2023-09-07,Direct,37,0.67,100.59,Silver,True
+C-ADV-01988,2023-10-08,Direct,39,0.14,30.48,Platinum,False
+C-ADV-01989,2023-06-28,Direct,43,0.46,243.61,Bronze,True
+C-ADV-01990,2023-05-25,Social Media,62,0.58,16.76,Platinum,True
+C-ADV-01991,2023-03-09,Referral,66,0.17,34.37,Bronze,True
+C-ADV-01992,2023-08-23,Social Media,54,0.19,104.78,Silver,False
+C-ADV-01993,2023-12-23,Direct,36,0.65,55.71,Silver,True
+C-ADV-01994,2023-04-22,Social Media,65,0.38,20.81,Bronze,True
+C-ADV-01995,2023-10-22,Search,61,0.67,25.54,Silver,False
+C-ADV-01996,2023-08-07,Social Media,21,0.22,37.13,Bronze,True
+C-ADV-01997,2023-08-31,Social Media,21,0.25,147.7,Bronze,True
+C-ADV-01998,2023-10-31,Direct,27,0.62,352.23,Platinum,True
+C-ADV-01999,2023-01-18,Search,33,0.44,41.07,Platinum,False
+C-ADV-02000,2023-06-04,Email,29,0.11,30.58,Platinum,True
+C-ADV-02001,2023-08-26,Direct,35,0.23,12.86,Platinum,True
+C-ADV-02002,2023-01-06,Search,25,0.27,43.48,Bronze,True
+C-ADV-02003,2023-09-08,Email,32,0.51,90.88,Bronze,False
+C-ADV-02004,2023-05-21,Search,68,0.24,30.77,Silver,False
+C-ADV-02005,2023-09-05,Direct,37,0.27,220.69,Silver,True
+C-ADV-02006,2023-06-16,Search,63,0.25,68.37,Silver,False
+C-ADV-02007,2023-12-25,Search,43,0.39,19.94,Platinum,True
+C-ADV-02008,2023-09-23,Email,52,0.2,30.67,Bronze,True
+C-ADV-02009,2023-12-04,Search,29,0.18,226.77,Silver,True
+C-ADV-02010,2023-10-12,Direct,69,0.1,368.45,Gold,True
+C-ADV-02011,2023-01-21,Social Media,54,0.24,51.94,Silver,True
+C-ADV-02012,2023-02-14,Email,34,0.26,282.23,Bronze,True
+C-ADV-02013,2023-03-05,Email,37,0.13,18.78,Gold,True
+C-ADV-02014,2023-08-05,Search,33,0.22,294.9,Gold,True
+C-ADV-02015,2023-09-23,Referral,60,0.17,248.21,Platinum,True
+C-ADV-02016,2023-10-23,Direct,62,0.08,76.54,Gold,True
+C-ADV-02017,2023-11-07,Email,50,0.25,36.84,Silver,True
+C-ADV-02018,2023-12-06,Search,33,0.3,24.98,Bronze,True
+C-ADV-02019,2023-03-14,Referral,31,0.42,35.64,Silver,True
+C-ADV-02020,2023-10-30,Referral,35,0.16,38.1,Silver,False
+C-ADV-02021,2023-02-08,Email,34,0.3,22.36,Gold,False
+C-ADV-02022,2023-11-29,Social Media,43,0.34,55.42,Platinum,True
+C-ADV-02023,2023-05-11,Direct,62,0.48,29.59,Silver,True
+C-ADV-02024,2023-02-06,Referral,58,0.44,37.74,Silver,True
+C-ADV-02025,2023-10-16,Email,56,0.18,13.2,Silver,False
+C-ADV-02026,2023-03-20,Referral,68,0.16,27.31,Platinum,False
+C-ADV-02027,2023-01-14,Email,33,0.29,59.12,Bronze,True
+C-ADV-02028,2023-03-05,Email,25,0.05,79.75,Platinum,True
+C-ADV-02029,2023-06-18,Search,41,0.3,68.71,Gold,True
+C-ADV-02030,2023-03-16,Social Media,35,0.18,47.1,Bronze,True
+C-ADV-02031,2023-07-13,Social Media,42,0.44,70.73,Bronze,True
+C-ADV-02032,2023-03-31,Email,64,0.17,38.25,Gold,False
+C-ADV-02033,2023-02-18,Email,40,0.2,8.5,Gold,True
+C-ADV-02034,2023-11-08,Search,21,0.22,10.27,Silver,True
+C-ADV-02035,2023-07-19,Social Media,40,0.81,56.35,Platinum,False
+C-ADV-02036,2023-10-31,Social Media,34,0.41,65.87,Bronze,True
+C-ADV-02037,2023-12-03,Social Media,27,0.63,199.38,Platinum,True
+C-ADV-02038,2023-01-28,Referral,63,0.56,33.16,Silver,False
+C-ADV-02039,2023-12-28,Direct,29,0.1,112.98,Platinum,True
+C-ADV-02040,2023-08-28,Email,36,0.47,98.96,Gold,False
+C-ADV-02041,2023-09-24,Social Media,37,0.15,147.04,Bronze,True
+C-ADV-02042,2023-07-28,Referral,23,0.18,7.56,Bronze,True
+C-ADV-02043,2023-05-03,Search,28,0.44,346.49,Bronze,True
+C-ADV-02044,2023-05-27,Email,49,0.35,12.94,Bronze,False
+C-ADV-02045,2023-12-13,Email,64,0.23,16.63,Silver,False
+C-ADV-02046,2023-09-12,Email,61,0.29,96.73,Bronze,False
+C-ADV-02047,2023-01-08,Email,30,0.13,34.2,Bronze,False
+C-ADV-02048,2023-12-26,Email,65,0.35,20.95,Gold,True
+C-ADV-02049,2023-12-05,Email,61,0.27,48.15,Bronze,False
+C-ADV-02050,2023-03-28,Email,32,0.1,45.44,Silver,True
+C-ADV-02051,2023-07-07,Social Media,50,0.36,406.86,Gold,True
+C-ADV-02052,2023-08-05,Direct,42,0.2,185.2,Silver,True
+C-ADV-02053,2023-02-27,Referral,61,0.14,60.54,Silver,True
+C-ADV-02054,2023-05-29,Referral,48,0.39,35.03,Gold,True
+C-ADV-02055,2023-04-20,Search,65,0.06,23.44,Platinum,True
+C-ADV-02056,2023-06-06,Email,70,0.3,120.03,Bronze,False
+C-ADV-02057,2023-11-13,Direct,21,0.45,11.31,Gold,True
+C-ADV-02058,2023-11-12,Direct,39,0.19,46.45,Gold,True
+C-ADV-02059,2023-02-24,Search,40,0.38,52.59,Silver,False
+C-ADV-02060,2023-07-01,Search,24,0.21,148.31,Platinum,False
+C-ADV-02061,2023-04-12,Search,51,0.8,84.29,Silver,False
+C-ADV-02062,2023-03-05,Direct,18,0.04,33.04,Silver,True
+C-ADV-02063,2023-04-26,Direct,43,0.1,28.56,Gold,True
+C-ADV-02064,2023-07-06,Direct,29,0.03,70.74,Gold,True
+C-ADV-02065,2023-08-13,Direct,28,0.36,419.95,Silver,True
+C-ADV-02066,2023-08-11,Search,40,0.15,243.9,Silver,True
+C-ADV-02067,2023-04-08,Referral,20,0.31,42.92,Silver,False
+C-ADV-02068,2023-08-04,Referral,20,0.56,47.57,Silver,True
+C-ADV-02069,2023-09-03,Referral,25,0.29,167.91,Platinum,False
+C-ADV-02070,2023-10-09,Direct,69,0.24,64.56,Silver,True
+C-ADV-02071,2023-07-24,Email,64,0.6,51.83,Platinum,True
+C-ADV-02072,2023-02-26,Search,68,0.29,41.65,Bronze,True
+C-ADV-02073,2023-03-21,Referral,50,0.28,65.83,Bronze,True
+C-ADV-02074,2023-01-27,Referral,45,0.21,28.23,Bronze,False
+C-ADV-02075,2023-09-03,Referral,36,0.15,13.67,Platinum,True
+C-ADV-02076,2023-08-08,Social Media,57,0.3,52.85,Silver,True
+C-ADV-02077,2023-05-08,Referral,67,0.23,73.21,Bronze,True
+C-ADV-02078,2023-12-25,Social Media,60,0.19,95.86,Platinum,True
+C-ADV-02079,2023-08-31,Search,62,0.16,12.31,Silver,True
+C-ADV-02080,2023-10-30,Social Media,32,0.49,118.47,Bronze,True
+C-ADV-02081,2023-07-25,Search,35,0.66,18.63,Silver,True
+C-ADV-02082,2023-08-07,Search,57,0.35,51.16,Silver,True
+C-ADV-02083,2023-01-27,Direct,44,0.31,18.81,Gold,True
+C-ADV-02084,2023-04-24,Referral,45,0.3,86.01,Platinum,True
+C-ADV-02085,2023-09-19,Direct,59,0.18,34.38,Bronze,True
+C-ADV-02086,2023-02-26,Referral,41,0.46,15.13,Gold,True
+C-ADV-02087,2023-12-31,Direct,33,0.48,137.42,Gold,True
+C-ADV-02088,2023-04-04,Search,18,0.28,7.43,Bronze,True
+C-ADV-02089,2023-04-19,Referral,48,0.29,27.6,Gold,True
+C-ADV-02090,2023-08-09,Social Media,34,0.42,31.78,Platinum,True
+C-ADV-02091,2023-06-21,Referral,25,0.14,48.1,Bronze,True
+C-ADV-02092,2023-12-16,Email,67,0.15,42.48,Silver,True
+C-ADV-02093,2023-07-04,Referral,65,0.32,110.31,Gold,True
+C-ADV-02094,2023-11-29,Referral,31,0.27,26.64,Platinum,True
+C-ADV-02095,2023-02-24,Social Media,58,0.13,81.45,Bronze,True
+C-ADV-02096,2023-10-28,Social Media,30,0.28,63.4,Platinum,True
+C-ADV-02097,2023-02-08,Email,57,0.1,66.22,Gold,True
+C-ADV-02098,2023-08-31,Social Media,52,0.54,77.99,Silver,True
+C-ADV-02099,2023-03-07,Social Media,44,0.4,51.86,Gold,True
+C-ADV-02100,2023-07-07,Direct,58,0.18,37.52,Bronze,False
+C-ADV-02101,2023-02-04,Direct,44,0.71,63.9,Bronze,True
+C-ADV-02102,2023-11-03,Referral,62,0.41,100.73,Silver,True
+C-ADV-02103,2023-01-24,Email,21,0.24,47.79,Silver,False
+C-ADV-02104,2023-09-11,Email,50,0.29,43.81,Bronze,True
+C-ADV-02105,2023-08-13,Email,42,0.08,24.37,Platinum,False
+C-ADV-02106,2023-11-07,Referral,31,0.51,19.31,Silver,True
+C-ADV-02107,2023-03-23,Email,31,0.42,19.71,Bronze,False
+C-ADV-02108,2023-09-15,Email,34,0.14,18.14,Gold,True
+C-ADV-02109,2023-06-01,Referral,53,0.31,18.05,Bronze,True
+C-ADV-02110,2023-04-25,Search,52,0.65,25.02,Silver,True
+C-ADV-02111,2023-01-21,Social Media,35,0.28,23.85,Silver,True
+C-ADV-02112,2023-01-27,Social Media,70,0.31,96.48,Silver,True
+C-ADV-02113,2023-01-01,Referral,58,0.17,95.18,Gold,True
+C-ADV-02114,2023-02-12,Email,34,0.52,84.79,Silver,False
+C-ADV-02115,2023-11-10,Referral,38,0.47,75.31,Bronze,True
+C-ADV-02116,2023-07-02,Social Media,64,0.32,124.22,Gold,True
+C-ADV-02117,2023-05-12,Search,52,0.41,75.1,Bronze,False
+C-ADV-02118,2023-12-01,Referral,58,0.32,62.53,Silver,False
+C-ADV-02119,2023-04-23,Referral,35,0.06,16.46,Silver,False
+C-ADV-02120,2023-03-21,Direct,32,0.38,63.83,Platinum,True
+C-ADV-02121,2023-03-17,Direct,23,0.43,37.97,Platinum,True
+C-ADV-02122,2023-08-24,Social Media,70,0.19,49.21,Silver,True
+C-ADV-02123,2023-10-19,Direct,64,0.22,139.03,Silver,True
+C-ADV-02124,2023-01-11,Referral,28,0.36,26.73,Silver,False
+C-ADV-02125,2023-12-18,Email,30,0.18,67.92,Bronze,True
+C-ADV-02126,2023-02-06,Direct,33,0.33,17.54,Platinum,False
+C-ADV-02127,2023-02-21,Email,26,0.53,19.5,Bronze,True
+C-ADV-02128,2023-07-13,Direct,19,0.3,57.23,Bronze,True
+C-ADV-02129,2023-11-26,Search,26,0.04,23.7,Silver,True
+C-ADV-02130,2023-05-18,Social Media,58,0.22,71.19,Bronze,True
+C-ADV-02131,2023-02-24,Email,65,0.23,57.97,Gold,True
+C-ADV-02132,2023-04-14,Social Media,48,0.43,264.38,Platinum,True
+C-ADV-02133,2023-06-07,Referral,48,0.1,45.02,Silver,True
+C-ADV-02134,2023-01-29,Email,62,0.03,36.27,Gold,True
+C-ADV-02135,2023-01-11,Search,24,0.37,22.42,Gold,True
+C-ADV-02136,2023-09-19,Direct,27,0.17,68.81,Bronze,True
+C-ADV-02137,2023-01-13,Social Media,45,0.45,18.72,Platinum,True
+C-ADV-02138,2023-06-30,Referral,32,0.14,123.2,Platinum,True
+C-ADV-02139,2023-09-09,Social Media,25,0.19,21.92,Silver,True
+C-ADV-02140,2023-05-25,Referral,22,0.41,194.86,Gold,True
+C-ADV-02141,2023-07-04,Search,20,0.62,19.83,Silver,True
+C-ADV-02142,2023-08-08,Email,39,0.04,20.37,Silver,False
+C-ADV-02143,2023-03-18,Referral,57,0.12,20.47,Gold,True
+C-ADV-02144,2023-02-23,Referral,49,0.15,43.63,Gold,True
+C-ADV-02145,2023-12-31,Search,68,0.56,7.4,Bronze,True
+C-ADV-02146,2023-12-02,Social Media,38,0.22,167.51,Silver,False
+C-ADV-02147,2023-08-17,Direct,70,0.17,148.53,Bronze,True
+C-ADV-02148,2023-10-23,Direct,64,0.11,21.84,Gold,True
+C-ADV-02149,2023-02-16,Referral,26,0.11,18.66,Silver,False
+C-ADV-02150,2023-06-30,Referral,49,0.19,12.18,Platinum,False
+C-ADV-02151,2023-12-22,Direct,56,0.46,69.79,Gold,True
+C-ADV-02152,2023-12-01,Social Media,42,0.23,17.64,Platinum,False
+C-ADV-02153,2023-10-03,Email,49,0.3,90.41,Silver,False
+C-ADV-02154,2023-02-12,Email,63,0.27,34.3,Platinum,True
+C-ADV-02155,2023-12-26,Search,33,0.2,61.78,Gold,True
+C-ADV-02156,2023-04-15,Search,41,0.22,27.88,Platinum,True
+C-ADV-02157,2023-02-26,Search,40,0.31,9.28,Gold,True
+C-ADV-02158,2023-05-31,Direct,27,0.26,12.52,Platinum,True
+C-ADV-02159,2023-04-18,Social Media,21,0.42,62.79,Silver,True
+C-ADV-02160,2023-12-23,Social Media,42,0.34,770.35,Bronze,False
+C-ADV-02161,2023-07-10,Search,62,0.19,35.13,Bronze,True
+C-ADV-02162,2023-09-02,Email,28,0.12,43.47,Bronze,True
+C-ADV-02163,2023-07-07,Social Media,23,0.37,28.31,Silver,True
+C-ADV-02164,2023-01-07,Email,70,0.2,348.78,Platinum,True
+C-ADV-02165,2023-04-04,Direct,65,0.19,20.73,Silver,True
+C-ADV-02166,2023-08-29,Direct,64,0.15,81.95,Gold,False
+C-ADV-02167,2023-11-27,Search,36,0.03,48.73,Bronze,True
+C-ADV-02168,2023-01-31,Search,56,0.47,10.74,Silver,True
+C-ADV-02169,2023-01-06,Direct,45,0.05,95.86,Platinum,True
+C-ADV-02170,2023-10-20,Email,37,0.13,43.74,Silver,False
+C-ADV-02171,2023-03-22,Referral,23,0.16,85.17,Platinum,True
+C-ADV-02172,2023-04-19,Direct,57,0.35,7.21,Bronze,True
+C-ADV-02173,2023-07-20,Social Media,70,0.58,87.6,Bronze,False
+C-ADV-02174,2023-09-02,Referral,59,0.02,64.31,Platinum,False
+C-ADV-02175,2023-03-26,Search,69,0.16,16.55,Gold,False
+C-ADV-02176,2023-04-10,Referral,24,0.04,69.0,Bronze,True
+C-ADV-02177,2023-07-05,Email,67,0.24,16.96,Gold,True
+C-ADV-02178,2023-05-03,Referral,28,0.23,50.12,Bronze,True
+C-ADV-02179,2023-04-19,Email,18,0.36,58.97,Gold,True
+C-ADV-02180,2023-10-10,Social Media,58,0.36,30.37,Bronze,True
+C-ADV-02181,2023-05-18,Search,54,0.08,4.59,Bronze,False
+C-ADV-02182,2023-01-24,Search,38,0.42,172.93,Bronze,True
+C-ADV-02183,2023-01-05,Referral,66,0.43,28.19,Gold,False
+C-ADV-02184,2023-09-14,Social Media,38,0.12,19.02,Platinum,True
+C-ADV-02185,2023-03-08,Search,39,0.08,29.1,Platinum,True
+C-ADV-02186,2023-09-15,Social Media,19,0.68,29.04,Platinum,False
+C-ADV-02187,2023-10-28,Search,36,0.39,41.85,Silver,True
+C-ADV-02188,2023-12-16,Direct,23,0.3,62.24,Bronze,True
+C-ADV-02189,2023-04-21,Social Media,67,0.41,180.66,Silver,True
+C-ADV-02190,2023-08-18,Social Media,39,0.17,38.07,Gold,True
+C-ADV-02191,2023-11-16,Direct,20,0.21,20.8,Platinum,True
+C-ADV-02192,2023-04-17,Email,56,0.55,62.9,Bronze,True
+C-ADV-02193,2023-10-18,Direct,24,0.34,137.65,Bronze,True
+C-ADV-02194,2023-06-08,Email,69,0.19,24.11,Bronze,False
+C-ADV-02195,2023-02-18,Direct,38,0.59,63.21,Silver,True
+C-ADV-02196,2023-03-24,Search,35,0.33,28.73,Gold,True
+C-ADV-02197,2023-02-15,Search,29,0.08,91.44,Platinum,True
+C-ADV-02198,2023-08-31,Referral,66,0.36,55.7,Platinum,True
+C-ADV-02199,2023-03-05,Email,49,0.09,147.58,Bronze,True
+C-ADV-02200,2023-05-27,Direct,44,0.2,24.3,Silver,False
+C-ADV-02201,2023-07-07,Email,57,0.29,42.0,Gold,True
+C-ADV-02202,2023-02-12,Direct,50,0.28,24.46,Platinum,True
+C-ADV-02203,2023-12-16,Search,57,0.22,46.69,Bronze,True
+C-ADV-02204,2023-12-25,Email,18,0.15,71.09,Silver,True
+C-ADV-02205,2023-05-29,Direct,28,0.13,96.63,Platinum,True
+C-ADV-02206,2023-04-25,Direct,47,0.37,58.02,Bronze,True
+C-ADV-02207,2023-08-27,Direct,59,0.31,74.74,Platinum,True
+C-ADV-02208,2023-02-13,Social Media,64,0.23,19.08,Bronze,False
+C-ADV-02209,2023-08-10,Social Media,43,0.05,41.63,Gold,True
+C-ADV-02210,2023-06-12,Referral,56,0.66,84.13,Platinum,True
+C-ADV-02211,2023-12-26,Direct,25,0.16,20.8,Gold,False
+C-ADV-02212,2023-01-20,Email,27,0.31,31.99,Platinum,True
+C-ADV-02213,2023-11-24,Social Media,38,0.34,122.84,Bronze,False
+C-ADV-02214,2023-02-01,Referral,68,0.18,274.65,Platinum,False
+C-ADV-02215,2023-04-20,Search,31,0.46,99.39,Bronze,False
+C-ADV-02216,2023-05-19,Referral,58,0.2,172.62,Silver,True
+C-ADV-02217,2023-03-14,Search,35,0.42,32.05,Platinum,True
+C-ADV-02218,2023-06-02,Direct,44,0.1,15.5,Silver,True
+C-ADV-02219,2023-04-05,Search,23,0.24,7.38,Platinum,True
+C-ADV-02220,2023-06-02,Social Media,30,0.17,14.72,Gold,False
+C-ADV-02221,2023-09-04,Direct,52,0.48,11.88,Silver,False
+C-ADV-02222,2023-07-01,Email,42,0.74,96.48,Bronze,True
+C-ADV-02223,2023-02-09,Email,57,0.31,61.71,Silver,True
+C-ADV-02224,2023-12-07,Referral,18,0.13,316.74,Silver,False
+C-ADV-02225,2023-03-17,Direct,38,0.47,93.52,Bronze,False
+C-ADV-02226,2023-05-15,Email,64,0.18,12.51,Bronze,False
+C-ADV-02227,2023-03-06,Direct,58,0.38,142.68,Bronze,True
+C-ADV-02228,2023-04-22,Social Media,44,0.54,26.62,Silver,False
+C-ADV-02229,2023-04-21,Referral,31,0.25,571.98,Silver,True
+C-ADV-02230,2023-07-09,Referral,19,0.44,28.45,Gold,True
+C-ADV-02231,2023-09-15,Search,62,0.12,4.52,Platinum,False
+C-ADV-02232,2023-07-31,Direct,40,0.5,93.87,Gold,False
+C-ADV-02233,2023-09-25,Referral,25,0.11,51.25,Silver,False
+C-ADV-02234,2023-08-08,Referral,29,0.29,97.56,Silver,False
+C-ADV-02235,2023-07-15,Referral,60,0.14,173.3,Platinum,True
+C-ADV-02236,2023-12-26,Email,24,0.58,61.18,Bronze,True
+C-ADV-02237,2023-02-15,Search,57,0.28,128.37,Platinum,True
+C-ADV-02238,2023-09-12,Email,52,0.28,66.92,Bronze,False
+C-ADV-02239,2023-09-15,Email,69,0.11,52.45,Bronze,True
+C-ADV-02240,2023-08-04,Social Media,32,0.13,86.77,Platinum,False
+C-ADV-02241,2023-02-28,Social Media,48,0.32,11.98,Bronze,True
+C-ADV-02242,2023-08-26,Direct,70,0.26,75.65,Platinum,True
+C-ADV-02243,2023-07-11,Social Media,50,0.31,88.83,Gold,True
+C-ADV-02244,2023-12-04,Referral,37,0.21,140.34,Platinum,True
+C-ADV-02245,2023-01-03,Direct,20,0.16,35.52,Bronze,True
+C-ADV-02246,2023-03-20,Referral,70,0.63,27.61,Gold,True
+C-ADV-02247,2023-03-29,Email,45,0.29,24.06,Silver,False
+C-ADV-02248,2023-04-09,Email,59,0.37,282.38,Platinum,True
+C-ADV-02249,2023-10-23,Direct,26,0.28,20.21,Platinum,True
+C-ADV-02250,2023-07-26,Referral,51,0.53,310.75,Silver,False
+C-ADV-02251,2023-04-29,Search,63,0.07,42.85,Silver,True
+C-ADV-02252,2023-11-20,Email,68,0.39,11.36,Platinum,True
+C-ADV-02253,2023-10-11,Social Media,38,0.16,26.96,Silver,True
+C-ADV-02254,2023-02-17,Search,45,0.21,12.56,Bronze,True
+C-ADV-02255,2023-01-15,Email,63,0.36,55.84,Bronze,False
+C-ADV-02256,2023-01-13,Social Media,47,0.55,45.91,Gold,True
+C-ADV-02257,2023-05-03,Social Media,37,0.13,64.42,Silver,True
+C-ADV-02258,2023-07-13,Referral,60,0.33,8.44,Bronze,True
+C-ADV-02259,2023-02-12,Social Media,58,0.19,68.61,Bronze,True
+C-ADV-02260,2023-02-26,Direct,56,0.24,7.61,Bronze,True
+C-ADV-02261,2023-03-14,Referral,34,0.56,10.77,Silver,True
+C-ADV-02262,2023-02-09,Direct,41,0.11,44.81,Silver,False
+C-ADV-02263,2023-02-21,Direct,68,0.02,58.5,Bronze,False
+C-ADV-02264,2023-02-07,Direct,58,0.4,19.31,Bronze,True
+C-ADV-02265,2023-12-18,Direct,42,0.25,12.65,Gold,False
+C-ADV-02266,2023-03-24,Social Media,37,0.1,176.8,Bronze,True
+C-ADV-02267,2023-12-04,Email,58,0.25,46.9,Bronze,True
+C-ADV-02268,2023-06-25,Referral,48,0.38,44.61,Bronze,True
+C-ADV-02269,2023-09-25,Referral,25,0.33,278.47,Silver,True
+C-ADV-02270,2023-10-02,Search,51,0.61,17.49,Silver,True
+C-ADV-02271,2023-07-06,Search,31,0.25,899.08,Bronze,True
+C-ADV-02272,2023-03-12,Social Media,23,0.06,194.91,Silver,True
+C-ADV-02273,2023-05-21,Direct,30,0.08,37.71,Bronze,True
+C-ADV-02274,2023-12-29,Email,59,0.16,95.72,Gold,False
+C-ADV-02275,2023-09-11,Direct,50,0.18,78.17,Platinum,True
+C-ADV-02276,2023-05-09,Social Media,30,0.12,46.4,Gold,False
+C-ADV-02277,2023-02-22,Email,68,0.27,48.95,Gold,True
+C-ADV-02278,2023-04-16,Direct,45,0.3,76.16,Platinum,False
+C-ADV-02279,2023-11-02,Referral,70,0.26,41.99,Gold,True
+C-ADV-02280,2023-11-07,Direct,45,0.42,133.25,Silver,True
+C-ADV-02281,2023-07-11,Search,46,0.2,41.04,Silver,True
+C-ADV-02282,2023-09-19,Referral,55,0.3,136.49,Platinum,True
+C-ADV-02283,2023-11-06,Email,40,0.65,11.84,Platinum,True
+C-ADV-02284,2023-02-28,Social Media,69,0.06,27.52,Gold,False
+C-ADV-02285,2023-04-06,Referral,33,0.62,68.46,Bronze,True
+C-ADV-02286,2023-12-03,Referral,41,0.24,167.64,Silver,True
+C-ADV-02287,2023-03-04,Search,38,0.27,10.33,Bronze,True
+C-ADV-02288,2023-04-20,Direct,54,0.38,20.69,Gold,True
+C-ADV-02289,2023-10-15,Search,42,0.25,69.77,Gold,True
+C-ADV-02290,2023-09-27,Social Media,24,0.1,10.87,Gold,True
+C-ADV-02291,2023-10-21,Direct,61,0.21,164.46,Platinum,True
+C-ADV-02292,2023-06-13,Social Media,30,0.26,9.44,Bronze,False
+C-ADV-02293,2023-09-13,Search,35,0.18,10.61,Platinum,True
+C-ADV-02294,2023-03-05,Direct,28,0.19,84.58,Gold,False
+C-ADV-02295,2023-05-02,Email,19,0.44,108.28,Gold,True
+C-ADV-02296,2023-11-26,Email,18,0.08,64.38,Platinum,True
+C-ADV-02297,2023-03-09,Direct,20,0.63,35.82,Bronze,True
+C-ADV-02298,2023-11-27,Search,22,0.49,66.14,Platinum,True
+C-ADV-02299,2023-08-01,Referral,35,0.29,13.05,Gold,True
+C-ADV-02300,2023-07-24,Search,53,0.03,51.46,Gold,False
+C-ADV-02301,2023-11-10,Search,43,0.21,45.01,Gold,False
+C-ADV-02302,2023-09-10,Search,41,0.12,25.35,Bronze,True
+C-ADV-02303,2023-04-25,Search,70,0.47,12.45,Bronze,True
+C-ADV-02304,2023-02-23,Referral,62,0.17,48.0,Platinum,True
+C-ADV-02305,2023-03-29,Search,30,0.05,20.08,Gold,True
+C-ADV-02306,2023-12-19,Search,34,0.75,52.85,Bronze,True
+C-ADV-02307,2023-01-25,Referral,22,0.12,21.3,Gold,True
+C-ADV-02308,2023-12-19,Email,68,0.31,19.98,Platinum,True
+C-ADV-02309,2023-12-24,Social Media,26,0.65,54.41,Platinum,True
+C-ADV-02310,2023-03-06,Referral,27,0.33,473.31,Platinum,False
+C-ADV-02311,2023-12-09,Search,51,0.5,264.79,Silver,False
+C-ADV-02312,2023-12-05,Direct,35,0.47,74.1,Gold,False
+C-ADV-02313,2023-04-26,Search,34,0.76,40.15,Gold,True
+C-ADV-02314,2023-06-30,Email,33,0.63,34.72,Silver,True
+C-ADV-02315,2023-02-08,Direct,21,0.12,157.19,Silver,True
+C-ADV-02316,2023-12-10,Social Media,47,0.21,40.14,Platinum,True
+C-ADV-02317,2023-09-07,Search,39,0.27,128.13,Silver,True
+C-ADV-02318,2023-06-09,Direct,59,0.19,46.41,Silver,True
+C-ADV-02319,2023-03-08,Social Media,41,0.18,72.97,Platinum,False
+C-ADV-02320,2023-11-14,Email,30,0.27,233.76,Platinum,True
+C-ADV-02321,2023-02-05,Referral,45,0.14,49.39,Silver,True
+C-ADV-02322,2023-10-23,Search,27,0.21,131.18,Platinum,True
+C-ADV-02323,2023-02-26,Social Media,19,0.13,17.9,Platinum,True
+C-ADV-02324,2023-05-17,Search,48,0.24,43.47,Platinum,True
+C-ADV-02325,2023-05-16,Search,53,0.45,282.97,Bronze,True
+C-ADV-02326,2023-08-09,Social Media,27,0.28,91.0,Platinum,False
+C-ADV-02327,2023-09-18,Referral,21,0.16,23.82,Platinum,True
+C-ADV-02328,2023-07-09,Search,21,0.39,77.4,Platinum,False
+C-ADV-02329,2023-04-10,Referral,30,0.22,41.18,Platinum,True
+C-ADV-02330,2023-11-01,Referral,51,0.11,134.46,Platinum,False
+C-ADV-02331,2023-02-25,Search,59,0.27,75.19,Silver,True
+C-ADV-02332,2023-04-23,Search,21,0.11,86.67,Bronze,True
+C-ADV-02333,2023-05-03,Search,52,0.29,51.93,Bronze,True
+C-ADV-02334,2023-04-26,Email,62,0.34,91.89,Platinum,False
+C-ADV-02335,2023-07-21,Search,32,0.43,225.67,Gold,False
+C-ADV-02336,2023-04-16,Social Media,68,0.07,22.3,Silver,True
+C-ADV-02337,2023-11-23,Referral,63,0.18,23.62,Gold,True
+C-ADV-02338,2023-02-18,Social Media,50,0.12,76.34,Platinum,True
+C-ADV-02339,2023-12-19,Social Media,28,0.24,52.99,Gold,True
+C-ADV-02340,2023-03-27,Social Media,39,0.37,20.6,Platinum,True
+C-ADV-02341,2023-01-07,Direct,45,0.19,21.62,Gold,True
+C-ADV-02342,2023-04-01,Referral,22,0.26,22.82,Silver,True
+C-ADV-02343,2023-11-01,Referral,48,0.13,50.67,Bronze,False
+C-ADV-02344,2023-05-07,Direct,25,0.32,10.78,Bronze,True
+C-ADV-02345,2023-10-18,Referral,32,0.31,277.36,Silver,True
+C-ADV-02346,2023-02-18,Search,37,0.09,193.44,Gold,False
+C-ADV-02347,2023-09-09,Referral,52,0.39,19.19,Gold,False
+C-ADV-02348,2023-05-10,Referral,47,0.13,4.79,Bronze,True
+C-ADV-02349,2023-06-04,Referral,51,0.43,108.51,Platinum,True
+C-ADV-02350,2023-05-19,Email,64,0.2,157.94,Bronze,True
+C-ADV-02351,2023-07-30,Social Media,60,0.18,136.7,Silver,True
+C-ADV-02352,2023-09-12,Search,33,0.37,13.31,Platinum,True
+C-ADV-02353,2023-04-16,Search,30,0.11,27.92,Platinum,True
+C-ADV-02354,2023-05-21,Email,46,0.15,16.92,Silver,True
+C-ADV-02355,2023-12-14,Referral,39,0.09,46.05,Platinum,False
+C-ADV-02356,2023-05-22,Referral,30,0.35,59.83,Bronze,True
+C-ADV-02357,2023-11-10,Search,45,0.5,69.99,Platinum,True
+C-ADV-02358,2023-05-28,Search,18,0.26,57.86,Platinum,True
+C-ADV-02359,2023-08-27,Social Media,51,0.5,93.43,Gold,True
+C-ADV-02360,2023-06-05,Direct,36,0.42,117.58,Bronze,True
+C-ADV-02361,2023-01-08,Direct,20,0.37,118.96,Silver,True
+C-ADV-02362,2023-10-31,Search,21,0.42,9.47,Platinum,True
+C-ADV-02363,2023-01-03,Direct,40,0.58,84.17,Bronze,True
+C-ADV-02364,2023-05-09,Social Media,40,0.12,33.49,Gold,True
+C-ADV-02365,2023-02-14,Referral,27,0.21,47.98,Silver,False
+C-ADV-02366,2023-10-27,Search,36,0.49,68.4,Silver,True
+C-ADV-02367,2023-08-31,Referral,33,0.05,117.11,Platinum,False
+C-ADV-02368,2023-07-24,Search,34,0.59,60.31,Gold,True
+C-ADV-02369,2023-03-30,Email,45,0.3,10.3,Gold,True
+C-ADV-02370,2023-12-16,Social Media,34,0.44,45.62,Silver,False
+C-ADV-02371,2023-10-11,Social Media,37,0.21,64.32,Gold,True
+C-ADV-02372,2023-06-02,Email,58,0.11,38.05,Platinum,True
+C-ADV-02373,2023-07-12,Direct,24,0.2,45.31,Silver,False
+C-ADV-02374,2023-12-22,Referral,50,0.6,114.95,Gold,False
+C-ADV-02375,2023-07-01,Direct,47,0.32,124.77,Platinum,False
+C-ADV-02376,2023-08-25,Search,53,0.14,38.9,Bronze,False
+C-ADV-02377,2023-02-15,Social Media,57,0.14,194.62,Gold,True
+C-ADV-02378,2023-10-25,Email,41,0.18,11.87,Silver,True
+C-ADV-02379,2023-01-28,Direct,26,0.32,28.35,Platinum,True
+C-ADV-02380,2023-08-25,Email,47,0.36,43.5,Bronze,True
+C-ADV-02381,2023-01-29,Referral,59,0.06,93.69,Bronze,True
+C-ADV-02382,2023-11-01,Search,70,0.23,183.24,Gold,False
+C-ADV-02383,2023-12-20,Referral,21,0.51,64.29,Bronze,True
+C-ADV-02384,2023-12-26,Social Media,51,0.47,185.07,Silver,False
+C-ADV-02385,2023-03-11,Social Media,61,0.45,8.37,Silver,True
+C-ADV-02386,2023-11-18,Referral,64,0.22,98.16,Bronze,False
+C-ADV-02387,2023-11-16,Social Media,25,0.23,50.65,Bronze,True
+C-ADV-02388,2023-03-20,Email,25,0.2,74.81,Bronze,True
+C-ADV-02389,2023-04-15,Search,48,0.48,18.43,Bronze,False
+C-ADV-02390,2023-07-20,Search,25,0.58,16.0,Gold,False
+C-ADV-02391,2023-09-05,Social Media,70,0.44,16.74,Silver,True
+C-ADV-02392,2023-11-10,Direct,60,0.29,215.95,Bronze,False
+C-ADV-02393,2023-03-16,Search,29,0.15,76.9,Silver,True
+C-ADV-02394,2023-03-29,Email,65,0.19,18.09,Silver,False
+C-ADV-02395,2023-09-03,Referral,36,0.09,332.18,Bronze,False
+C-ADV-02396,2023-07-08,Referral,43,0.18,225.2,Platinum,True
+C-ADV-02397,2023-08-26,Direct,70,0.46,48.77,Platinum,True
+C-ADV-02398,2023-01-15,Referral,47,0.16,151.83,Bronze,False
+C-ADV-02399,2023-01-06,Email,37,0.35,65.28,Bronze,False
+C-ADV-02400,2023-01-22,Referral,26,0.05,183.49,Platinum,False
+C-ADV-02401,2023-05-22,Search,28,0.12,94.49,Gold,True
+C-ADV-02402,2023-06-28,Email,42,0.16,36.3,Bronze,True
+C-ADV-02403,2023-12-02,Social Media,40,0.26,127.7,Gold,False
+C-ADV-02404,2023-03-13,Referral,68,0.04,349.62,Gold,False
+C-ADV-02405,2023-02-04,Direct,42,0.47,85.63,Platinum,True
+C-ADV-02406,2023-10-22,Email,67,0.29,663.95,Gold,True
+C-ADV-02407,2023-12-24,Referral,55,0.31,164.76,Gold,False
+C-ADV-02408,2023-02-04,Search,19,0.27,142.24,Silver,True
+C-ADV-02409,2023-02-19,Search,49,0.19,3.43,Platinum,True
+C-ADV-02410,2023-04-29,Social Media,24,0.22,21.23,Silver,False
+C-ADV-02411,2023-08-04,Search,21,0.37,65.46,Gold,True
+C-ADV-02412,2023-01-20,Search,46,0.39,253.03,Gold,True
+C-ADV-02413,2023-03-31,Referral,24,0.13,50.43,Platinum,False
+C-ADV-02414,2023-03-10,Email,53,0.19,47.87,Silver,True
+C-ADV-02415,2023-05-10,Direct,46,0.09,49.23,Gold,True
+C-ADV-02416,2023-04-14,Social Media,45,0.51,17.55,Silver,True
+C-ADV-02417,2023-10-26,Search,58,0.19,13.91,Bronze,True
+C-ADV-02418,2023-01-18,Social Media,18,0.39,30.22,Gold,False
+C-ADV-02419,2023-10-18,Email,22,0.63,119.52,Gold,True
+C-ADV-02420,2023-12-16,Email,49,0.31,24.33,Silver,True
+C-ADV-02421,2023-10-20,Direct,50,0.18,39.0,Gold,True
+C-ADV-02422,2023-11-13,Email,26,0.23,282.21,Bronze,False
+C-ADV-02423,2023-08-07,Direct,22,0.09,137.81,Bronze,True
+C-ADV-02424,2023-09-22,Referral,24,0.29,44.01,Bronze,False
+C-ADV-02425,2023-04-29,Search,56,0.5,34.13,Gold,True
+C-ADV-02426,2023-04-25,Referral,34,0.24,7.67,Platinum,True
+C-ADV-02427,2023-02-04,Social Media,36,0.21,17.64,Bronze,True
+C-ADV-02428,2023-09-23,Email,50,0.16,26.6,Gold,False
+C-ADV-02429,2023-11-13,Search,52,0.16,81.93,Bronze,False
+C-ADV-02430,2023-05-15,Search,20,0.31,82.63,Gold,False
+C-ADV-02431,2023-05-14,Social Media,39,0.3,271.43,Bronze,True
+C-ADV-02432,2023-04-15,Email,70,0.28,10.29,Gold,True
+C-ADV-02433,2023-05-01,Direct,22,0.34,76.87,Bronze,True
+C-ADV-02434,2023-02-06,Direct,56,0.05,58.68,Bronze,False
+C-ADV-02435,2023-03-08,Referral,64,0.6,32.61,Bronze,True
+C-ADV-02436,2023-01-19,Direct,50,0.18,186.17,Silver,True
+C-ADV-02437,2023-08-09,Direct,37,0.22,70.25,Silver,True
+C-ADV-02438,2023-01-29,Search,67,0.51,76.94,Silver,False
+C-ADV-02439,2023-12-16,Search,53,0.27,102.32,Platinum,True
+C-ADV-02440,2023-07-18,Direct,62,0.31,57.77,Silver,False
+C-ADV-02441,2023-12-26,Direct,53,0.2,104.5,Silver,True
+C-ADV-02442,2023-08-13,Search,57,0.64,18.0,Gold,True
+C-ADV-02443,2023-04-10,Referral,45,0.34,10.16,Bronze,True
+C-ADV-02444,2023-04-29,Search,55,0.24,15.22,Bronze,True
+C-ADV-02445,2023-07-31,Email,54,0.16,127.87,Bronze,True
+C-ADV-02446,2023-05-08,Search,22,0.47,119.36,Bronze,True
+C-ADV-02447,2023-08-13,Social Media,36,0.39,92.31,Bronze,True
+C-ADV-02448,2023-06-29,Email,59,0.22,33.46,Silver,True
+C-ADV-02449,2023-03-08,Email,43,0.31,18.54,Platinum,True
+C-ADV-02450,2023-12-03,Search,22,0.11,216.06,Gold,True
+C-ADV-02451,2023-09-11,Referral,32,0.23,7.2,Platinum,True
+C-ADV-02452,2023-07-07,Email,36,0.19,98.63,Silver,True
+C-ADV-02453,2023-06-13,Email,50,0.26,38.78,Bronze,True
+C-ADV-02454,2023-06-27,Direct,63,0.41,226.62,Platinum,True
+C-ADV-02455,2023-02-10,Social Media,26,0.24,77.3,Silver,True
+C-ADV-02456,2023-10-11,Social Media,25,0.24,205.84,Gold,True
+C-ADV-02457,2023-01-19,Social Media,62,0.33,13.66,Platinum,False
+C-ADV-02458,2023-02-28,Search,49,0.5,16.32,Bronze,True
+C-ADV-02459,2023-05-23,Email,42,0.25,627.19,Gold,True
+C-ADV-02460,2023-01-31,Referral,57,0.52,156.41,Platinum,False
+C-ADV-02461,2023-01-10,Direct,42,0.31,1462.29,Platinum,True
+C-ADV-02462,2023-04-25,Social Media,42,0.25,26.62,Silver,False
+C-ADV-02463,2023-09-30,Search,60,0.12,34.32,Gold,True
+C-ADV-02464,2023-10-05,Referral,19,0.47,109.57,Gold,True
+C-ADV-02465,2023-10-30,Social Media,66,0.12,33.78,Bronze,True
+C-ADV-02466,2023-11-15,Direct,45,0.31,77.55,Bronze,True
+C-ADV-02467,2023-10-11,Direct,64,0.09,199.92,Gold,False
+C-ADV-02468,2023-08-06,Email,64,0.23,81.72,Gold,True
+C-ADV-02469,2023-07-15,Direct,65,0.2,61.85,Silver,True
+C-ADV-02470,2023-01-08,Referral,69,0.25,39.64,Gold,True
+C-ADV-02471,2023-05-08,Email,36,0.34,252.9,Gold,False
+C-ADV-02472,2023-01-20,Email,35,0.19,6.83,Gold,True
+C-ADV-02473,2023-12-04,Referral,68,0.38,76.42,Bronze,True
+C-ADV-02474,2023-06-07,Email,60,0.14,30.38,Gold,True
+C-ADV-02475,2023-04-02,Direct,47,0.1,220.32,Bronze,False
+C-ADV-02476,2023-01-05,Direct,20,0.3,120.07,Gold,False
+C-ADV-02477,2023-11-23,Email,31,0.2,199.59,Platinum,True
+C-ADV-02478,2023-10-24,Search,35,0.02,89.09,Gold,True
+C-ADV-02479,2023-08-14,Social Media,34,0.36,90.79,Gold,True
+C-ADV-02480,2023-09-11,Social Media,32,0.11,412.6,Silver,True
+C-ADV-02481,2023-11-13,Search,32,0.27,54.37,Bronze,True
+C-ADV-02482,2023-04-05,Email,46,0.16,32.76,Gold,True
+C-ADV-02483,2023-10-11,Social Media,21,0.53,55.8,Gold,True
+C-ADV-02484,2023-01-09,Referral,52,0.32,163.47,Bronze,True
+C-ADV-02485,2023-06-29,Search,22,0.16,161.3,Platinum,True
+C-ADV-02486,2023-09-19,Search,33,0.19,55.93,Silver,True
+C-ADV-02487,2023-10-20,Referral,70,0.22,129.98,Platinum,True
+C-ADV-02488,2023-11-25,Direct,36,0.06,58.71,Silver,True
+C-ADV-02489,2023-06-17,Email,68,0.27,60.44,Gold,True
+C-ADV-02490,2023-07-28,Referral,48,0.64,74.14,Gold,True
+C-ADV-02491,2023-03-24,Referral,20,0.19,736.92,Gold,True
+C-ADV-02492,2023-10-30,Search,24,0.18,122.03,Silver,True
+C-ADV-02493,2023-09-19,Email,68,0.25,205.51,Gold,True
+C-ADV-02494,2023-07-13,Email,20,0.24,61.9,Silver,False
+C-ADV-02495,2023-11-29,Search,22,0.05,39.23,Silver,False
+C-ADV-02496,2023-10-03,Search,51,0.41,112.01,Bronze,False
+C-ADV-02497,2023-12-04,Email,51,0.21,52.91,Platinum,True
+C-ADV-02498,2023-05-18,Social Media,54,0.17,22.45,Gold,True
+C-ADV-02499,2023-06-18,Social Media,69,0.29,51.17,Gold,True
+C-ADV-02500,2023-08-22,Referral,65,0.04,23.04,Bronze,True
+C-ADV-02501,2023-08-16,Direct,41,0.56,27.38,Bronze,True
+C-ADV-02502,2023-10-14,Email,22,0.09,37.6,Gold,False
+C-ADV-02503,2023-11-06,Social Media,46,0.1,25.69,Platinum,True
+C-ADV-02504,2023-10-19,Social Media,52,0.25,75.78,Silver,False
+C-ADV-02505,2023-12-12,Email,60,0.04,55.52,Silver,True
+C-ADV-02506,2023-05-27,Referral,38,0.28,11.95,Bronze,True
+C-ADV-02507,2023-07-29,Direct,50,0.54,166.31,Silver,False
+C-ADV-02508,2023-11-20,Social Media,29,0.59,28.0,Platinum,True
+C-ADV-02509,2023-03-27,Search,44,0.42,15.92,Gold,False
+C-ADV-02510,2023-02-21,Social Media,20,0.43,56.02,Platinum,True
+C-ADV-02511,2023-12-20,Social Media,22,0.24,115.55,Silver,False
+C-ADV-02512,2023-08-05,Referral,26,0.4,123.94,Platinum,True
+C-ADV-02513,2023-12-31,Referral,25,0.45,10.26,Gold,True
+C-ADV-02514,2023-10-30,Email,57,0.34,20.19,Bronze,True
+C-ADV-02515,2023-02-07,Referral,46,0.26,14.87,Platinum,False
+C-ADV-02516,2023-08-12,Referral,66,0.32,66.61,Platinum,True
+C-ADV-02517,2023-04-04,Email,70,0.39,92.95,Bronze,True
+C-ADV-02518,2023-01-04,Email,55,0.11,93.17,Gold,False
+C-ADV-02519,2023-07-14,Referral,46,0.1,48.98,Silver,True
+C-ADV-02520,2023-02-19,Social Media,37,0.2,22.09,Platinum,True
+C-ADV-02521,2023-01-25,Email,51,0.76,73.68,Platinum,True
+C-ADV-02522,2023-06-15,Direct,38,0.13,251.75,Silver,True
+C-ADV-02523,2023-01-22,Social Media,45,0.11,82.58,Gold,True
+C-ADV-02524,2023-02-20,Referral,36,0.22,1173.21,Silver,True
+C-ADV-02525,2023-05-28,Referral,49,0.2,55.0,Platinum,True
+C-ADV-02526,2023-03-28,Referral,34,0.15,44.27,Bronze,True
+C-ADV-02527,2023-12-08,Referral,27,0.31,13.05,Bronze,True
+C-ADV-02528,2023-10-10,Email,66,0.35,37.21,Silver,True
+C-ADV-02529,2023-11-03,Search,52,0.31,17.52,Silver,True
+C-ADV-02530,2023-09-08,Search,41,0.22,9.74,Silver,True
+C-ADV-02531,2023-10-20,Direct,64,0.04,204.98,Platinum,True
+C-ADV-02532,2023-08-21,Referral,25,0.26,9.58,Bronze,False
+C-ADV-02533,2023-08-10,Direct,34,0.26,58.69,Bronze,True
+C-ADV-02534,2023-05-23,Search,40,0.14,20.47,Bronze,True
+C-ADV-02535,2023-02-08,Referral,28,0.25,41.09,Gold,True
+C-ADV-02536,2023-08-21,Email,61,0.42,171.65,Bronze,True
+C-ADV-02537,2023-01-20,Direct,24,0.23,112.5,Gold,True
+C-ADV-02538,2023-10-13,Search,58,0.44,39.36,Bronze,True
+C-ADV-02539,2023-03-12,Email,42,0.51,31.48,Silver,True
+C-ADV-02540,2023-05-16,Direct,27,0.16,940.0,Platinum,True
+C-ADV-02541,2023-09-12,Referral,26,0.23,356.1,Silver,True
+C-ADV-02542,2023-09-22,Social Media,18,0.41,137.68,Platinum,True
+C-ADV-02543,2023-09-09,Email,57,0.28,153.39,Silver,True
+C-ADV-02544,2023-01-20,Direct,62,0.05,14.82,Gold,False
+C-ADV-02545,2023-11-20,Email,33,0.4,43.06,Gold,False
+C-ADV-02546,2023-09-29,Social Media,37,0.29,132.49,Silver,True
+C-ADV-02547,2023-12-09,Direct,49,0.36,76.47,Platinum,True
+C-ADV-02548,2023-10-06,Direct,36,0.34,146.57,Bronze,True
+C-ADV-02549,2023-02-27,Referral,44,0.43,44.93,Platinum,True
+C-ADV-02550,2023-05-07,Direct,25,0.32,75.89,Silver,False
+C-ADV-02551,2023-06-13,Search,40,0.21,48.39,Platinum,True
+C-ADV-02552,2023-09-05,Direct,56,0.12,19.72,Platinum,True
+C-ADV-02553,2023-01-15,Referral,35,0.15,39.2,Silver,False
+C-ADV-02554,2023-02-01,Email,67,0.45,27.81,Gold,True
+C-ADV-02555,2023-12-12,Referral,44,0.04,94.0,Platinum,False
+C-ADV-02556,2023-08-06,Direct,34,0.05,34.6,Bronze,True
+C-ADV-02557,2023-09-06,Social Media,39,0.46,47.7,Bronze,True
+C-ADV-02558,2023-08-18,Direct,32,0.14,31.08,Silver,True
+C-ADV-02559,2023-11-17,Search,57,0.41,62.42,Gold,True
+C-ADV-02560,2023-11-06,Email,19,0.17,31.74,Bronze,False
+C-ADV-02561,2023-02-16,Referral,40,0.24,36.63,Bronze,True
+C-ADV-02562,2023-09-23,Social Media,41,0.52,21.64,Silver,True
+C-ADV-02563,2023-10-02,Direct,63,0.12,120.38,Silver,True
+C-ADV-02564,2023-03-24,Referral,39,0.39,55.71,Platinum,True
+C-ADV-02565,2023-10-11,Social Media,18,0.06,12.8,Bronze,True
+C-ADV-02566,2023-09-27,Search,50,0.37,8.12,Platinum,False
+C-ADV-02567,2023-01-22,Social Media,36,0.16,81.18,Gold,True
+C-ADV-02568,2023-04-28,Social Media,20,0.36,20.69,Gold,True
+C-ADV-02569,2023-07-13,Direct,26,0.55,57.19,Gold,True
+C-ADV-02570,2023-02-09,Search,50,0.41,24.71,Platinum,True
+C-ADV-02571,2023-01-08,Email,56,0.5,12.81,Silver,True
+C-ADV-02572,2023-10-29,Direct,30,0.27,173.91,Gold,True
+C-ADV-02573,2023-08-06,Email,65,0.18,13.32,Bronze,True
+C-ADV-02574,2023-05-21,Direct,30,0.01,201.19,Bronze,True
+C-ADV-02575,2023-12-02,Email,48,0.19,132.86,Platinum,True
+C-ADV-02576,2023-08-08,Search,32,0.34,43.58,Platinum,True
+C-ADV-02577,2023-09-05,Referral,62,0.25,21.18,Silver,False
+C-ADV-02578,2023-01-09,Direct,64,0.35,6.11,Platinum,True
+C-ADV-02579,2023-10-07,Search,46,0.18,52.37,Silver,True
+C-ADV-02580,2023-07-23,Social Media,46,0.57,32.5,Gold,False
+C-ADV-02581,2023-10-16,Search,59,0.12,101.33,Gold,True
+C-ADV-02582,2023-03-15,Search,24,0.13,32.16,Silver,True
+C-ADV-02583,2023-09-08,Email,33,0.36,13.42,Bronze,True
+C-ADV-02584,2023-07-26,Email,48,0.58,98.61,Silver,True
+C-ADV-02585,2023-09-10,Referral,44,0.55,309.44,Gold,True
+C-ADV-02586,2023-03-19,Search,38,0.06,5.24,Platinum,True
+C-ADV-02587,2023-05-18,Social Media,66,0.33,151.04,Platinum,False
+C-ADV-02588,2023-06-10,Social Media,38,0.3,181.36,Platinum,False
+C-ADV-02589,2023-09-21,Email,65,0.22,53.93,Bronze,True
+C-ADV-02590,2023-08-06,Search,42,0.19,16.69,Silver,True
+C-ADV-02591,2023-03-24,Email,65,0.35,77.23,Bronze,True
+C-ADV-02592,2023-04-12,Direct,25,0.16,24.84,Bronze,False
+C-ADV-02593,2023-09-11,Social Media,58,0.29,73.26,Platinum,True
+C-ADV-02594,2023-10-08,Direct,43,0.1,53.59,Bronze,True
+C-ADV-02595,2023-03-02,Direct,36,0.43,24.36,Gold,True
+C-ADV-02596,2023-11-11,Referral,54,0.43,27.02,Silver,True
+C-ADV-02597,2023-05-29,Email,61,0.33,98.31,Silver,True
+C-ADV-02598,2023-09-23,Email,34,0.04,45.84,Platinum,False
+C-ADV-02599,2023-04-18,Referral,65,0.54,10.64,Silver,True
+C-ADV-02600,2023-09-26,Direct,18,0.14,53.99,Gold,False
+C-ADV-02601,2023-04-02,Social Media,48,0.48,61.02,Bronze,True
+C-ADV-02602,2023-06-09,Social Media,30,0.16,93.14,Bronze,False
+C-ADV-02603,2023-06-19,Search,21,0.17,64.7,Platinum,True
+C-ADV-02604,2023-02-04,Referral,58,0.36,10.51,Silver,True
+C-ADV-02605,2023-11-18,Search,30,0.34,47.67,Gold,True
+C-ADV-02606,2023-08-07,Email,64,0.37,222.68,Gold,True
+C-ADV-02607,2023-11-16,Direct,34,0.11,52.31,Silver,True
+C-ADV-02608,2023-10-31,Social Media,24,0.38,17.2,Silver,True
+C-ADV-02609,2023-04-02,Referral,54,0.19,159.71,Bronze,True
+C-ADV-02610,2023-09-25,Email,59,0.44,4.51,Platinum,True
+C-ADV-02611,2023-10-22,Email,56,0.58,60.71,Gold,False
+C-ADV-02612,2023-04-18,Social Media,18,0.29,12.24,Silver,True
+C-ADV-02613,2023-02-16,Email,27,0.42,50.61,Silver,True
+C-ADV-02614,2023-09-01,Search,38,0.39,535.04,Bronze,True
+C-ADV-02615,2023-03-12,Email,69,0.05,11.93,Platinum,False
+C-ADV-02616,2023-12-07,Direct,38,0.5,54.82,Gold,True
+C-ADV-02617,2023-05-04,Email,43,0.19,13.09,Platinum,False
+C-ADV-02618,2023-12-28,Direct,40,0.1,71.61,Gold,True
+C-ADV-02619,2023-09-29,Search,56,0.32,28.26,Silver,True
+C-ADV-02620,2023-11-21,Referral,63,0.27,38.27,Silver,False
+C-ADV-02621,2023-10-14,Direct,49,0.08,125.58,Gold,True
+C-ADV-02622,2023-10-13,Direct,59,0.38,29.87,Gold,True
+C-ADV-02623,2023-01-13,Referral,47,0.09,185.07,Gold,False
+C-ADV-02624,2023-04-20,Email,53,0.3,226.27,Silver,False
+C-ADV-02625,2023-07-11,Social Media,65,0.36,14.04,Bronze,True
+C-ADV-02626,2023-08-15,Referral,51,0.22,67.98,Silver,True
+C-ADV-02627,2023-10-28,Referral,39,0.15,545.48,Bronze,True
+C-ADV-02628,2023-05-10,Email,18,0.15,179.32,Gold,True
+C-ADV-02629,2023-11-28,Referral,59,0.28,70.14,Platinum,False
+C-ADV-02630,2023-01-23,Referral,35,0.19,35.65,Bronze,True
+C-ADV-02631,2023-08-30,Email,58,0.57,10.14,Platinum,False
+C-ADV-02632,2023-03-30,Direct,65,0.12,128.05,Bronze,True
+C-ADV-02633,2023-07-09,Search,57,0.07,7.79,Silver,True
+C-ADV-02634,2023-03-09,Search,44,0.27,32.25,Bronze,True
+C-ADV-02635,2023-08-16,Search,38,0.07,22.53,Bronze,True
+C-ADV-02636,2023-04-10,Email,65,0.22,34.51,Bronze,True
+C-ADV-02637,2023-12-11,Referral,63,0.21,71.76,Silver,True
+C-ADV-02638,2023-09-22,Search,60,0.07,99.86,Platinum,False
+C-ADV-02639,2023-12-08,Search,22,0.2,39.16,Silver,True
+C-ADV-02640,2023-05-17,Search,29,0.25,42.96,Platinum,True
+C-ADV-02641,2023-05-22,Email,30,0.28,38.68,Platinum,True
+C-ADV-02642,2023-11-22,Search,37,0.14,106.23,Gold,True
+C-ADV-02643,2023-03-02,Referral,47,0.31,23.6,Bronze,False
+C-ADV-02644,2023-02-15,Search,23,0.11,174.29,Silver,True
+C-ADV-02645,2023-04-06,Referral,55,0.46,37.06,Bronze,True
+C-ADV-02646,2023-01-06,Social Media,58,0.63,9.83,Gold,False
+C-ADV-02647,2023-02-11,Social Media,37,0.28,141.13,Silver,True
+C-ADV-02648,2023-06-08,Search,42,0.32,21.33,Gold,True
+C-ADV-02649,2023-05-23,Social Media,54,0.22,90.59,Gold,False
+C-ADV-02650,2023-04-26,Social Media,35,0.28,46.42,Silver,True
+C-ADV-02651,2023-06-01,Referral,62,0.29,26.36,Platinum,True
+C-ADV-02652,2023-02-17,Direct,40,0.45,12.81,Gold,True
+C-ADV-02653,2023-11-25,Email,46,0.29,5.11,Silver,True
+C-ADV-02654,2023-10-27,Direct,27,0.22,204.43,Silver,False
+C-ADV-02655,2023-06-27,Referral,31,0.17,91.91,Gold,True
+C-ADV-02656,2023-02-16,Email,67,0.24,139.32,Silver,True
+C-ADV-02657,2023-04-22,Direct,34,0.18,114.48,Bronze,True
+C-ADV-02658,2023-09-22,Social Media,48,0.4,35.53,Silver,False
+C-ADV-02659,2023-10-28,Referral,41,0.46,64.92,Platinum,True
+C-ADV-02660,2023-06-15,Search,58,0.03,238.56,Gold,True
+C-ADV-02661,2023-03-23,Direct,48,0.19,39.3,Gold,True
+C-ADV-02662,2023-11-28,Search,29,0.08,32.01,Gold,True
+C-ADV-02663,2023-03-25,Direct,52,0.56,325.24,Silver,True
+C-ADV-02664,2023-08-13,Email,47,0.19,25.55,Platinum,False
+C-ADV-02665,2023-08-31,Social Media,34,0.18,129.11,Gold,True
+C-ADV-02666,2023-09-05,Direct,37,0.33,13.09,Bronze,True
+C-ADV-02667,2023-09-17,Search,44,0.25,31.84,Platinum,True
+C-ADV-02668,2023-10-23,Direct,55,0.29,31.7,Bronze,True
+C-ADV-02669,2023-09-20,Social Media,37,0.26,16.1,Silver,True
+C-ADV-02670,2023-03-08,Referral,68,0.35,9.13,Bronze,True
+C-ADV-02671,2023-06-08,Social Media,69,0.25,10.91,Gold,False
+C-ADV-02672,2023-07-22,Social Media,47,0.33,41.88,Bronze,True
+C-ADV-02673,2023-04-13,Social Media,37,0.24,73.3,Gold,True
+C-ADV-02674,2023-04-05,Social Media,31,0.1,16.48,Platinum,True
+C-ADV-02675,2023-05-06,Social Media,61,0.25,44.9,Gold,True
+C-ADV-02676,2023-09-02,Social Media,40,0.52,79.3,Bronze,False
+C-ADV-02677,2023-10-09,Direct,62,0.43,9.09,Silver,False
+C-ADV-02678,2023-12-09,Direct,47,0.54,10.92,Silver,True
+C-ADV-02679,2023-07-18,Social Media,38,0.33,251.19,Silver,False
+C-ADV-02680,2023-06-17,Referral,70,0.27,146.38,Platinum,False
+C-ADV-02681,2023-10-01,Search,40,0.21,93.13,Platinum,True
+C-ADV-02682,2023-04-24,Email,29,0.05,40.33,Silver,True
+C-ADV-02683,2023-07-05,Referral,50,0.13,54.02,Bronze,False
+C-ADV-02684,2023-02-09,Social Media,26,0.39,138.54,Platinum,True
+C-ADV-02685,2023-01-23,Social Media,37,0.22,136.9,Platinum,True
+C-ADV-02686,2023-06-23,Direct,59,0.54,43.76,Silver,False
+C-ADV-02687,2023-03-19,Referral,37,0.23,54.32,Platinum,False
+C-ADV-02688,2023-01-18,Referral,44,0.2,68.64,Silver,True
+C-ADV-02689,2023-07-23,Email,24,0.15,38.31,Platinum,True
+C-ADV-02690,2023-06-27,Search,59,0.38,41.08,Platinum,True
+C-ADV-02691,2023-03-24,Referral,26,0.41,54.77,Platinum,False
+C-ADV-02692,2023-01-06,Direct,59,0.15,26.58,Platinum,False
+C-ADV-02693,2023-01-28,Referral,45,0.07,54.62,Gold,True
+C-ADV-02694,2023-11-06,Direct,50,0.34,102.39,Gold,False
+C-ADV-02695,2023-12-31,Referral,52,0.34,17.81,Gold,True
+C-ADV-02696,2023-04-02,Direct,52,0.21,30.19,Platinum,True
+C-ADV-02697,2023-03-18,Search,39,0.23,43.43,Gold,True
+C-ADV-02698,2023-09-21,Email,64,0.48,30.16,Platinum,False
+C-ADV-02699,2023-01-25,Direct,36,0.29,35.35,Bronze,True
+C-ADV-02700,2023-09-08,Direct,41,0.09,128.48,Bronze,True
+C-ADV-02701,2023-05-10,Direct,39,0.27,35.97,Gold,True
+C-ADV-02702,2023-10-05,Referral,29,0.3,26.9,Gold,True
+C-ADV-02703,2023-08-02,Search,46,0.08,75.1,Gold,True
+C-ADV-02704,2023-11-22,Search,56,0.07,412.79,Bronze,True
+C-ADV-02705,2023-01-19,Email,65,0.17,49.57,Platinum,True
+C-ADV-02706,2023-03-31,Search,52,0.49,27.54,Bronze,True
+C-ADV-02707,2023-03-16,Direct,45,0.05,23.98,Gold,True
+C-ADV-02708,2023-08-23,Email,33,0.6,77.34,Platinum,True
+C-ADV-02709,2023-02-09,Referral,41,0.21,190.98,Bronze,True
+C-ADV-02710,2023-11-08,Search,42,0.21,20.66,Bronze,True
+C-ADV-02711,2023-11-23,Referral,45,0.24,67.94,Platinum,True
+C-ADV-02712,2023-04-05,Referral,64,0.46,49.54,Bronze,False
+C-ADV-02713,2023-03-01,Social Media,54,0.45,33.67,Gold,True
+C-ADV-02714,2023-11-12,Email,52,0.27,11.95,Silver,True
+C-ADV-02715,2023-07-11,Email,48,0.02,68.02,Silver,False
+C-ADV-02716,2023-05-21,Social Media,35,0.22,207.98,Bronze,False
+C-ADV-02717,2023-04-03,Referral,35,0.16,128.31,Bronze,False
+C-ADV-02718,2023-04-17,Search,68,0.17,249.89,Platinum,True
+C-ADV-02719,2023-05-21,Referral,47,0.12,34.59,Gold,True
+C-ADV-02720,2023-04-24,Social Media,19,0.16,38.09,Gold,True
+C-ADV-02721,2023-02-02,Email,36,0.27,80.01,Platinum,False
+C-ADV-02722,2023-11-22,Email,39,0.54,27.2,Platinum,False
+C-ADV-02723,2023-10-13,Search,39,0.21,37.84,Gold,True
+C-ADV-02724,2023-06-27,Direct,27,0.21,67.71,Platinum,False
+C-ADV-02725,2023-04-18,Email,62,0.55,48.75,Silver,False
+C-ADV-02726,2023-05-11,Direct,20,0.27,25.88,Bronze,False
+C-ADV-02727,2023-10-15,Referral,23,0.31,88.12,Silver,True
+C-ADV-02728,2023-06-05,Referral,66,0.17,125.05,Gold,False
+C-ADV-02729,2023-12-12,Direct,19,0.02,36.42,Silver,True
+C-ADV-02730,2023-11-16,Referral,54,0.32,7.18,Platinum,False
+C-ADV-02731,2023-01-12,Referral,53,0.11,45.42,Platinum,True
+C-ADV-02732,2023-07-12,Email,26,0.28,32.79,Platinum,True
+C-ADV-02733,2023-02-19,Direct,31,0.3,41.8,Silver,True
+C-ADV-02734,2023-10-20,Referral,29,0.25,37.27,Silver,False
+C-ADV-02735,2023-10-09,Direct,40,0.41,14.01,Silver,False
+C-ADV-02736,2023-11-03,Referral,38,0.23,93.47,Gold,True
+C-ADV-02737,2023-12-07,Referral,50,0.28,57.37,Platinum,True
+C-ADV-02738,2023-07-26,Direct,66,0.26,10.23,Platinum,True
+C-ADV-02739,2023-08-19,Social Media,29,0.22,530.65,Platinum,True
+C-ADV-02740,2023-01-02,Email,39,0.57,8.49,Platinum,True
+C-ADV-02741,2023-12-16,Search,42,0.31,63.18,Platinum,False
+C-ADV-02742,2023-07-30,Social Media,58,0.16,10.35,Bronze,True
+C-ADV-02743,2023-03-12,Email,57,0.1,9.58,Bronze,False
+C-ADV-02744,2023-01-12,Referral,57,0.32,167.7,Silver,True
+C-ADV-02745,2023-10-19,Direct,61,0.31,65.59,Bronze,True
+C-ADV-02746,2023-01-12,Email,68,0.21,75.42,Platinum,True
+C-ADV-02747,2023-03-24,Direct,41,0.39,46.81,Silver,True
+C-ADV-02748,2023-08-30,Social Media,38,0.29,51.12,Silver,True
+C-ADV-02749,2023-02-03,Search,31,0.01,81.43,Platinum,False
+C-ADV-02750,2023-05-06,Email,46,0.14,74.63,Silver,True
+C-ADV-02751,2023-08-25,Email,59,0.56,20.56,Bronze,True
+C-ADV-02752,2023-03-23,Social Media,47,0.53,62.51,Bronze,True
+C-ADV-02753,2023-01-17,Direct,51,0.55,20.85,Platinum,False
+C-ADV-02754,2023-02-06,Direct,34,0.4,17.73,Bronze,True
+C-ADV-02755,2023-08-13,Direct,70,0.22,44.24,Bronze,True
+C-ADV-02756,2023-07-23,Search,41,0.26,301.85,Platinum,False
+C-ADV-02757,2023-08-08,Search,24,0.23,60.12,Silver,True
+C-ADV-02758,2023-10-24,Search,64,0.48,11.68,Silver,True
+C-ADV-02759,2023-07-31,Referral,27,0.24,64.28,Silver,False
+C-ADV-02760,2023-04-18,Referral,24,0.15,135.64,Gold,True
+C-ADV-02761,2023-08-23,Direct,66,0.15,19.79,Silver,True
+C-ADV-02762,2023-06-25,Referral,62,0.21,107.76,Platinum,True
+C-ADV-02763,2023-08-19,Referral,54,0.32,335.04,Gold,True
+C-ADV-02764,2023-03-13,Social Media,51,0.07,13.06,Gold,True
+C-ADV-02765,2023-04-24,Referral,54,0.18,111.99,Gold,True
+C-ADV-02766,2023-06-07,Social Media,54,0.38,29.71,Gold,False
+C-ADV-02767,2024-01-01,Direct,61,0.57,45.13,Gold,True
+C-ADV-02768,2023-12-22,Social Media,27,0.2,113.89,Gold,False
+C-ADV-02769,2023-05-12,Social Media,19,0.29,5.96,Silver,True
+C-ADV-02770,2023-03-17,Email,18,0.3,125.76,Gold,True
+C-ADV-02771,2023-09-18,Email,43,0.6,19.56,Platinum,True
+C-ADV-02772,2023-06-26,Social Media,55,0.29,97.78,Gold,True
+C-ADV-02773,2023-07-13,Direct,59,0.35,14.43,Silver,False
+C-ADV-02774,2023-03-31,Direct,42,0.16,53.49,Bronze,True
+C-ADV-02775,2023-06-25,Social Media,37,0.07,239.89,Silver,True
+C-ADV-02776,2023-03-18,Referral,56,0.44,46.55,Bronze,True
+C-ADV-02777,2023-07-02,Direct,47,0.39,64.42,Bronze,True
+C-ADV-02778,2023-04-14,Referral,60,0.11,57.22,Bronze,False
+C-ADV-02779,2023-11-17,Search,39,0.3,23.76,Bronze,True
+C-ADV-02780,2023-10-11,Email,65,0.13,16.34,Bronze,True
+C-ADV-02781,2023-08-17,Email,51,0.33,209.91,Silver,True
+C-ADV-02782,2023-05-12,Social Media,62,0.23,48.17,Silver,True
+C-ADV-02783,2023-12-20,Direct,29,0.21,169.64,Bronze,True
+C-ADV-02784,2023-10-10,Referral,23,0.08,234.48,Silver,True
+C-ADV-02785,2023-03-09,Email,37,0.24,16.68,Bronze,True
+C-ADV-02786,2023-04-27,Social Media,55,0.37,338.44,Platinum,False
+C-ADV-02787,2023-02-20,Email,68,0.56,152.15,Bronze,True
+C-ADV-02788,2023-11-21,Search,30,0.18,18.99,Platinum,True
+C-ADV-02789,2023-08-15,Search,48,0.32,12.72,Silver,True
+C-ADV-02790,2023-10-05,Email,31,0.22,72.06,Platinum,True
+C-ADV-02791,2023-10-19,Search,55,0.28,43.45,Platinum,True
+C-ADV-02792,2023-08-15,Social Media,55,0.39,123.09,Platinum,True
+C-ADV-02793,2023-05-09,Direct,56,0.45,15.16,Gold,False
+C-ADV-02794,2023-11-20,Social Media,39,0.32,16.42,Platinum,True
+C-ADV-02795,2023-11-27,Referral,34,0.27,42.85,Silver,True
+C-ADV-02796,2023-05-21,Email,50,0.43,112.93,Gold,False
+C-ADV-02797,2023-02-27,Social Media,49,0.3,55.24,Bronze,True
+C-ADV-02798,2023-09-18,Direct,49,0.38,17.5,Silver,True
+C-ADV-02799,2023-02-03,Direct,61,0.33,104.54,Gold,True
+C-ADV-02800,2023-08-15,Referral,58,0.16,247.49,Silver,True
+C-ADV-02801,2023-02-25,Social Media,31,0.29,38.81,Gold,True
+C-ADV-02802,2023-06-13,Email,48,0.11,20.6,Bronze,True
+C-ADV-02803,2023-11-09,Social Media,54,0.2,30.36,Silver,True
+C-ADV-02804,2023-03-22,Social Media,67,0.26,86.22,Platinum,True
+C-ADV-02805,2023-03-22,Email,60,0.47,110.15,Silver,True
+C-ADV-02806,2023-09-22,Direct,59,0.5,17.3,Platinum,True
+C-ADV-02807,2023-04-28,Referral,48,0.05,52.16,Gold,True
+C-ADV-02808,2023-03-16,Referral,39,0.1,102.0,Gold,True
+C-ADV-02809,2023-08-19,Referral,45,0.14,46.85,Platinum,False
+C-ADV-02810,2023-01-03,Direct,21,0.22,63.02,Platinum,True
+C-ADV-02811,2023-11-27,Social Media,47,0.16,600.91,Gold,True
+C-ADV-02812,2023-12-27,Social Media,31,0.47,16.54,Gold,True
+C-ADV-02813,2023-07-11,Search,38,0.26,109.77,Platinum,False
+C-ADV-02814,2023-06-16,Email,53,0.19,57.28,Silver,True
+C-ADV-02815,2023-11-13,Email,46,0.36,32.84,Gold,True
+C-ADV-02816,2023-02-08,Social Media,28,0.27,12.08,Gold,False
+C-ADV-02817,2023-10-31,Direct,20,0.07,85.74,Platinum,False
+C-ADV-02818,2023-05-08,Referral,56,0.14,218.78,Platinum,True
+C-ADV-02819,2023-02-21,Search,58,0.27,61.0,Gold,True
+C-ADV-02820,2023-10-03,Referral,46,0.17,63.53,Gold,True
+C-ADV-02821,2023-08-30,Social Media,65,0.03,194.58,Bronze,True
+C-ADV-02822,2023-07-31,Social Media,27,0.32,137.62,Gold,True
+C-ADV-02823,2023-10-15,Search,46,0.53,74.8,Silver,True
+C-ADV-02824,2023-10-21,Email,66,0.13,23.96,Gold,True
+C-ADV-02825,2023-12-20,Search,26,0.48,53.32,Bronze,True
+C-ADV-02826,2023-07-04,Direct,65,0.57,37.63,Silver,True
+C-ADV-02827,2023-06-14,Direct,32,0.37,48.72,Platinum,True
+C-ADV-02828,2023-06-20,Social Media,61,0.41,105.17,Gold,True
+C-ADV-02829,2023-11-06,Search,26,0.36,9.99,Bronze,False
+C-ADV-02830,2023-08-07,Direct,69,0.24,47.18,Platinum,True
+C-ADV-02831,2023-09-28,Search,50,0.24,102.71,Gold,True
+C-ADV-02832,2023-10-17,Direct,20,0.17,203.45,Gold,False
+C-ADV-02833,2023-05-25,Email,39,0.7,172.05,Bronze,True
+C-ADV-02834,2023-10-17,Search,53,0.41,435.26,Bronze,True
+C-ADV-02835,2023-09-20,Search,54,0.21,17.78,Platinum,True
+C-ADV-02836,2023-02-07,Direct,70,0.25,50.35,Gold,False
+C-ADV-02837,2023-08-20,Social Media,59,0.2,20.02,Gold,True
+C-ADV-02838,2023-04-04,Email,39,0.06,131.54,Platinum,False
+C-ADV-02839,2023-01-11,Direct,54,0.18,115.24,Gold,True
+C-ADV-02840,2023-11-16,Direct,19,0.09,128.02,Bronze,True
+C-ADV-02841,2023-06-15,Direct,27,0.19,62.19,Gold,True
+C-ADV-02842,2023-10-27,Referral,52,0.07,42.54,Platinum,True
+C-ADV-02843,2023-10-22,Referral,63,0.23,157.08,Silver,True
+C-ADV-02844,2023-03-17,Social Media,37,0.47,140.41,Silver,True
+C-ADV-02845,2023-01-14,Email,56,0.43,10.97,Bronze,True
+C-ADV-02846,2023-10-04,Referral,22,0.2,66.85,Gold,True
+C-ADV-02847,2023-04-28,Social Media,30,0.37,110.56,Gold,True
+C-ADV-02848,2023-08-06,Referral,32,0.41,11.38,Silver,True
+C-ADV-02849,2023-01-14,Social Media,46,0.35,199.09,Bronze,False
+C-ADV-02850,2023-01-14,Direct,65,0.07,94.14,Silver,False
+C-ADV-02851,2023-01-26,Direct,46,0.16,349.02,Platinum,True
+C-ADV-02852,2023-04-16,Direct,55,0.29,69.3,Bronze,True
+C-ADV-02853,2023-03-31,Email,55,0.37,173.61,Bronze,True
+C-ADV-02854,2023-04-18,Search,49,0.31,8.93,Gold,True
+C-ADV-02855,2023-08-01,Social Media,31,0.21,62.51,Bronze,True
+C-ADV-02856,2023-09-02,Referral,50,0.08,19.11,Bronze,False
+C-ADV-02857,2023-01-09,Search,42,0.19,36.65,Platinum,False
+C-ADV-02858,2023-02-21,Referral,41,0.23,117.62,Gold,True
+C-ADV-02859,2023-08-11,Referral,32,0.42,94.4,Bronze,False
+C-ADV-02860,2023-08-30,Search,35,0.28,98.53,Gold,True
+C-ADV-02861,2023-03-14,Social Media,29,0.23,63.89,Bronze,True
+C-ADV-02862,2023-09-23,Social Media,26,0.32,9.51,Platinum,True
+C-ADV-02863,2023-02-01,Email,69,0.36,30.32,Silver,True
+C-ADV-02864,2023-07-10,Email,44,0.29,182.08,Silver,False
+C-ADV-02865,2023-03-30,Social Media,51,0.55,25.94,Silver,True
+C-ADV-02866,2023-07-06,Search,68,0.12,116.77,Silver,True
+C-ADV-02867,2023-09-12,Social Media,37,0.56,25.66,Platinum,True
+C-ADV-02868,2023-05-16,Email,38,0.23,31.93,Bronze,True
+C-ADV-02869,2023-06-19,Search,48,0.38,33.51,Bronze,True
+C-ADV-02870,2023-07-28,Search,52,0.61,86.07,Platinum,True
+C-ADV-02871,2023-03-22,Search,18,0.29,30.53,Gold,True
+C-ADV-02872,2023-02-17,Direct,22,0.32,90.62,Bronze,False
+C-ADV-02873,2023-08-26,Direct,52,0.12,47.77,Platinum,True
+C-ADV-02874,2023-11-05,Search,37,0.24,22.17,Platinum,False
+C-ADV-02875,2023-05-12,Social Media,38,0.2,15.7,Gold,True
+C-ADV-02876,2023-09-02,Direct,65,0.39,49.29,Silver,True
+C-ADV-02877,2023-04-23,Email,26,0.23,46.7,Silver,True
+C-ADV-02878,2023-12-04,Search,65,0.33,15.73,Bronze,False
+C-ADV-02879,2023-05-25,Email,24,0.16,95.52,Silver,True
+C-ADV-02880,2023-05-09,Social Media,64,0.36,119.54,Gold,True
+C-ADV-02881,2023-12-30,Direct,60,0.1,29.07,Gold,True
+C-ADV-02882,2023-06-17,Direct,41,0.07,169.81,Silver,True
+C-ADV-02883,2023-07-17,Search,68,0.48,20.54,Silver,True
+C-ADV-02884,2023-01-08,Social Media,58,0.78,80.17,Bronze,True
+C-ADV-02885,2023-03-24,Direct,38,0.06,82.95,Bronze,False
+C-ADV-02886,2023-09-05,Referral,30,0.34,45.54,Platinum,False
+C-ADV-02887,2023-04-20,Direct,57,0.41,75.92,Gold,False
+C-ADV-02888,2023-03-02,Referral,59,0.23,71.79,Gold,True
+C-ADV-02889,2023-04-06,Referral,39,0.27,18.97,Platinum,False
+C-ADV-02890,2023-12-06,Search,60,0.44,66.0,Gold,True
+C-ADV-02891,2023-02-02,Referral,45,0.02,35.43,Bronze,True
+C-ADV-02892,2023-02-18,Social Media,47,0.14,34.97,Bronze,True
+C-ADV-02893,2023-10-09,Referral,26,0.23,62.83,Gold,True
+C-ADV-02894,2023-08-20,Direct,53,0.42,55.39,Bronze,True
+C-ADV-02895,2023-07-23,Email,30,0.14,51.78,Silver,True
+C-ADV-02896,2023-01-09,Social Media,64,0.34,279.95,Gold,True
+C-ADV-02897,2023-10-16,Email,51,0.32,11.55,Bronze,True
+C-ADV-02898,2023-10-04,Social Media,62,0.48,36.16,Silver,True
+C-ADV-02899,2023-03-23,Search,61,0.3,230.47,Silver,True
+C-ADV-02900,2023-03-19,Email,57,0.3,10.22,Platinum,True
+C-ADV-02901,2023-05-23,Search,43,0.37,23.91,Gold,False
+C-ADV-02902,2023-09-25,Direct,48,0.34,149.57,Platinum,True
+C-ADV-02903,2023-03-11,Referral,18,0.3,117.57,Bronze,True
+C-ADV-02904,2023-12-29,Email,60,0.48,371.37,Gold,True
+C-ADV-02905,2023-11-10,Email,22,0.06,9.61,Bronze,False
+C-ADV-02906,2023-03-13,Social Media,48,0.47,60.71,Silver,True
+C-ADV-02907,2023-07-20,Social Media,59,0.7,195.95,Platinum,False
+C-ADV-02908,2023-10-30,Social Media,33,0.17,14.64,Gold,True
+C-ADV-02909,2023-04-26,Referral,26,0.46,301.78,Platinum,True
+C-ADV-02910,2023-10-27,Social Media,31,0.33,130.91,Platinum,True
+C-ADV-02911,2023-12-11,Referral,66,0.15,28.68,Gold,True
+C-ADV-02912,2023-11-23,Search,51,0.29,133.44,Gold,True
+C-ADV-02913,2023-11-18,Email,48,0.48,32.31,Silver,False
+C-ADV-02914,2023-06-02,Search,52,0.45,286.98,Platinum,True
+C-ADV-02915,2023-02-06,Referral,35,0.31,8.28,Bronze,False
+C-ADV-02916,2023-05-11,Search,58,0.24,14.04,Platinum,False
+C-ADV-02917,2023-10-27,Social Media,63,0.46,40.69,Platinum,True
+C-ADV-02918,2023-04-26,Email,24,0.17,58.9,Bronze,True
+C-ADV-02919,2023-05-04,Direct,62,0.46,57.7,Platinum,False
+C-ADV-02920,2023-01-30,Search,67,0.07,43.66,Gold,True
+C-ADV-02921,2023-05-09,Email,39,0.15,21.75,Platinum,True
+C-ADV-02922,2023-07-02,Search,18,0.45,148.62,Bronze,False
+C-ADV-02923,2023-05-05,Email,49,0.32,214.16,Silver,False
+C-ADV-02924,2023-12-07,Referral,24,0.29,23.72,Platinum,False
+C-ADV-02925,2023-11-07,Email,60,0.32,34.58,Platinum,True
+C-ADV-02926,2023-11-05,Search,55,0.22,78.69,Bronze,True
+C-ADV-02927,2023-03-02,Social Media,41,0.6,78.41,Platinum,False
+C-ADV-02928,2023-01-21,Referral,59,0.08,8.25,Platinum,False
+C-ADV-02929,2023-10-21,Email,20,0.28,29.0,Platinum,False
+C-ADV-02930,2023-12-09,Search,31,0.54,22.99,Silver,True
+C-ADV-02931,2023-11-19,Referral,24,0.33,5.88,Gold,False
+C-ADV-02932,2023-01-15,Direct,34,0.28,4.23,Gold,True
+C-ADV-02933,2023-06-30,Social Media,35,0.25,197.34,Platinum,True
+C-ADV-02934,2023-06-16,Direct,62,0.09,56.61,Gold,True
+C-ADV-02935,2023-04-18,Email,67,0.19,87.62,Gold,False
+C-ADV-02936,2023-06-28,Social Media,49,0.15,72.08,Bronze,True
+C-ADV-02937,2023-06-30,Email,52,0.42,86.59,Silver,True
+C-ADV-02938,2023-06-06,Search,64,0.15,10.71,Bronze,False
+C-ADV-02939,2023-06-10,Email,49,0.16,646.73,Silver,False
+C-ADV-02940,2023-04-14,Referral,63,0.46,13.15,Platinum,True
+C-ADV-02941,2023-06-22,Direct,41,0.2,10.02,Silver,True
+C-ADV-02942,2023-06-15,Search,25,0.24,21.89,Silver,True
+C-ADV-02943,2023-09-17,Email,36,0.3,390.9,Silver,False
+C-ADV-02944,2023-11-13,Search,30,0.12,226.69,Bronze,True
+C-ADV-02945,2023-12-31,Email,60,0.29,27.51,Platinum,True
+C-ADV-02946,2023-03-16,Referral,52,0.06,30.08,Gold,False
+C-ADV-02947,2023-03-10,Direct,24,0.07,16.83,Gold,True
+C-ADV-02948,2023-06-15,Social Media,46,0.5,134.26,Bronze,True
+C-ADV-02949,2023-10-08,Social Media,60,0.49,140.69,Gold,True
+C-ADV-02950,2023-09-11,Social Media,62,0.69,55.4,Silver,True
+C-ADV-02951,2023-04-26,Direct,59,0.09,95.78,Silver,True
+C-ADV-02952,2023-01-07,Referral,33,0.37,214.36,Bronze,False
+C-ADV-02953,2023-08-13,Direct,53,0.65,151.63,Silver,False
+C-ADV-02954,2023-04-06,Email,55,0.31,112.51,Platinum,False
+C-ADV-02955,2023-05-14,Referral,69,0.48,26.26,Gold,False
+C-ADV-02956,2023-07-09,Referral,33,0.1,124.86,Gold,True
+C-ADV-02957,2023-02-09,Social Media,38,0.38,51.69,Silver,True
+C-ADV-02958,2023-02-19,Email,63,0.34,4.37,Platinum,True
+C-ADV-02959,2023-02-23,Email,32,0.15,49.34,Gold,True
+C-ADV-02960,2023-08-27,Referral,54,0.33,7.24,Bronze,False
+C-ADV-02961,2023-11-13,Direct,49,0.39,59.97,Platinum,True
+C-ADV-02962,2023-03-29,Search,53,0.36,19.31,Platinum,True
+C-ADV-02963,2023-06-27,Direct,63,0.27,64.96,Silver,True
+C-ADV-02964,2023-12-16,Referral,22,0.06,30.02,Gold,True
+C-ADV-02965,2023-01-15,Email,49,0.03,123.76,Platinum,True
+C-ADV-02966,2023-07-22,Social Media,60,0.2,18.52,Platinum,True
+C-ADV-02967,2023-10-03,Referral,39,0.13,240.63,Silver,False
+C-ADV-02968,2023-03-15,Email,61,0.52,44.58,Gold,True
+C-ADV-02969,2023-11-09,Search,63,0.4,72.81,Gold,True
+C-ADV-02970,2023-02-06,Email,22,0.29,46.15,Platinum,True
+C-ADV-02971,2023-04-10,Social Media,56,0.31,52.58,Silver,True
+C-ADV-02972,2023-01-16,Direct,64,0.59,294.72,Bronze,True
+C-ADV-02973,2023-02-15,Search,43,0.46,55.89,Platinum,False
+C-ADV-02974,2023-07-15,Direct,26,0.51,5.19,Gold,True
+C-ADV-02975,2023-02-19,Referral,40,0.2,63.06,Silver,False
+C-ADV-02976,2023-05-10,Direct,23,0.2,106.65,Silver,True
+C-ADV-02977,2023-07-25,Social Media,32,0.2,240.91,Gold,True
+C-ADV-02978,2023-06-23,Direct,66,0.23,15.1,Bronze,True
+C-ADV-02979,2023-01-11,Email,21,0.28,23.19,Bronze,True
+C-ADV-02980,2023-02-18,Social Media,18,0.16,155.73,Bronze,True
+C-ADV-02981,2023-06-17,Direct,37,0.3,21.59,Bronze,True
+C-ADV-02982,2023-02-05,Social Media,30,0.29,316.48,Platinum,True
+C-ADV-02983,2023-10-02,Social Media,40,0.36,117.24,Bronze,True
+C-ADV-02984,2023-11-04,Referral,54,0.71,124.99,Silver,False
+C-ADV-02985,2023-12-28,Social Media,50,0.21,49.5,Silver,False
+C-ADV-02986,2023-01-16,Email,20,0.32,165.5,Bronze,True
+C-ADV-02987,2023-05-30,Search,40,0.38,52.1,Silver,True
+C-ADV-02988,2023-02-21,Direct,30,0.19,50.81,Silver,True
+C-ADV-02989,2023-08-21,Email,42,0.1,276.95,Platinum,True
+C-ADV-02990,2023-12-09,Email,22,0.33,469.88,Gold,True
+C-ADV-02991,2023-07-07,Social Media,33,0.14,75.46,Platinum,True
+C-ADV-02992,2023-07-26,Search,40,0.25,53.0,Bronze,False
+C-ADV-02993,2023-12-04,Email,24,0.47,25.71,Bronze,True
+C-ADV-02994,2023-09-27,Email,54,0.31,200.32,Platinum,True
+C-ADV-02995,2023-05-25,Referral,26,0.17,100.7,Platinum,True
+C-ADV-02996,2023-05-30,Direct,43,0.14,129.91,Platinum,False
+C-ADV-02997,2023-02-12,Direct,19,0.12,842.15,Platinum,True
+C-ADV-02998,2023-06-14,Email,48,0.26,149.83,Platinum,True
+C-ADV-02999,2023-09-12,Referral,67,0.35,13.08,Bronze,True
+C-ADV-03000,2023-04-07,Search,37,0.32,146.16,Silver,True

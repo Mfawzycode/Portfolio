@@ -9,6 +9,9 @@ __pycache__/
 env/
 venv/
 ENV/
+.conda
+conda/
+
 
 # Jupyter
 .ipynb_checkpoints/

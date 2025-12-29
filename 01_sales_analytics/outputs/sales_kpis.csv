@@ -1,0 +1,9 @@
+metric,value,unit,status
+Revenue Growth Rate (Last Month),19.08,%,Good
+Average Order Value (AOV),824.22,USD,Good
+Esc. Customer Acquisition Cost (CAC),25756.86,USD,Info
+Average Customer Lifetime Value (CLV),4972.35,USD,Review
+Customer Churn Rate (90-day),29.77,%,Critical
+Lead Conversion Rate,2.99,%,Review
+Customer Retention Rate,70.23,%,Review
+Average Gross Margin,44.91,%,Good
