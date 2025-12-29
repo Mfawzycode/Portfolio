@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Quality Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🔍 Data Quality Dashboard</h1>
+            <p>Real-time data validation and quality monitoring</p>
+        </header>
+
+        <div class="dashboard-grid">
+            <!-- Dataset Selector -->
+            <div class="card">
+                <h2>📁 Select Dataset</h2>
+                <select id="datasetSelect" onchange="loadQualityCheck()">
+                    <option value="">-- Choose a dataset --</option>
+                    {% for ds in datasets %}
+                    <option value="{{ ds.layer }}/{{ ds.name }}">
+                        [{{ ds.layer | upper }}] {{ ds.name }}
+                    </option>
+                    {% endfor %}
+                </select>
+            </div>
+
+            <!-- Quality Score -->
+            <div class="card score-card" id="scoreCard">
+                <h2>📊 Quality Score</h2>
+                <div class="score-display" id="qualityScore">--</div>
+                <p id="scoreLabel">Select a dataset to check</p>
+            </div>
+
+            <!-- Summary Stats -->
+            <div class="card">
+                <h2>📈 Summary</h2>
+                <div id="summaryStats">
+                    <div class="stat-item">
+                        <span class="stat-label">Rows:</span>
+                        <span class="stat-value" id="totalRows">--</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Columns:</span>
+                        <span class="stat-value" id="totalCols">--</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Null Values:</span>
+                        <span class="stat-value" id="totalNulls">--</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Detailed Results -->
+        <div class="card full-width" id="detailsCard" style="display: none;">
+            <h2>🔎 Detailed Quality Report</h2>
+            
+            <h3>Columns with Null Values</h3>
+            <div id="nullColumns"></div>
+            
+            <h3>Numeric Column Statistics</h3>
+            <table id="statsTable">
+                <thead>
+                    <tr>
+                        <th>Column</th>
+                        <th>Min</th>
+                        <th>Max</th>
+                        <th>Mean</th>
+                        <th>Std Dev</th>
+                    </tr>
+                </thead>
+                <tbody id="statsBody"></tbody>
+            </table>
+        </div>
+
+        <!-- Sample Data -->
+        <div class="card full-width" id="sampleCard" style="display: none;">
+            <h2>📋 Sample Data (First 10 Rows)</h2>
+            <div class="table-container">
+                <table id="sampleTable">
+                    <thead id="sampleHead"></thead>
+                    <tbody id="sampleBody"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        async function loadQualityCheck() {
+            const select = document.getElementById('datasetSelect');
+            const value = select.value;
+            
+            if (!value) return;
+            
+            const [layer, dataset] = value.split('/');
+            
+            // Fetch quality check results
+            const response = await fetch(`/api/quality-check/${layer}/${dataset}`);
+            const data = await response.json();
+            
+            // Update score
+            const score = data.summary.quality_score;
+            document.getElementById('qualityScore').textContent = score + '%';
+            document.getElementById('scoreCard').className = 'card score-card ' + 
+                (score >= 95 ? 'score-good' : score >= 80 ? 'score-warning' : 'score-bad');
+            document.getElementById('scoreLabel').textContent = 
+                score >= 95 ? 'Excellent Quality' : score >= 80 ? 'Good Quality' : 'Needs Attention';
+            
+            // Update summary
+            document.getElementById('totalRows').textContent = data.summary.total_rows.toLocaleString();
+            document.getElementById('totalCols').textContent = data.summary.total_columns;
+            document.getElementById('totalNulls').textContent = data.completeness.total_nulls.toLocaleString();
+            
+            // Show details
+            document.getElementById('detailsCard').style.display = 'block';
+            
+            // Null columns
+            const nullCols = data.completeness.columns_with_nulls;
+            const nullHtml = Object.keys(nullCols).length > 0 
+                ? Object.entries(nullCols).map(([col, count]) => 
+                    `<span class="tag">${col}: ${count}</span>`).join(' ')
+                : '<span class="tag tag-success">No null values found!</span>';
+            document.getElementById('nullColumns').innerHTML = nullHtml;
+            
+            // Stats table
+            const statsBody = document.getElementById('statsBody');
+            statsBody.innerHTML = '';
+            for (const [col, stats] of Object.entries(data.numeric_statistics)) {
+                const row = document.createElement('tr');
+                row.innerHTML = `
+                    <td>${col}</td>
+                    <td>${stats.min?.toFixed(2) ?? 'N/A'}</td>
+                    <td>${stats.max?.toFixed(2) ?? 'N/A'}</td>
+                    <td>${stats.mean?.toFixed(2) ?? 'N/A'}</td>
+                    <td>${stats.std?.toFixed(2) ?? 'N/A'}</td>
+                `;
+                statsBody.appendChild(row);
+            }
+            
+            // Load sample data
+            const sampleResponse = await fetch(`/api/sample/${layer}/${dataset}`);
+            const sampleData = await sampleResponse.json();
+            
+            document.getElementById('sampleCard').style.display = 'block';
+            
+            const sampleHead = document.getElementById('sampleHead');
+            sampleHead.innerHTML = '<tr>' + sampleData.columns.map(c => `<th>${c}</th>`).join('') + '</tr>';
+            
+            const sampleBody = document.getElementById('sampleBody');
+            sampleBody.innerHTML = sampleData.sample.map(row => 
+                '<tr>' + sampleData.columns.map(c => `<td>${row[c] ?? ''}</td>`).join('') + '</tr>'
+            ).join('');
+        }
+    </script>
+</body>
+</html>

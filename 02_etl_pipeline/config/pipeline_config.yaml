@@ -1,0 +1,53 @@
+# Pipeline Configuration
+pipeline:
+  name: "Sales ETL Pipeline"
+  version: "1.0.0"
+  
+# Data Paths
+paths:
+  raw_data: "../shared/data/"
+  bronze_output: "./data/bronze/"
+  silver_output: "./data/silver/"
+  gold_output: "./data/gold/"
+
+# Bronze Layer Settings
+bronze:
+  file_format: "csv"
+  add_metadata: true
+  metadata_columns:
+    - ingestion_timestamp
+    - source_file
+    - record_hash
+
+# Silver Layer Settings  
+silver:
+  deduplication: true
+  dedup_columns:
+    - transaction_id
+  null_handling: "flag"  # flag, drop, or fill
+  date_format: "%Y-%m-%d"
+  
+# Gold Layer Settings
+gold:
+  aggregations:
+    - name: "daily_revenue"
+      group_by: ["date", "region"]
+      metrics: ["sum:revenue", "sum:profit", "count:transaction_id"]
+    - name: "category_performance"
+      group_by: ["product_category"]
+      metrics: ["sum:revenue", "avg:unit_price", "sum:quantity"]
+
+# Data Quality Thresholds
+quality_checks:
+  completeness_threshold: 0.95
+  uniqueness_threshold: 0.99
+  valid_date_range:
+    min: "2024-01-01"
+    max: "2024-12-31"
+  kpi_ranges:
+    discount_percent:
+      min: 0
+      max: 1
+    quantity:
+      min: 1
+      max: 100
